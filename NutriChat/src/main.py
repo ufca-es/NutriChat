@@ -1,38 +1,19 @@
 import json
 import random
+from src.personalidades import Personalidade as p
+from utils.checagem_de_texto import Utilitarios as u
 
 with open('data/perguntas_e_respostas.json', "r", encoding="utf-8") as arquivo:
     base_conhecimento = json.load(arquivo)
 
-def selecionar_personalidade():
-        opcoes_formal = ('1', 'formal')
-        opcoes_engraçado = ('2', 'engraçada')
-        opcoes_rude = ('3', 'rude',)
-
-        while True:
-            personalidade = input('Com qual personagem você deseja conversar? ').strip().lower()
-
-            if personalidade in opcoes_formal:
-                return 'formal'
-
-            elif personalidade in opcoes_engraçado:
-                return 'engracada'
-
-            elif personalidade in opcoes_rude:
-                return 'rude'
-                
-
-            else:
-                print('Essa personalidade não está disponível. Tente novamente.')
-
 print(
     '\nSeja bem vindo (a) à plataforma NutriChat. Você pode escolher uma das seguintes personalidades: '
-    '\n( 1 ) formal'
-    '\n( 2 ) engraçada'
-    '\n( 3 ) rude\n'
+    '\n( 1 ) N.U.T.R.I Bot (formal)'
+    '\n( 2 ) NutriLove (engraçada)'
+    '\n( 3 ) Chief (rude)\n'
 )
 
-personalidade = selecionar_personalidade()
+personalidade = p.selecionar_personalidade()
 
 print(
     '\nPerguntas disponíveis (por enquanto):'
@@ -49,15 +30,18 @@ while True:
     
     pergunta = input('\nDigite sua Pergunta\n').strip().lower()
 
+    pergunta = u.detectar_comando(pergunta, base_conhecimento)
+
     if pergunta == 'sair':
+        print("Encerando o programa. Até mais!")
         exit()
 
     elif pergunta == 'trocar personalidade':
-        personalidade = selecionar_personalidade()
+        personalidade = p.selecionar_personalidade()
 
     elif pergunta in base_conhecimento:
         resposta = random.choice(base_conhecimento[pergunta][personalidade])
-        print('\n—',resposta)
+        print('\n— ',resposta)
 
     else: 
-        print('\n—Desculpe, ainda não sei responder isso.')
+        print('\n— Desculpe, ainda não sei responder isso.')
