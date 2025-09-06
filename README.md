@@ -17,4 +17,4 @@ Python - linguagem simples e com testagem rápida para Machine Learning.
 # Conceitos utilizados:
 Interface gráfica de usuário (GUI) Estruturas condicionais para fluxo de atendimento com tomada de decisão. Listas para armazenamento de dados temporários. Dicionários para representar entidades ou mapeamentos. Modularização com funcões e classes.
 
-Para mais informações, acesse a nossa documentação do projeto: 
+Para mais informações, acesse a nossa documentação do projeto: https://github.com/ufca-es/NutriChat/blob/444317e36009f1064c137b44bd991dbef85b4238/documentacao.md
