@@ -1,6 +1,6 @@
 # Documentação do Projeto NutriChat
 
-** Descrição do projeto **
+- Descrição do projeto 
 
 O NutriChat é um chatbot desenvolvido para auxiliar as pessoas na sua tomada de decisões quanto aos seus hábitos alimentares, visando o consumo consciente, a alimentação saudável e a redução do desperdício desses insumos.
 
@@ -10,7 +10,7 @@ O NutriChat fornece respostas a partir das perguntas feitas pelo usuário e ofer
 
 A plataforma é simples e intuitiva, construída com algoritmos em Python. Utilizando conceitos de classes, funções, vetores, dicionários.
 
-** Casos de Uso **
+- Casos de Uso 
 
 
-** Etapas do Desenvolvimento **
+- Etapas do Desenvolvimento 
