@@ -8,7 +8,7 @@ O chatbot auxilia o usuário que quer mudar de dieta, seja com fins de perda de 
 
 O NutriChat fornece respostas a partir das perguntas feitas pelo usuário e oferece dicas práticas e comprovadas de como montar refeições balanceadas.
 
-A plataforma é simples e intuitiva, construída com algoritmos em Python. Utilizando conceitos de classes, funções, vetores, dicionários.
+A plataforma é simples e intuitiva, construída com algoritmos em Python. Utilizando conceitos de classes, funções, vetores e dicionários.
 
 - Casos de Uso 
 
