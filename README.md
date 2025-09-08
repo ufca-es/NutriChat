@@ -8,7 +8,7 @@ Ao inicializar o programa o usuário seleciona essa personalidade:
 # Personalidades do chat
 N.U.T.R.I BOT: É a versão mais formal do chat, ele responde de maneira mais simples e com comportamento similar ao das inteligências artificiais.
 NutriLove: É a versão alegre, tem um jeito engraçado e um pouco mais informal de responder. Seu comportamento é baseado na ideia de um nutricionista amigável e brincalhão.
-NutriChief ou só Chief: É a versão do chat, ele responde maneira direta, é mais imperativo e gosta de dar lições no lugar de dicas. 
+NutriChief ou só Chief: É a versão rude do chat, ele responde maneira direta, é mais imperativo e gosta de dar lições no lugar de dicas. 
 
 
 # Tecnologias utilizadas
