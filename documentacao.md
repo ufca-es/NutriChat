@@ -35,6 +35,7 @@ Nessa outra demonstração temos o loop usado para a identificação do que o us
 
 Caso as palavras chave da pergunta possuam 85% de similaridade com as que estão no sistema, o chatbot utilizará a resposta mais adequada que ele possui para aquele assunto, caso a pergunta tenha menos de 85% de similaridade o chat responde que não possui aquele conhecimento e solicita uma resposta, depois armazena essa resposta. É justamente para essa função que a classe "Utilitarios" foi usada, ela utiliza as funções para identificar a similaridade das perguntas, limpar o texto para remover palavras muito repetitivas e sinais de pontuação que não alteram o sentido da pergunta.
 
+<img width="993" height="561" alt="image" src="https://github.com/user-attachments/assets/2e684a4a-574e-4606-8502-2d0df2e751bc" />
 
  
 A função "ChatBot" foi criada para processar os comandos já mencionados para que o chat exiba sempre a melhor resposta.
