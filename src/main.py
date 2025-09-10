@@ -1,63 +1,95 @@
 import json
 import random
+from src.personalidades import Personalidade as p
+from utils.checagem_de_texto import Texto as t
+from src.aprendizado import Aprendizado
+from src.historico import Historico
 
-with open('data/perguntas_e_respostas.json', "r", encoding="utf-8") as arquivo:
-    base_conhecimento = json.load(arquivo)
+class ChatBot:
 
-def selecionar_personalidade():
-        opcoes_formal = ('1', 'formal')
-        opcoes_engraçado = ('2', 'engraçada')
-        opcoes_rude = ('3', 'rude',)
+    def __init__(self):
+        self.personalidade = 'formal'
+        self.pergunta_desconhecida = False
+        self.historico = Historico()
+        self.aprendizado = Aprendizado()
+        self.conhecimentos_aprendidos = self.aprendizado.carregar()
+        self.comandos = ('sair', 'trocar personalidade')
 
-        while True:
-            personalidade = input('Com qual personagem você deseja conversar? ').strip().lower()
+        with open('data/perguntas_e_respostas.json', "r", encoding="utf-8") as arquivo:
+            self.base_conhecimento = json.load(arquivo)
+        
+    def _processar_comando(self, pergunta: str):
 
-            if personalidade in opcoes_formal:
-                return 'formal'
+        if pergunta == 'sair':
+            # ----- TRECHO COM INPUT / PRINT -----
+            print("Encerrando o programa. Até mais!")
+            exit()
 
-            elif personalidade in opcoes_engraçado:
-                return 'engracada'
+        elif pergunta == 'trocar personalidade':
+            # ----- TRECHO COM INPUT / PRINT -----
+            self.personalidade = p.selecionar_personalidade()
 
-            elif personalidade in opcoes_rude:
-                return 'rude'
-                
-
-            else:
-                print('Essa personalidade não está disponível. Tente novamente.')
-
-print(
-    '\nSeja bem vindo (a) à plataforma NutriChat. Você pode escolher uma das seguintes personalidades: '
-    '\n( 1 ) formal'
-    '\n( 2 ) engraçada'
-    '\n( 3 ) rude\n'
-)
-
-personalidade = selecionar_personalidade()
-
-print(
-    '\nPerguntas disponíveis (por enquanto):'
-    '\nO que é uma alimentação saudável'
-    '\nQuantos litros de água devo beber por dia'
-    '\nQuais alimentos devo evitar\n'
-
-    '\nOutras ações:'
-    '\nTrocar personalidade'
-    '\nSair'
-)
-
-while True:
+    def _gerar_resposta(self, pergunta: str) -> str:
+        return random.choice(self.base_conhecimento[pergunta][self.personalidade])
     
-    pergunta = input('\nDigite sua Pergunta\n').strip().lower()
+    def _gerar_resposta_aprendida(self, pergunta: str) -> str:
+        return self.conhecimentos_aprendidos[pergunta]
+    
+    def aprender(self, pergunta: str):
+        # ----- TRECHO COM INPUT / PRINT -----
+        sugerir_resposta = input('Gostaria de sugerir uma resposta? (digite "sim" para fazer a sugestão)')
 
-    if pergunta == 'sair':
-        exit()
+        if sugerir_resposta == 'sim':
+            resposta = input(
+                '\nComo devo responder a pergunta?:'
+                f'\n{pergunta}\n'
+            )
 
-    elif pergunta == 'trocar personalidade':
-        personalidade = selecionar_personalidade()
+            self.aprendizado.salvar(pergunta, resposta)
+            
+    def responder(self, pergunta: str) -> str:
+        pergunta = t.detectar_comando(pergunta, self.base_conhecimento)
 
-    elif pergunta in base_conhecimento:
-        resposta = random.choice(base_conhecimento[pergunta][personalidade])
-        print('\n—',resposta)
+        if pergunta in self.comandos:
+            self._processar_comando(pergunta)
+            resposta = f'Personalidade alterada para {self.personalidade}' # ALTERAR
 
-    else: 
-        print('\n—Desculpe, ainda não sei responder isso.')
+        elif pergunta in self.base_conhecimento:
+            resposta = self._gerar_resposta(pergunta)
+
+        elif pergunta in self.conhecimentos_aprendidos:
+            resposta = self._gerar_resposta_aprendida(pergunta)
+
+        else: 
+            resposta = 'Desculpe, ainda não sei responder isso.'
+            self.pergunta_desconhecida = True
+            
+        return resposta  
+
+if __name__ == "__main__":
+
+    # ----- TRECHO COM INPUT / PRINT -----
+    print(
+        '\nSeja bem vindo (a) à plataforma NutriChat. Perguntas disponíveis (por enquanto):'
+        '\nO que é uma alimentação saudável'
+        '\nQuantos litros de água devo beber por dia'
+        '\nQuais alimentos devo evitar\n'
+
+        '\nOutras ações:'
+        '\nTrocar personalidade'
+        '\nSair'
+    )
+
+    chatbot = ChatBot()
+
+    while True:
+
+        # ----- TRECHO COM INPUT / PRINT -----
+        pergunta = input('\nDigite sua pergunta:\n')
+        resposta = chatbot.responder(pergunta)
+        print('\n— ',resposta)
+
+        if chatbot.pergunta_desconhecida:
+            chatbot.aprender(pergunta)
+
+        chatbot.historico.salvar(pergunta, resposta, chatbot.personalidade)    
