@@ -1,0 +1,61 @@
+{
+  "o que é uma alimentação saudável": {
+    "formal": [
+      "Uma alimentação saudável é aquela que fornece todos os nutrientes necessários ao corpo, garantindo energia, crescimento e prevenção de doenças. Ela deve ser variada, equilibrada e consumida com moderação, incluindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando excessos de açúcar, sal e gorduras ruins.",
+
+      "Uma alimentação saudável oferece todos os nutrientes essenciais para o corpo, promovendo energia, crescimento e proteção contra doenças. Ela deve ser equilibrada e variada, consumindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando o consumo excessivo de açúcar, sal e gorduras prejudiciais.",
+
+      "Alimentar-se de forma saudável significa fornecer ao corpo todos os nutrientes de que ele precisa, favorecendo a energia, o crescimento e a prevenção de doenças. Isso envolve uma dieta equilibrada e diversificada, com frutas, verduras, legumes, cereais, proteínas e laticínios, evitando exageros de açúcar, sal e gorduras nocivas."
+    ],
+    "engracado": [
+      "Comer saudável é tipo dar superpoderes pro seu corpo 🦸‍♂️💪: ele ganha energia ⚡, cresce forte e se protege contra doenças. Capriche nas frutas 🍎, verduras 🥦, legumes 🥕, cereais 🌾, proteínas 🍗 e laticínios 🥛, e fuja do excesso de açúcar 🍩, sal 🧂 e gorduras ruins 🍟!",
+
+      "Alimentação saudável é como uma festa no seu corpo 🎉: todo nutriente necessário entra e deixa você cheio de energia ⚡, crescendo firme e resistente a doenças. Inclua frutas 🍉, verduras 🥬, legumes 🥔, cereais 🌾, proteínas 🥩 e laticínios 🧈, mas evite exageros de açúcar 🍫, sal 🧂 e gorduras ruins 🍔.",
+
+      "Pense que se você quer ser um herói do dia a dia, precisa de uma alimentação saudável! Ela dá energia, ajuda a crescer e mantém as doenças longe 🚫🤒. Abuse das frutas 🍇, verduras 🥗, legumes 🥕, cereais 🌾, proteínas 🍳 e laticínios 🥛, e não exagere em açúcar 🍩, sal 🧂 e gorduras ruins 🍟."
+    ],
+    "rude": [
+      "Alimentação saudável? Mon Dieu… é parar de entupir seu corpo com porcarias e comer o que realmente importa: frutas frescas, verduras, legumes, cereais, proteínas e um pouco de laticínios. Tudo em equilíbrio! Açúcar, gordura ruim e besteira? Fuja disso como se fosse doença!",
+
+      "Uma alimentação saudável, meu amigo, não é pizza toda noite nem batata frita até explodir. É comer de forma equilibrada: frutas, verduras, legumes, cereais, proteínas e laticínios. O resto? Lixo! Simples assim. Não significa que não possa comer besteira, só saiba se controlar para não exagerar.",
+
+      "Você quer saber o que é comer bem? Não é encher a barriga com açúcar e gordura. É dar ao seu corpo o que ele precisa: frutas, verduras, legumes, cereais, proteínas e laticínios. Se não consegue fazer isso, então, desculpe, está ferrando com sua própria vida."
+    ]
+  },
+
+  "quantos litros de água devo beber por dia": {
+    "formal": [
+      "O recomendado é, em média, 2 litros de água por dia, variando conforme peso e atividade física.",
+      "Uma estimativa adequada é de aproximadamente 35 ml de água por quilo de peso corporal.",
+      "A ingestão de água deve ser distribuída ao longo do dia para manter o equilíbrio hídrico."
+    ],
+    "engracado": [
+      "Beba água como se fosse fofoqueiro: o tempo todo 💧😂",
+      "Seu corpo é 70% água... não deixe esse estoque cair!",
+      "Pensa que é planta: regue-se várias vezes ao dia 🌱"
+    ],
+    "rude": [
+      "Se você sente sede, já tá atrasado.",
+      "Menos refrigerante, mais água. É só isso.",
+      "Beba água direito ou se prepare pra sofrer com sede."
+    ]
+  },
+
+  "quais alimentos devo evitar": {
+    "formal": [
+      "Recomenda-se evitar alimentos ultraprocessados, ricos em sódio, gorduras saturadas e açúcares adicionados.",
+      "Alimentos como refrigerantes, frituras e doces industrializados devem ser consumidos com moderação.",
+      "O consumo frequente de fast food e produtos industrializados pode comprometer a saúde a longo prazo."
+    ],
+    "engracado": [
+      "Evite comer só miojo e refrigerante... seu corpo não é uma lan house de 2005 😂",
+      "Se a embalagem dura mais que o alimento, desconfie!",
+      "Menos salgadinho de pacote, mais fruta. Seu corpo agradece."
+    ],
+    "rude": [
+      "Pare de entupir o corpo com porcaria industrializada.",
+      "Quer saúde? Então corte refrigerante e fritura.",
+      "Evite comida de pacote. Isso não é combustível pra gente, é lixo."
+    ]
+  }
+}
