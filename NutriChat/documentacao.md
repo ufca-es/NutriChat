@@ -5,7 +5,7 @@ O chatbot NutriChat desenvolvido no projeto da disciplina de Fundamentos de Prog
 Tema do chatbot:
 Educação alimentar, saúde e bem-estar.
 
-Arquivo de perguntas/respostas
+Arquivo de perguntas/respostas:
 Para acessar o arquivo  com as perguntas e respostas do chatbot, acesse: https://github.com/ufca-es/NutriChat/blob/309ff59a119742e92d23d316cd1d0f808af3b2a0/NutriChat/data/perguntas_e_respostas.json
 
 Tecnologias utilizadas
