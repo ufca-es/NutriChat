@@ -18,7 +18,7 @@ Interface gráfica de usuário (GUI) Estruturas condicionais para fluxo de atend
 
 # Principais funcionalidades
 O usuário pode fazer perguntas a respeito de como deve elaborar a sua dieta, conforme as suas necessidades. O chat responderá essas perguntas oferecendo ideias de refeições balanceadas. O chat pode agir de três maneiras diferentes a depender da personalidade escolhida pelo usuário: formal, alegre ou rude.
-Ao inicializar o programa o usuário seleciona essa personalidade:
+Ao inicializar o programa o usuário seleciona essa personalidade
 
 # Personalidades do chat
 N.U.T.R.I BOT: É a versão mais formal do chat, ele responde de maneira mais simples e com comportamento similar ao das inteligências artificiais.
