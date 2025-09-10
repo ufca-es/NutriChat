@@ -39,6 +39,9 @@ Caso as palavras chave da pergunta possuam 85% de similaridade com as que estão
  
 A função "ChatBot" foi criada para processar os comandos já mencionados para que o chat exiba sempre a melhor resposta.
 
+<img width="986" height="590" alt="image" src="https://github.com/user-attachments/assets/8807d96f-83db-486e-a3b8-e491dc6262fc" />
+
+
  
 
 # Respostas aleatórias para a mesma pergunta.
