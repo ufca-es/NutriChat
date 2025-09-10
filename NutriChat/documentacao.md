@@ -2,17 +2,17 @@
 
 O chatbot NutriChat desenvolvido no projeto da disciplina de Fundamentos de Programação é uma chat para dicas nutricionais, oferecendo dicas de dietas saudáveis e bons hábitos de consumo para incentivar as pessoas a evitar o desperdício e cultivar a sustentabilidade.
 
-** Tema do chatbot: **
+Tema do chatbot:
 Educação alimentar, saúde e bem-estar.
 
-** Arquivo de perguntas/respostas **
+Arquivo de perguntas/respostas
 Para acessar o arquivo  com as perguntas e respostas do chatbot, acesse: https://github.com/ufca-es/NutriChat/blob/309ff59a119742e92d23d316cd1d0f808af3b2a0/NutriChat/data/perguntas_e_respostas.json
 
-** Tecnologias utilizadas **
+Tecnologias utilizadas
 Python - linguagem simples e com testagem rápida para Machine Learning.
 Git e Github - para controle de versão.
 
-** Conceitos utilizados: **
+Conceitos utilizados:
 Interface gráfica de usuário (GUI) Estruturas condicionais para fluxo de atendimento com tomada de decisão. Listas para armazenamento de dados temporários. Dicionários para representar entidades ou mapeamentos. Modularização com funcões e classes.
 
 
