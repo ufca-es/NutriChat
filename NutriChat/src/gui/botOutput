@@ -1,0 +1,39 @@
+import json
+import random
+
+def ler_resposta(caminho_arquivo: str, pergunta: str, estilo: str) -> str:
+    """
+    Lê um arquivo JSON e retorna uma resposta para a pergunta no estilo escolhido.
+    
+    :param caminho_arquivo: Caminho do arquivo JSON.
+    :param pergunta: Pergunta que existe como chave no JSON.
+    :param estilo: Pode ser "formal", "engracado" ou "rude".
+    :return: Uma resposta em string.
+    """
+    try:
+        #Esse "r", significa que vai abrir como leitura (read)
+        with open(caminho_arquivo, "r", encoding="utf-8") as f:
+            dados = json.load(f)
+
+        if pergunta not in dados:
+            return f"Pergunta '{pergunta}' não encontrada."
+
+        if estilo not in dados[pergunta]:
+            return f"Estilo '{estilo}' não disponível para essa pergunta."
+
+        # Escolhe aleatoriamente uma resposta do estilo
+        return random.choice(dados[pergunta][estilo])
+
+    except FileNotFoundError:
+        return f"Erro: arquivo '{caminho_arquivo}' não encontrado."
+    except json.JSONDecodeError:
+        return "Erro: arquivo JSON inválido."
+    except Exception as e:
+        return f"Ocorreu um erro: {e}"
+
+if __name__ == "__main__":
+    arquivo = "NutriChat/NutriChat/data/perguntas_e_respostas.json"
+
+    print(ler_resposta(arquivo, "o que é uma alimentação saudável", "formal"))
+    print(ler_resposta(arquivo, "quantos litros de água devo beber por dia", "engracado"))
+    print(ler_resposta(arquivo, "quais alimentos devo evitar", "rude"))
