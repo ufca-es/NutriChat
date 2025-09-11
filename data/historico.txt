@@ -6,3 +6,17 @@
 
 [11/09/2025 01:30:18] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/src/main.py
 [11/09/2025 01:30:18] Bot[formal]: Desculpe, ainda não sei responder isso.
+[11/09/2025 15:26:20] Usuário: 123
+[11/09/2025 15:26:20] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 15:26:43] Usuário: 123
+[11/09/2025 15:26:43] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 15:26:47] Usuário: 1234
+[11/09/2025 15:26:47] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 15:27:06] Usuário: o que é uma alimentação saudável
+[11/09/2025 15:27:06] Bot[formal]: Alimentar-se de forma saudável significa fornecer ao corpo todos os nutrientes de que ele precisa, favorecendo a energia, o crescimento e a prevenção de doenças. Isso envolve uma dieta equilibrada e diversificada, com frutas, verduras, legumes, cereais, proteínas e laticínios, evitando exageros de açúcar, sal e gorduras nocivas.
+
+[11/09/2025 15:27:11] Usuário: o que é uma alimentação saudávl
+[11/09/2025 15:27:11] Bot[formal]: Uma alimentação saudável oferece todos os nutrientes essenciais para o corpo, promovendo energia, crescimento e proteção contra doenças. Ela deve ser equilibrada e variada, consumindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando o consumo excessivo de açúcar, sal e gorduras prejudiciais.
