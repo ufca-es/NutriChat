@@ -1,6 +1,1 @@
-<<<<<<< HEAD
 O que são calorias?|Caloria é uma unidade de energia. Em termos nutricionais, as calorias referem-se à quantidade de energia que você pode obter de macronutrientes (carboidratos, gorduras, proteínas) e álcool nos alimentos e bebidas – essa energia, por sua vez, é obtida à medida que o organismo digere e absorve os alimentos.
-=======
-o que é a vida?|aaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaa|bbbbbbbbbbbbbbbbbbbbbbb
->>>>>>> c6d8c9c (Recuperação do repositório)
