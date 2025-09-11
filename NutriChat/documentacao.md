@@ -64,6 +64,7 @@ Nessa classe, a função salvar vai gravar as perguntas e abrir o arquivo .txt p
 # Apresentação do histórico anterior ao iniciar
 
 # Histórico de conversas da sessão em arquivo .txt.
+Para conferir o arquivo .txt do histórico, acesse: https://github.com/ufca-es/NutriChat/blame/326babe0813d9905aab2bfcaa56ca8c23a927a43/data/historico.txt
 
 #	Coleta de estatísticas:
 
