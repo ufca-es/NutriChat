@@ -33,12 +33,8 @@ class ChatBot:
         return random.choice(self.base_conhecimento[pergunta][self.personalidade])
     
     def _gerar_resposta_aprendida(self, pergunta: str) -> str:
-<<<<<<< HEAD
-        return self.conhecimentos_aprendidos[pergunta]
-=======
         self.conhecimentos_aprendidos = self.aprendizado.carregar()
         return random.choice(self.conhecimentos_aprendidos[pergunta])
->>>>>>> c6d8c9c (Recuperação do repositório)
     
     def aprender(self, pergunta: str):
         # ----- TRECHO COM INPUT / PRINT -----
@@ -57,11 +53,7 @@ class ChatBot:
 
         if pergunta in self.comandos:
             self._processar_comando(pergunta)
-<<<<<<< HEAD
-            resposta = f'Personalidade alterada para {self.personalidade}' # ALTERAR
-=======
             resposta = f'Personalidade alterada para {self.personalidade}' # ---- ALTERAR ----
->>>>>>> c6d8c9c (Recuperação do repositório)
 
         elif pergunta in self.base_conhecimento:
             resposta = self._gerar_resposta(pergunta)
@@ -77,7 +69,15 @@ class ChatBot:
 
 if __name__ == "__main__":
 
+    h = Historico()
+
     # ----- TRECHO COM INPUT / PRINT -----
+    if not h.historico_vazio():
+        ultimas_interacoes = h.ler_ultimos(5)
+        print('Histórico anterior de coversas\n')
+        for linha in ultimas_interacoes:
+            print(linha, end="")
+
     print(
         '\nSeja bem vindo (a) à plataforma NutriChat. Perguntas disponíveis (por enquanto):'
         '\nO que é uma alimentação saudável'
@@ -100,9 +100,6 @@ if __name__ == "__main__":
 
         if chatbot.pergunta_desconhecida:
             chatbot.aprender(pergunta)
-<<<<<<< HEAD
-=======
             chatbot.conhecimentos_aprendidos = chatbot.aprendizado.carregar()
->>>>>>> c6d8c9c (Recuperação do repositório)
 
         chatbot.historico.salvar(pergunta, resposta, chatbot.personalidade)    

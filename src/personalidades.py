@@ -6,10 +6,7 @@ class Personalidade:
         opcoes_rude = ('3', 'rude', 'chief')
 
         while True:
-<<<<<<< HEAD
-=======
             # ----- TRECHO COM INPUT / PRINT -----
->>>>>>> c6d8c9c (Recuperação do repositório)
             personalidade = input(
                 '\nCom qual personagem você deseja conversar? '
                 '\n( 1 ) N.U.T.R.I Bot (formal)'

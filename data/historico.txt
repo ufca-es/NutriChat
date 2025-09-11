@@ -1,33 +1,8 @@
+[11/09/2025 01:17:09] Usuário: Quantas calorias tem uma maçã?
+[11/09/2025 01:17:09] Bot[formal]: Desculpe, ainda não sei responder isso.
 
-[10/09/2025 21:02:24] Usuário: qnts litros d agua devo beber por dia?
-[10/09/2025 21:02:24] Bot[formal]: O recomendado é, em média, 2 litros de água por dia, variando conforme peso e atividade física.
+[11/09/2025 01:17:47] Usuário: Quantas calorias tem uma maçã?
+[11/09/2025 01:17:47] Bot[formal]: 52 calorias
 
-[10/09/2025 21:03:40] Usuário: trocar personalidade
-[10/09/2025 21:03:40] Bot[engraçado]: Personalidade alterada para engraçado
-
-[10/09/2025 21:04:11] Usuário: o que é a vida?
-[10/09/2025 21:04:11] Bot[engraçado]: Desculpe, ainda não sei responder isso.
-
-[10/09/2025 21:04:47] Usuário: o que é a vida?
-[10/09/2025 21:04:47] Bot[engraçado]: Desculpe, ainda não sei responder isso.
-
-[10/09/2025 21:05:35] Usuário: o que é a vida?
-[10/09/2025 21:05:35] Bot[formal]: ['aaaaaaaaaaaaa']
-
-[10/09/2025 21:08:49] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/src/aprendizado.py
-[10/09/2025 21:08:49] Bot[formal]: Desculpe, ainda não sei responder isso.
-
-[10/09/2025 21:20:04] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/src/main.py
-[10/09/2025 21:20:04] Bot[formal]: Desculpe, ainda não sei responder isso.
-
-[10/09/2025 21:20:42] Usuário: aaaaaaaaaaaaaaaa
-[10/09/2025 21:20:42] Bot[formal]: Desculpe, ainda não sei responder isso.
-
-[10/09/2025 21:20:58] Usuário: aaaaaaaaaaaaaaaaaaaaaaa
-[10/09/2025 21:20:58] Bot[formal]: Desculpe, ainda não sei responder isso.
-
-[10/09/2025 21:22:47] Usuário: aaaaaaaaaaaaaaaaaaaaaaa
-[10/09/2025 21:22:47] Bot[formal]: Desculpe, ainda não sei responder isso.
-
-[10/09/2025 21:23:31] Usuário: aaaaaaaaaaaaaaaaaaaaaaa
-[10/09/2025 21:23:31] Bot[formal]: bbbbbbbbbbbbbbbbbbbbbbb
+[11/09/2025 01:30:18] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/src/main.py
+[11/09/2025 01:30:18] Bot[formal]: Desculpe, ainda não sei responder isso.
