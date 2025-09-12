@@ -20,3 +20,39 @@
 
 [11/09/2025 15:27:11] Usuário: o que é uma alimentação saudávl
 [11/09/2025 15:27:11] Bot[formal]: Uma alimentação saudável oferece todos os nutrientes essenciais para o corpo, promovendo energia, crescimento e proteção contra doenças. Ela deve ser equilibrada e variada, consumindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando o consumo excessivo de açúcar, sal e gorduras prejudiciais.
+
+[11/09/2025 16:38:43] Usuário: 123
+[11/09/2025 16:38:43] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 16:38:59] Usuário: 123
+[11/09/2025 16:38:59] Bot[formal]: 123 =123
+
+[11/09/2025 16:39:03] Usuário: 4
+[11/09/2025 16:39:03] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 16:39:05] Usuário: 123
+[11/09/2025 16:39:05] Bot[formal]: 123 =123
+
+[11/09/2025 16:45:59] Usuário: 123
+[11/09/2025 16:45:59] Bot[formal]: 123 =123
+
+[11/09/2025 16:46:02] Usuário: 1234
+[11/09/2025 16:46:02] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 16:46:03] Usuário: 123
+[11/09/2025 16:46:03] Bot[formal]: 123 =123
+
+[11/09/2025 20:06:10] Usuário: 123
+[11/09/2025 20:06:10] Bot[formal]: 123 =123
+
+[11/09/2025 20:06:18] Usuário: abc
+[11/09/2025 20:06:18] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 20:06:27] Usuário: abc
+[11/09/2025 20:06:27] Bot[formal]: reposta
+
+[11/09/2025 20:07:03] Usuário: chief
+[11/09/2025 20:07:03] Bot[formal]: Desculpe, ainda não sei responder isso.
+
+[11/09/2025 20:07:08] Usuário: trocar personalidade
+[11/09/2025 20:07:08] Bot[rude]: Personalidade alterada para rude

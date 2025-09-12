@@ -3,7 +3,6 @@ from .usuarioInput import CaixaMensagem
 from .opcoes import Dialogos
 from .chatController import ChatController
 
-
 class Root(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -20,7 +19,7 @@ class Root(tk.Tk):
         self.caixa.pack(side=tk.BOTTOM, fill=tk.X, padx=10, pady=10)
 
         # Caixa para aprendizado (inicialmente oculta)
-        
+
         self.frame_aprendizado = tk.Frame(self)
         self.label_aprender = tk.Label(self.frame_aprendizado, text="Me ensine uma resposta:")
         self.entry_aprender = tk.Entry(self.frame_aprendizado, width=40)
@@ -61,8 +60,11 @@ class Root(tk.Tk):
             padx=5
         ).pack(fill=tk.X, pady=2)
 
+        if self.controller.precisa_aprender() == False:
+            self.ul
+
         # Se o bot não souber, habilita aprendizado
-        if self.controller.precisa_aprender():
+        elif self.controller.precisa_aprender():
             self.ultima_pergunta = mensagem
             self.frame_aprendizado.pack(side=tk.BOTTOM, fill=tk.X, padx=10, pady=10)
 

@@ -102,4 +102,7 @@ if __name__ == "__main__":
             chatbot.aprender(pergunta)
             chatbot.conhecimentos_aprendidos = chatbot.aprendizado.carregar()
 
+
+
         chatbot.historico.salvar(pergunta, resposta, chatbot.personalidade)    
+        
