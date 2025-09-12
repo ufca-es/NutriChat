@@ -1,6 +1,6 @@
 from tkinter import messagebox
 
-# Classe usada para exibir diferentes tipos de caixas de diálogo
+# Classe usada para exibir diferentes tipos de caixas de diálogo, atualmente WIP
 class Dialogos:
     
     def info(titulo, mensagem):
