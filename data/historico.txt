@@ -1,8 +1,40 @@
-[11/09/2025 01:17:09] Usuário: Quantas calorias tem uma maçã?
-[11/09/2025 01:17:09] Bot[formal]: Desculpe, ainda não sei responder isso.
+[12/09/2025 14:16:48] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/src/main.py
+[12/09/2025 14:16:48] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+[12/09/2025 14:16:53] Usuário: sair
+[12/09/2025 14:16:53] Bot[formal]: Encerrando o programa. Até mais!
 
-[11/09/2025 01:17:47] Usuário: Quantas calorias tem uma maçã?
-[11/09/2025 01:17:47] Bot[formal]: 52 calorias
+<<< inicio da interacao >>>
+===========================
 
-[11/09/2025 01:30:18] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/src/main.py
-[11/09/2025 01:30:18] Bot[formal]: Desculpe, ainda não sei responder isso.
+[12/09/2025 14:17:28] Usuário: aaaaaaaaaaa
+[12/09/2025 14:17:28] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 14:17:31] Usuário: nao
+[12/09/2025 14:17:31] Bot[formal]: Entendido, posso tentar aprender depois.
+
+[12/09/2025 14:17:42] Usuário: Quais alimentos devo evitar
+[12/09/2025 14:17:42] Bot[formal]: Alimentos como refrigerantes, frituras e doces industrializados devem ser consumidos com moderação.
+
+[12/09/2025 14:17:51] Usuário: trocar personalidade
+[12/09/2025 14:17:51] Bot[formal]: Com qual personagem você deseja conversar?
+( 1 ) N.U.T.R.I Bot (formal)
+( 2 ) NutriLove (engraçada)
+( 3 ) Chief (rude)
+
+
+[12/09/2025 14:17:55] Usuário: aaa
+[12/09/2025 14:17:55] Bot[formal]: Essa personalidade não está disponível. Tente novamente.
+
+[12/09/2025 14:17:59] Usuário: aaa
+[12/09/2025 14:17:59] Bot[formal]: Essa personalidade não está disponível. Tente novamente.
+
+[12/09/2025 14:18:13] Usuário: trocar personalidade
+[12/09/2025 14:18:13] Bot[formal]: Essa personalidade não está disponível. Tente novamente.
+
+[12/09/2025 14:18:17] Usuário: sair
+[12/09/2025 14:18:17] Bot[formal]: Encerrando o programa. Até mais!
+
+<<< inicio da interacao >>>
+===========================
