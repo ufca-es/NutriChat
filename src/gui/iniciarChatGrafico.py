@@ -20,6 +20,15 @@ class Root(tk.Tk):
 
         # Caixa para aprendizado (inicialmente oculta)
 
+        self.chat_aprendizado()
+
+        # Última pergunta não respondida
+        if self.esconder_nova_resposta ==True:
+            self.chat_aprendizado()
+        else:
+            self.ultima_pergunta = None
+
+    def chat_aprendizado(self):
         self.frame_aprendizado = tk.Frame(self)
         self.label_aprender = tk.Label(self.frame_aprendizado, text="Me ensine uma resposta:")
         self.entry_aprender = tk.Entry(self.frame_aprendizado, width=40)
@@ -33,9 +42,6 @@ class Root(tk.Tk):
         self.label_aprender.pack(side=tk.LEFT, padx=5)
         self.entry_aprender.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
         self.btn_aprender.pack(side=tk.LEFT, padx=5)
-
-        # Última pergunta não respondida
-        self.ultima_pergunta = None
 
     def receber_mensagem(self, mensagem):
         """Exibe a mensagem do usuário e a resposta do bot"""

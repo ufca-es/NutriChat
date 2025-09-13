@@ -3,3 +3,4 @@ Quantas calorias tem uma maçã?|52 calorias
 Quantas calorias tem uma maçã?|cinquenta e duas calorias
 123|123 =123
 abc|reposta
+123|1234

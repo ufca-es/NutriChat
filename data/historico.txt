@@ -1,0 +1,15 @@
+
+[12/09/2025 19:33:20] Usuário: 123
+[12/09/2025 19:33:20] Bot[formal]: 123 =123
+Gostaria de cadastrar um nova resposta?
+
+[12/09/2025 19:33:30] Usuário: 123
+[12/09/2025 19:33:30] Bot[formal]: 123 =123
+Gostaria de cadastrar um nova resposta?
+
+[12/09/2025 19:33:33] Usuário: mmano
+[12/09/2025 19:33:33] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 19:33:42] Usuário: quantos litros de agua bebe por dia
+[12/09/2025 19:33:42] Bot[formal]: O recomendado é, em média, 2 litros de água por dia, variando conforme peso e atividade física.

@@ -1,7 +1,9 @@
 import os
 import json
 import random
+from warnings import deprecated
 
+@deprecated("usar a classe chatController")
 class Bot:
     def __init__(self):
         self.caminho_json = os.path.join(
