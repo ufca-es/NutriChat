@@ -15,7 +15,6 @@ class ChatBot:
         self.solicitado_aprendizado = False
         self.solicitado_trocar_personalidade = False
         self.solicitado_sair = False
-        self.historico = Historico()
         self.aprendizado = Aprendizado()
         self.conhecimentos_aprendidos = self.aprendizado.carregar()
         self.comandos = ('sair', 'trocar personalidade')
@@ -95,15 +94,19 @@ class ChatBot:
             self.aguardando_aprendizado = True
             self.pergunta_desconhecida = pergunta
             return 'Desculpe, ainda não sei a responder isso.\nQuer cadastrar uma resposta?'
+        
+
+    def get_base_conhecimento():
+        return
 
 if __name__ == "__main__":
 
-    h = Historico()
+    historico = Historico()
     chatbot = ChatBot()
 
     # ----- TRECHO COM INPUT / PRINT -----
-    if not h.historico_vazio():
-        ultimas_interacoes = h.ler_ultimos(5)
+    if not historico.historico_vazio():
+        ultimas_interacoes = historico.ler_ultimos(5)
         print('\n<<< Histórico Anterior de Conversas >>>')
         for linha in ultimas_interacoes:
             print(linha, end="")
@@ -120,7 +123,7 @@ if __name__ == "__main__":
         '\nSair'
     )
 
-    h.iniciar()
+    historico.iniciar()
 
     while True:
 
@@ -129,7 +132,17 @@ if __name__ == "__main__":
         resposta = chatbot.responder(pergunta)
         print('\n— ',resposta)
 
-        chatbot.historico.salvar(pergunta, resposta, chatbot.personalidade)
+        historico.salvar(pergunta, resposta, chatbot.personalidade)
 
         if chatbot.solicitado_sair:
+
+            historico.gerar_estatisticas()
+            historico.gerar_relatorio()
+
+            print(
+                "----Estatísticas----\n",
+                f"Pergunta Mais Frequente: {historico.estatisticas["pergunta_mais_frequente"]}\n",
+                f"Contagem de Interações: {historico.estatisticas["contagem_interacoes"]}\n",
+                f"Personalidade Mais usada: {historico.estatisticas["personalidade_mais_usada"]}\n"
+            )
             exit()   

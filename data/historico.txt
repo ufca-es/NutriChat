@@ -1,0 +1,279 @@
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 20:29:23] Usuário: aaaaa
+[12/09/2025 20:29:23] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:29:36] Usuário: uais alimentos devo evitar
+[12/09/2025 20:29:36] Bot[formal]: Recomenda-se evitar alimentos ultraprocessados, ricos em sódio, gorduras saturadas e açúcares adicionados.
+
+[12/09/2025 20:29:41] Usuário: aaaaaaaaaaaa
+[12/09/2025 20:29:41] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:29:46] Usuário: nao
+[12/09/2025 20:29:46] Bot[formal]: Entendido, posso tentar aprender depois.
+
+[12/09/2025 20:29:54] Usuário: sim
+[12/09/2025 20:29:54] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:30:04] Usuário: nao
+[12/09/2025 20:30:04] Bot[formal]: Entendido, posso tentar aprender depois.
+
+[12/09/2025 20:30:32] Usuário: pq o ceu é azul?
+[12/09/2025 20:30:32] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:30:36] Usuário: sim
+[12/09/2025 20:30:36] Bot[formal]: Como devo responder a pergunta?
+pq o ceu é azul?
+
+[12/09/2025 20:30:42] Usuário: sei lá
+[12/09/2025 20:30:42] Bot[formal]: Conhecimento aprendido!
+
+[12/09/2025 20:30:50] Usuário: sair
+[12/09/2025 20:30:50] Bot[formal]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 20:34:16] Usuário: 13
+[12/09/2025 20:34:16] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:17] Usuário: 123
+[12/09/2025 20:34:17] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:18] Usuário: 34
+[12/09/2025 20:34:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:18] Usuário: 5
+[12/09/2025 20:34:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:18] Usuário: 124
+[12/09/2025 20:34:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:18] Usuário: 23
+[12/09/2025 20:34:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:18] Usuário: 5
+[12/09/2025 20:34:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:18] Usuário: 25
+[12/09/2025 20:34:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:18] Usuário: 5
+[12/09/2025 20:34:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:19] Usuário: 23
+[12/09/2025 20:34:19] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:34:34] Usuário: O que é uma alimentação saudável
+[12/09/2025 20:34:34] Bot[formal]: Uma alimentação saudável é aquela que fornece todos os nutrientes necessários ao corpo, garantindo energia, crescimento e prevenção de doenças. Ela deve ser variada, equilibrada e consumida com moderação, incluindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando excessos de açúcar, sal e gorduras ruins.
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 20:35:24] Usuário: O que é uma alimentação saudável
+[12/09/2025 20:35:24] Bot[formal]: Alimentar-se de forma saudável significa fornecer ao corpo todos os nutrientes de que ele precisa, favorecendo a energia, o crescimento e a prevenção de doenças. Isso envolve uma dieta equilibrada e diversificada, com frutas, verduras, legumes, cereais, proteínas e laticínios, evitando exageros de açúcar, sal e gorduras nocivas.
+
+[12/09/2025 20:35:26] Usuário: O que é uma alimentação saudável
+[12/09/2025 20:35:26] Bot[formal]: Alimentar-se de forma saudável significa fornecer ao corpo todos os nutrientes de que ele precisa, favorecendo a energia, o crescimento e a prevenção de doenças. Isso envolve uma dieta equilibrada e diversificada, com frutas, verduras, legumes, cereais, proteínas e laticínios, evitando exageros de açúcar, sal e gorduras nocivas.
+
+[12/09/2025 20:35:28] Usuário: O que é uma alimentação saudável
+[12/09/2025 20:35:28] Bot[formal]: Uma alimentação saudável oferece todos os nutrientes essenciais para o corpo, promovendo energia, crescimento e proteção contra doenças. Ela deve ser equilibrada e variada, consumindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando o consumo excessivo de açúcar, sal e gorduras prejudiciais.
+
+[12/09/2025 20:35:29] Usuário: O que é uma alimentação saudável
+[12/09/2025 20:35:29] Bot[formal]: Alimentar-se de forma saudável significa fornecer ao corpo todos os nutrientes de que ele precisa, favorecendo a energia, o crescimento e a prevenção de doenças. Isso envolve uma dieta equilibrada e diversificada, com frutas, verduras, legumes, cereais, proteínas e laticínios, evitando exageros de açúcar, sal e gorduras nocivas.
+
+[12/09/2025 20:35:40] Usuário: trocar personalidade
+[12/09/2025 20:35:40] Bot[formal]: Qual personagem deseja conversar?: 1. N.U.T.R.I Bot(formal), 2. NutriLove(engraçada) ou Chief(rude)
+
+
+[12/09/2025 20:35:45] Usuário: 2
+[12/09/2025 20:35:45] Bot[engraçado]: Personalidade alterada para engraçado
+
+[12/09/2025 20:36:20] Usuário: qnts litrso de agua devo beber por dia?
+[12/09/2025 20:36:20] Bot[engraçado]: Beba água como se fosse fofoqueiro: o tempo todo 💧😂
+
+[12/09/2025 20:36:23] Usuário: qnts litrso de agua devo beber por dia?
+[12/09/2025 20:36:23] Bot[engraçado]: Pensa que é planta: regue-se várias vezes ao dia 🌱
+
+[12/09/2025 20:36:26] Usuário: qnts litrso de agua devo beber por dia?
+[12/09/2025 20:36:26] Bot[engraçado]: Pensa que é planta: regue-se várias vezes ao dia 🌱
+
+[12/09/2025 20:36:29] Usuário: qnts litrso de agua devo beber por dia?
+[12/09/2025 20:36:29] Bot[engraçado]: Seu corpo é 70% água... não deixe esse estoque cair!
+
+[12/09/2025 20:36:32] Usuário: sair
+[12/09/2025 20:36:32] Bot[engraçado]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 20:47:22] Usuário: aaaaaaa
+[12/09/2025 20:47:22] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:47:24] Usuário: aaaaaaa
+[12/09/2025 20:47:24] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:47:25] Usuário: aaaaaaaa
+[12/09/2025 20:47:25] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:47:27] Usuário: aaaaaaaaaaaaa
+[12/09/2025 20:47:27] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:47:59] Usuário: aaaaa
+[12/09/2025 20:47:59] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:48:02] Usuário: bbbbb
+[12/09/2025 20:48:02] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:48:14] Usuário: bbbbbb
+[12/09/2025 20:48:14] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:48:39] Usuário: sair
+[12/09/2025 20:48:39] Bot[formal]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 20:56:42] Usuário: Quais alimentos devo evitar Quantos litros de água devo beber por dia
+[12/09/2025 20:56:42] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:57:00] Usuário: Quantos litros de água devo beber por dia
+[12/09/2025 20:57:00] Bot[formal]: A ingestão de água deve ser distribuída ao longo do dia para manter o equilíbrio hídrico.
+
+[12/09/2025 20:57:04] Usuário: Quantos litros de água devo beber por dia
+[12/09/2025 20:57:04] Bot[formal]: Uma estimativa adequada é de aproximadamente 35 ml de água por quilo de peso corporal.
+
+[12/09/2025 20:57:12] Usuário: trocar persona
+[12/09/2025 20:57:12] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:57:25] Usuário: trocar personalidade
+[12/09/2025 20:57:25] Bot[formal]: Qual personagem deseja conversar?: 1. N.U.T.R.I Bot(formal), 2. NutriLove(engraçada) ou Chief(rude)
+
+
+[12/09/2025 20:57:30] Usuário: 3
+[12/09/2025 20:57:30] Bot[rude]: Personalidade alterada para rude
+
+[12/09/2025 20:57:36] Usuário: Quantos litros de água devo beber por dia
+[12/09/2025 20:57:36] Bot[rude]: Beba água direito ou se prepare pra sofrer com sede.
+
+[12/09/2025 20:57:52] Usuário: quantas calorias tem uma maca
+[12/09/2025 20:57:52] Bot[rude]: 52 calorias
+Gostaria de cadastrar um nova resposta?
+
+[12/09/2025 20:58:02] Usuário: nao
+[12/09/2025 20:58:02] Bot[rude]: Entendido, posso tentar aprender depois.
+
+[12/09/2025 20:58:05] Usuário: sair
+[12/09/2025 20:58:05] Bot[rude]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 20:59:39] Usuário: Quais alimentos devo evitar
+[12/09/2025 20:59:39] Bot[formal]: Alimentos como refrigerantes, frituras e doces industrializados devem ser consumidos com moderação.
+
+[12/09/2025 20:59:41] Usuário: Quais alimentos devo evitar
+[12/09/2025 20:59:41] Bot[formal]: Recomenda-se evitar alimentos ultraprocessados, ricos em sódio, gorduras saturadas e açúcares adicionados.
+
+[12/09/2025 20:59:42] Usuário: Quais alimentos devo evitar
+[12/09/2025 20:59:42] Bot[formal]: O consumo frequente de fast food e produtos industrializados pode comprometer a saúde a longo prazo.
+
+[12/09/2025 20:59:44] Usuário: v
+[12/09/2025 20:59:44] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 20:59:47] Usuário: sair
+[12/09/2025 20:59:47] Bot[formal]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 21:06:09] Usuário: aaaaaaaaaaaaaa
+[12/09/2025 21:06:09] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:11] Usuário: aaaaaaaaaaaaaa
+[12/09/2025 21:06:11] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:12] Usuário: aaaaaaaaaaaaaaaa
+[12/09/2025 21:06:12] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:14] Usuário: aaaaaaa
+[12/09/2025 21:06:14] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:15] Usuário: a
+[12/09/2025 21:06:15] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:16] Usuário: a
+[12/09/2025 21:06:16] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:16] Usuário: a
+[12/09/2025 21:06:16] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:17] Usuário: a
+[12/09/2025 21:06:17] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:18] Usuário: a
+[12/09/2025 21:06:18] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:06:24] Usuário: sair
+[12/09/2025 21:06:24] Bot[formal]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 21:11:55] Usuário: a
+[12/09/2025 21:11:55] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:11:55] Usuário: a
+[12/09/2025 21:11:55] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:11:56] Usuário: a
+[12/09/2025 21:11:56] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:11:57] Usuário: a
+[12/09/2025 21:11:57] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:11:57] Usuário: a
+[12/09/2025 21:11:57] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[12/09/2025 21:12:00] Usuário: sair
+[12/09/2025 21:12:00] Bot[formal]: Encerrando o programa. Até mais!
