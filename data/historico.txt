@@ -388,3 +388,13 @@ Gostaria de cadastrar um nova resposta?
 
 [12/09/2025 21:51:15] Usuário: sair
 [12/09/2025 21:51:15] Bot[formal]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[12/09/2025 23:45:25] Usuário: a
+[12/09/2025 23:45:25] Bot[formal]: d
+Gostaria de cadastrar um nova resposta?
+
+[12/09/2025 23:45:37] Usuário: não quero
+[12/09/2025 23:45:37] Bot[formal]: Entendido, posso tentar aprender depois.

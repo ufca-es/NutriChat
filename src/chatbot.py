@@ -131,7 +131,7 @@ if __name__ == "__main__":
     while True:
 
         # ----- TRECHO COM INPUT / PRINT -----
-        pergunta = input('\nDigite sua pergunta:\n')
+        pergunta = input('\n<Digite algo: >\n')
         resposta = chatbot.responder(pergunta)
         print('\n— ',resposta)
 
