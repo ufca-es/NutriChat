@@ -83,7 +83,27 @@ class Historico:
         except FileNotFoundError:
             return []
         
-    #def perguntas_frequentes():
+    def perguntas_frequentes(self):
+        perguntas_feitas = []
+
+        # Lê todas as linhas do histórico
+        try:
+            with open(self.arquivo, "r", encoding="utf-8") as arq:
+                for linha in arq:
+                    if "Usuário:" in linha:
+                        pergunta = linha.split("Usuário:")[1].strip()
+                        pergunta = t.detectar_comando(pergunta, self.base_conhecimento)
+                        pergunta = t.detectar_comando(pergunta, self.base_aprendizado)
+                        perguntas_feitas.append(pergunta)
+        except FileNotFoundError:
+            return []
+
+        # Pega as 3 mais comuns (se houver menos, retorna só as disponíveis)
+        perguntas_mais_frequentes = [p for p, _ in Counter(perguntas_feitas).most_common(3)]
+
+        return perguntas_mais_frequentes
+
+
         
     def gerar_estatisticas(self):
         """"
@@ -105,8 +125,10 @@ class Historico:
                 personalidade = linha.split("Bot[")[1].split("]")[0]
                 self.personalidades.append(personalidade)
 
-            pergunta_mais_frequente = Counter(self.perguntas).most_common(1)[0]
-            personalidade_mais_usada = Counter(self.personalidades).most_common(1)[0]
+        pergunta_mais_frequente = Counter(self.perguntas).most_common(1)[0]
+        personalidade_mais_usada = Counter(self.personalidades).most_common(1)[0]
+            #pergunta_mais_frequente = self.mais_frequente(self.perguntas)
+            #personalidade_mais_usada = self.mais_frequente(self.personalidades)
 
         self.estatisticas = {
             "pergunta_mais_frequente": pergunta_mais_frequente,
@@ -120,10 +142,12 @@ class Historico:
             for linha in self.ultima_sessao():
                 arq.write(linha)
 
-            arq.write("----Estatísticas----")
-            arq.write("Pergunta Mais Frequente: ", self.estatisticas["pergunta_mais_frequente"])
-            arq.write("Contagem de Interações: ", self.estatisticas["contagem_interacoes"])
-            arq.write("Personalidade Mais usada: ", self.estatisticas["personalidade_mais_usada"])
+            arq.write("----Estatísticas----\n")
+            arq.write(f"Pergunta Mais Frequente: {self.estatisticas["pergunta_mais_frequente"]}\n")
+            arq.write(f"Contagem de Interações: {self.estatisticas["contagem_interacoes"]}\n")
+            arq.write(f"Personalidade Mais usada: {self.estatisticas["personalidade_mais_usada"]}")
 
-
+    def reiniciar_relatorio(self):
+        with open("data/relatorio.txt", "w", encoding="utf-8") as arq:
+            arq.write('')
     
