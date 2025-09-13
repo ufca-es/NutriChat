@@ -1,18 +1,19 @@
 <<<=================>>>
 
-[12/09/2025 20:59:39] Usuário: Quais alimentos devo evitar
-[12/09/2025 20:59:39] Bot[formal]: Alimentos como refrigerantes, frituras e doces industrializados devem ser consumidos com moderação.
-
-[12/09/2025 20:59:41] Usuário: Quais alimentos devo evitar
-[12/09/2025 20:59:41] Bot[formal]: Recomenda-se evitar alimentos ultraprocessados, ricos em sódio, gorduras saturadas e açúcares adicionados.
-
-[12/09/2025 20:59:42] Usuário: Quais alimentos devo evitar
-[12/09/2025 20:59:42] Bot[formal]: O consumo frequente de fast food e produtos industrializados pode comprometer a saúde a longo prazo.
-
-[12/09/2025 20:59:44] Usuário: v
-[12/09/2025 20:59:44] Bot[formal]: Desculpe, ainda não sei a responder isso.
+[12/09/2025 21:50:14] Usuário: cafe
+[12/09/2025 21:50:14] Bot[formal]: Desculpe, ainda não sei a responder isso.
 Quer cadastrar uma resposta?
 
-[12/09/2025 20:59:47] Usuário: sair
-[12/09/2025 20:59:47] Bot[formal]: Encerrando o programa. Até mais!
+[12/09/2025 21:50:20] Usuário: nao
+[12/09/2025 21:50:20] Bot[formal]: Entendido, posso tentar aprender depois.
+
+[12/09/2025 21:50:44] Usuário: o q é caloria
+[12/09/2025 21:50:44] Bot[formal]: Caloria é uma unidade de energia. Em termos nutricionais, as calorias referem-se à quantidade de energia que você pode obter de macronutrientes (carboidratos, gorduras, proteínas) e álcool nos alimentos e bebidas – essa energia, por sua vez, é obtida à medida que o organismo digere e absorve os alimentos.
+Gostaria de cadastrar um nova resposta?
+
+[12/09/2025 21:51:15] Usuário: sair
+[12/09/2025 21:51:15] Bot[formal]: Encerrando o programa. Até mais!
 ----Estatísticas----
+Pergunta Mais Frequente: ('cafe', 1)
+Contagem de Interações: 4
+Personalidade Mais usada: ('formal', 4)

@@ -113,17 +113,20 @@ if __name__ == "__main__":
         print('-------------------------------------------------')
 
     print(
-        '\nSeja bem vindo (a) à plataforma NutriChat. Perguntas disponíveis (por enquanto):'
-        '\nO que é uma alimentação saudável'
-        '\nQuantos litros de água devo beber por dia'
-        '\nQuais alimentos devo evitar\n'
+        '\nSeja bem vindo (a) à plataforma NutriChat.'
 
         '\nOutras ações:'
         '\nTrocar personalidade'
         '\nSair'
     )
+    print('Perguntas frequntes:')
+
+    for i in historico.perguntas_frequentes():
+       print('- ', i)
+
 
     historico.iniciar()
+    historico.reiniciar_relatorio()
 
     while True:
 
