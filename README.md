@@ -13,12 +13,12 @@ A plataforma é simples e intuitiva, construída com algoritmos em Python. Utili
 # Membros e suas funções
 
 Letícia Maria  
-Função: Redatora técnica
+Função: Analista
 
 Atividades desempenhadas: 
-Documentação do projeto.
-Criação do READ.ME.
-Criação das perguntas feitas pelo chat.
+Documentação do projeto
+Criação do READ.ME
+Análise da viabilidade e criação de algumas funções.
 
 José Dhonathan  
 Função: Front end
@@ -45,6 +45,15 @@ Durante a execução o usuário pode fazer perguntas relacionadas a suas necessi
 
 # Demonstrações
 
+Para executar pelo terminal, dentro do vs code, com todas as pastas baixadas e abertas, digite o comando:  python -m src.main
+
+![alt text](image.png)
+
+Ao executar são exibidas as seguintes informações:
+![alt text](image-1.png)
+O histórico de conversas, as perguntas disponíveis, as ações possíveis e o espaço para ser digitada uma pergunta.
+
+Pela interface gráfica: 
 
 
 Para mais informações, acesse a nossa documentação do projeto: https://github.com/ufca-es/NutriChat/blob/444317e36009f1064c137b44bd991dbef85b4238/documentacao.md
