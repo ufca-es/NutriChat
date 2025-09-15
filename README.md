@@ -46,11 +46,11 @@ Durante a execução o usuário pode fazer perguntas relacionadas a suas necessi
 # Demonstrações
 
 Para executar pelo terminal, dentro do vs code, com todas as pastas baixadas e abertas, digite o comando:  python -m src.main
-
-![alt text](image.png)
+<img width="617" height="50" alt="image" src="https://github.com/user-attachments/assets/9d4825b3-1661-4cca-8c3c-947bc89b8461" />
 
 Ao executar são exibidas as seguintes informações:
-![alt text](image-1.png)
+<img width="1310" height="770" alt="image" src="https://github.com/user-attachments/assets/34c50de1-ee2f-4bd6-bb00-985cd6422cbf" />
+
 O histórico de conversas, as perguntas disponíveis, as ações possíveis e o espaço para ser digitada uma pergunta.
 
 Pela interface gráfica: 
