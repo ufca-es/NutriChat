@@ -17,9 +17,3 @@ Python - linguagem simples e com testagem rápida para Machine Learning.
 
 # Conceitos utilizados:
 Interface gráfica de usuário (GUI) Estruturas condicionais para fluxo de atendimento com tomada de decisão. Listas para armazenamento de dados temporários. Dicionários para representar entidades ou mapeamentos. Modularização com funcões e classes.
-- Casos de Uso 
-
-
-- Etapas do Desenvolvimento
-
-- Como o projeto comtribui com a sociedade 
