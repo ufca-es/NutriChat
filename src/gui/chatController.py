@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-# src/gui/chatController.py
-from src.chatbot import ChatBot
-=======
 import json
 import random
 import os
 from typing import Optional
 from utils.checagem_de_texto import Texto
->>>>>>> 2515a715c2353c62cacd9779ea09ea33f701de84
 
 class ChatController:
 
