@@ -93,15 +93,8 @@ class ChatBot:
         else: 
             self.aguardando_aprendizado = True
             self.pergunta_desconhecida = pergunta
-<<<<<<< HEAD
-            return 'Desculpe, ainda não sei a responder isso.\nQuer cadastrar uma resposta?'
-=======
             return 'Desculpe, ainda não sei a responder isso.\nQuer cadastrar uma resposta?'
         
-
-    def get_base_conhecimento():
-        return
-
 if __name__ == "__main__":
 
     historico = Historico()
@@ -152,4 +145,3 @@ if __name__ == "__main__":
                 f"Personalidade Mais usada: {historico.estatisticas["personalidade_mais_usada"]}\n"
             )
             exit()   
->>>>>>> 2515a715c2353c62cacd9779ea09ea33f701de84
