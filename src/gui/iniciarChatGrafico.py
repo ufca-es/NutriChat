@@ -1,6 +1,6 @@
 import tkinter as tk
+from tkinter import messagebox
 from .usuarioInput import CaixaMensagem
-from .opcoes import Dialogos
 from .chatController import ChatController
 
 
@@ -10,17 +10,18 @@ class Root(tk.Tk):
         self.controller = ChatController()
         self.title("NutriChat")
         self.geometry("800x600")
-
-        # Área de mensagens
+        self.ultima_pergunta = None
+         
         self.area_mensagens = tk.Frame(self)
         self.area_mensagens.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-        # Caixa de entrada do usuário
         self.caixa = CaixaMensagem(self, enviar_callback=self.receber_mensagem)
         self.caixa.pack(side=tk.BOTTOM, fill=tk.X, padx=10, pady=10)
 
-        # Caixa para aprendizado (inicialmente oculta)
-        
+        # Caixa de aprendizado (inicialmente oculta)
+        self.chat_aprendizado()
+
+    def chat_aprendizado(self):
         self.frame_aprendizado = tk.Frame(self)
         self.label_aprender = tk.Label(self.frame_aprendizado, text="Me ensine uma resposta:")
         self.entry_aprender = tk.Entry(self.frame_aprendizado, width=40)
@@ -35,23 +36,20 @@ class Root(tk.Tk):
         self.entry_aprender.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
         self.btn_aprender.pack(side=tk.LEFT, padx=5)
 
-        # Última pergunta não respondida
-        self.ultima_pergunta = None
+        # oculta no inicio
+        self.frame_aprendizado.pack_forget()
 
-    def receber_mensagem(self, mensagem):
-        """Exibe a mensagem do usuário e a resposta do bot"""
-        # Mensagem do usuário
+    def receber_mensagem(self, mensagem: str):
+        """Exibe a mensagem do usuÃ¡rio e a resposta do bot"""
         tk.Label(
             self.area_mensagens,
-            text=f"Você: {mensagem}",
+            text=f"VocÃª: {mensagem}",
             bg="#e0e0e0",
             anchor="w",
             padx=5
         ).pack(fill=tk.X, pady=2)
 
-        # Resposta do bot
         resposta_bot = self.controller.responder(mensagem)
-
         tk.Label(
             self.area_mensagens,
             text=f"Bot: {resposta_bot}",
@@ -61,33 +59,47 @@ class Root(tk.Tk):
             padx=5
         ).pack(fill=tk.X, pady=2)
 
-        # Se o bot não souber, habilita aprendizado
-        if self.controller.precisa_aprender():
-            self.ultima_pergunta = mensagem
+        # Se o bot nnão souber responder, controller.pergunta_desconhecida fica com a pergunta
+        if self.controller.pergunta_desconhecida:
+            # guarda para quando o usuario ensinar a resposta
+            self.ultima_pergunta = self.controller.pergunta_desconhecida
+            # mostra o widget de aprendizado
             self.frame_aprendizado.pack(side=tk.BOTTOM, fill=tk.X, padx=10, pady=10)
+        else:
+            # caso o bot saiba a pergunta, o widget fica oculto
+            self.ocultar_aprendizado()
+
+        # se o widget estava visivel mas o usuario digitou outra pergunta que já
+        # existe, escondemos o widget
+        if self.frame_aprendizado.winfo_ismapped():
+            # verifica se a pergunta atual existe nos bancos
+            if self.controller.pergunta_existe(mensagem):
+                self.ocultar_aprendizado()
 
     def salvar_resposta_aprendida(self):
-        """Salva resposta que o usuário ensinou"""
         nova_resposta = self.entry_aprender.get().strip()
         if self.ultima_pergunta and nova_resposta:
             self.controller.aprender(self.ultima_pergunta, nova_resposta)
 
-            # Exibir confirmação no chat
             tk.Label(
                 self.area_mensagens,
-                text=f"Bot: Obrigado! Aprendi a responder '{self.ultima_pergunta}' 😉",
+                text=f"Bot: Obrigado! Aprendi a responder '{self.ultima_pergunta}'",
                 bg="#d0ffd0",
                 anchor="w",
                 justify=tk.LEFT,
                 padx=5
             ).pack(fill=tk.X, pady=2)
 
-            # Limpa campo e esconde novamente
-            self.entry_aprender.delete(0, tk.END)
-            self.frame_aprendizado.pack_forget()
             self.ultima_pergunta = None
         else:
-            Dialogos.aviso("Aviso", "Digite uma resposta antes de salvar!")
+            messagebox.showwarning("Aviso", "Digite uma resposta antes de salvar!")
+
+        self.entry_aprender.delete(0, tk.END)
+        self.ocultar_aprendizado()
+
+    def ocultar_aprendizado(self):
+        self.ultima_pergunta = None
+        self.frame_aprendizado.pack_forget()
 
 
 if __name__ == "__main__":
