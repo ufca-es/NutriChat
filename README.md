@@ -55,4 +55,4 @@ O histórico de conversas, as perguntas disponíveis, as ações possíveis e o 
 Pela interface gráfica: 
 
 
-Para mais informações, acesse a nossa documentação do projeto: https://github.com/ufca-es/NutriChat/blob/444317e36009f1064c137b44bd991dbef85b4238/documentacao.md
+Para mais informações, acesse a nossa documentação do projeto.
