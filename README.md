@@ -24,15 +24,14 @@ José Dhonathan
 Função: Front end
 
 Atividades desempenhadas:
-Criação da interface gráfica e integração com o back end
+Criação da interface gráfica e integração com o back end, controle de versão.
 
 Gabriel
 Função: Back end
 
 Atividades desempenhadas:
-Implementação das funcionalidades na plataforma.
-Implementação da persistência no aprendizado.
-Criação de classes, funções e vetores.
+Implementação das funcionalidades na plataforma como a persistência no aprendizado.
+Criação de classes, funções e vetores. Arquivos json e txt.
 
 # Como executar: 
 
