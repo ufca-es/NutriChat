@@ -21,6 +21,9 @@ class ChatBot:
 
         with open('data/perguntas_e_respostas.json', "r", encoding="utf-8") as arquivo:
             self.base_conhecimento = json.load(arquivo)
+
+    def atualizar_aprendizado(self):
+        self.conhecimentos_aprendidos = self.aprendizado.carregar()
         
     def _gerar_resposta(self, pergunta: str) -> str:
         return random.choice(self.base_conhecimento[pergunta][self.personalidade])
@@ -46,6 +49,7 @@ class ChatBot:
         elif self.solicitado_aprendizado:
             self.solicitado_aprendizado = False
             self.aprendizado.salvar(self.pergunta_desconhecida, pergunta)
+            self.atualizar_aprendizado()
             self.pergunta_desconhecida = None
             return 'Conhecimento aprendido!'
         
@@ -59,7 +63,7 @@ class ChatBot:
         if pergunta == 'trocar personalidade' and not self.solicitado_trocar_personalidade:
             self.solicitado_trocar_personalidade = True
             return (
-                'Qual personagem deseja conversar?: 1. N.U.T.R.I Bot(formal), 2. NutriLove(engraçada) ou Chief(rude)\n'
+                'Qual personagem deseja conversar?: 1. N.U.T.R.I Bot(formal), 2. NutriLove(engraçada) ou Chief(rude)'
             )
             
         elif self.solicitado_trocar_personalidade:
@@ -76,10 +80,6 @@ class ChatBot:
         pergunta = t.detectar_comando(pergunta, self.conhecimentos_aprendidos)
         pergunta = t.detectar_comando(pergunta, self.base_conhecimento)
 
-        if pergunta in self.comandos:
-            self._processar_comando(pergunta)
-            return f'Personalidade alterada para {self.personalidade}' # ---- ALTERAR ----
-
         if pergunta in self.base_conhecimento:
             return self._gerar_resposta(pergunta)
 
@@ -94,58 +94,3 @@ class ChatBot:
             self.aguardando_aprendizado = True
             self.pergunta_desconhecida = pergunta
             return 'Desculpe, ainda não sei a responder isso.\nQuer cadastrar uma resposta?'
-        
-
-    def get_base_conhecimento():
-        return
-
-if __name__ == "__main__":
-
-    historico = Historico()
-    chatbot = ChatBot()
-
-    # ----- TRECHO COM INPUT / PRINT -----
-    if not historico.historico_vazio():
-        ultimas_interacoes = historico.ler_ultimos(5)
-        print('\n<<< Histórico Anterior de Conversas >>>')
-        for linha in ultimas_interacoes:
-            print(linha, end="")
-        print('-------------------------------------------------')
-
-    print(
-        '\nSeja bem vindo (a) à plataforma NutriChat.'
-
-        '\nOutras ações:'
-        '\nTrocar personalidade'
-        '\nSair'
-    )
-    print('Perguntas frequntes:')
-
-    for i in historico.perguntas_frequentes():
-       print('- ', i)
-
-
-    historico.iniciar()
-    historico.reiniciar_relatorio()
-
-    while True:
-
-        # ----- TRECHO COM INPUT / PRINT -----
-        pergunta = input('\n<Digite algo: >\n')
-        resposta = chatbot.responder(pergunta)
-        print('\n— ',resposta)
-
-        historico.salvar(pergunta, resposta, chatbot.personalidade)
-
-        if chatbot.solicitado_sair:
-
-            historico.gerar_estatisticas()
-            historico.gerar_relatorio()
-
-            print(
-                "----Estatísticas----\n",
-                f"Pergunta Mais Frequente: {historico.estatisticas["pergunta_mais_frequente"]}\n",
-                f"Contagem de Interações: {historico.estatisticas["contagem_interacoes"]}\n",
-                f"Personalidade Mais usada: {historico.estatisticas["personalidade_mais_usada"]}\n"
-            )
-            exit()   

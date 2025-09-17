@@ -6,7 +6,7 @@ class Tokens:
         "as", "os", "de", "do", "dos", "da", "das",
         "um", "uns", "uma", "umas",
         "em", "na", "nas", "no", "nos",
-        "que", "para", "pr", "por", "com", "se"
+        "que", "quais", "para", "pr", "por", "com", "se"
     }
     afirmativos = {
         "sim", "s", "claro", "positivo", "ok",

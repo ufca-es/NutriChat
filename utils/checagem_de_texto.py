@@ -11,7 +11,7 @@ class Texto:
         entre 0 e 1. quanto mais similar, mais próximo de 1.
         """
         return SequenceMatcher(None, msg_usuario.lower(), comando.lower()).ratio()
-    
+
     @staticmethod
     def limpar_texto(texto: str) -> str:
         """

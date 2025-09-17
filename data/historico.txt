@@ -398,3 +398,145 @@ Gostaria de cadastrar um nova resposta?
 
 [12/09/2025 23:45:37] Usuário: não quero
 [12/09/2025 23:45:37] Bot[formal]: Entendido, posso tentar aprender depois.
+
+[12/09/2025 23:54:31] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/main.py
+[12/09/2025 23:54:31] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[13/09/2025 14:44:27] Usuário: Olá!
+[13/09/2025 14:44:27] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 14:44:32] Usuário: sim
+[13/09/2025 14:44:32] Bot[formal]: Como devo responder a pergunta?
+Olá!
+
+[13/09/2025 14:45:01] Usuário: Olá, em que posso te ajudar?
+[13/09/2025 14:45:01] Bot[formal]: Conhecimento aprendido!
+
+[13/09/2025 14:45:09] Usuário: ola
+[13/09/2025 14:45:09] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 14:45:19] Usuário: olá
+[13/09/2025 14:45:19] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 14:45:34] Usuário: Olá!
+[13/09/2025 14:45:34] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 14:59:25] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/main.py
+[13/09/2025 14:59:25] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 14:59:30] Usuário: sair
+[13/09/2025 14:59:30] Bot[formal]: Encerrando o programa. Até mais!
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[13/09/2025 15:00:58] Usuário: ola
+[13/09/2025 15:00:58] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 15:01:03] Usuário: olá
+[13/09/2025 15:01:03] Bot[formal]: Olá, em que posso te ajudar?
+Gostaria de cadastrar um nova resposta?
+
+[13/09/2025 15:02:07] Usuário: o que são gorduras
+[13/09/2025 15:02:07] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 15:02:24] Usuário: o que são gorduras ruins
+[13/09/2025 15:02:24] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 15:04:41] Usuário: qual a diferença entre gorduras boas e ruins?
+[13/09/2025 15:04:41] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 15:05:19] Usuário: qual a diferença entre gorduras boas e ruins
+[13/09/2025 15:05:19] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 15:05:43] Usuário: o que é uma alimentaçao suadavel
+[13/09/2025 15:05:43] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[13/09/2025 15:07:02] Usuário: o que é o imc?
+[13/09/2025 15:07:02] Bot[formal]: O IMC, ou Índice de Massa Corporal, é uma medida que relaciona o peso e a altura de uma pessoa para avaliar se está dentro de uma faixa considerada saudável. Ele é calculado dividindo o peso em quilos pela altura em metros ao quadrado.
+
+[13/09/2025 15:10:19] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/main.py
+[13/09/2025 15:10:19] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 15:10:35] Usuário: qual a diferença entre gorduras boas e ruins
+[13/09/2025 15:10:35] Bot[formal]: As gorduras boas (insaturadas) ajudam a reduzir o colesterol ruim e proteger o coração, enquanto as ruins (saturadas em excesso e trans) podem aumentar o risco de doenças cardiovasculares.
+
+[13/09/2025 15:10:59] Usuário: o que são gorduras
+[13/09/2025 15:10:59] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[13/09/2025 15:11:12] Usuário: trocar personalidade
+[13/09/2025 15:11:12] Bot[formal]: Qual personagem deseja conversar?: 1. N.U.T.R.I Bot(formal), 2. NutriLove(engraçada) ou Chief(rude)
+
+[13/09/2025 15:11:36] Usuário: chief
+[13/09/2025 15:11:36] Bot[rude]: Personalidade alterada para rude
+
+[13/09/2025 15:11:58] Usuário: qual a diferença entre gorduras boas e ruins?
+[13/09/2025 15:11:58] Bot[rude]: Diferença? Uma salva, outra mata. Ponto.
+
+[13/09/2025 15:13:04] Usuário: qunatas reifeiçoes devo fazer por dia?
+[13/09/2025 15:13:04] Bot[rude]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[16/09/2025 20:10:25] Usuário: quero melhorar minha alimentação
+[16/09/2025 20:10:25] Bot[formal]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[16/09/2025 20:11:51] Usuário: sim
+[16/09/2025 20:11:51] Bot[formal]: Como devo responder a pergunta?
+quero melhorar minha alimentação
+
+[16/09/2025 20:12:15] Usuário: Procure aloi
+[16/09/2025 20:12:15] Bot[formal]: Conhecimento aprendido!
+
+[16/09/2025 20:12:33] Usuário: qr melhorar minha alimentacao
+[16/09/2025 20:12:33] Bot[formal]: Procure aloi
+Gostaria de cadastrar um nova resposta?
+
+[16/09/2025 20:12:54] Usuário: trocar personalidade
+[16/09/2025 20:12:54] Bot[formal]: Qual personagem deseja conversar?: 1. N.U.T.R.I Bot(formal), 2. NutriLove(engraçada) ou Chief(rude)
+
+[16/09/2025 20:13:07] Usuário: 3
+[16/09/2025 20:13:07] Bot[rude]: Personalidade alterada para rude
+
+[16/09/2025 20:13:13] Usuário: Comod 
+[16/09/2025 20:13:13] Bot[rude]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[16/09/2025 20:13:17] Usuário: não
+[16/09/2025 20:13:17] Bot[rude]: Entendido, posso tentar aprender depois.
+
+[16/09/2025 20:13:38] Usuário: como ter uma alimentação saudável
+[16/09/2025 20:13:38] Bot[rude]: Você quer viver bem? Então pare de comer como se estivesse em um fast-food eterno. Alimentação saudável é equilibrar nutrientes: carboidratos bons, proteínas, gorduras de qualidade, vitaminas e minerais. Frutas, verduras, legumes, cereais, proteínas e laticínios. O resto — refrigerante, fritura, doce de pacote — jogue fora. Très simple.
+
+[16/09/2025 20:14:02] Usuário: obrigado, seu bruto
+[16/09/2025 20:14:02] Bot[rude]: Desculpe, ainda não sei a responder isso.
+Quer cadastrar uma resposta?
+
+[16/09/2025 20:14:07] Usuário: sair
+[16/09/2025 20:14:07] Bot[rude]: Encerrando o programa. Até mais!

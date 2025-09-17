@@ -2,6 +2,7 @@ from utils.checagem_de_texto import Texto as t
 
 class Personalidade:
 
+    @staticmethod
     def selecionar_personalidade(resposta_usuario: str) -> str|bool:
         """
         Se o texto passado correspnder a uma personalidade, retorna a personalidade(str).

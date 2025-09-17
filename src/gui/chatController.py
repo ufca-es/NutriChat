@@ -1,5 +1,5 @@
 # src/gui/chatController.py
-from src.main import ChatBot
+from src.chatbot import ChatBot
 
 class ChatController:
     def __init__(self):

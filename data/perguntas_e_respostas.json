@@ -1,61 +1,631 @@
 {
   "o que é uma alimentação saudável": {
     "formal": [
-      "Uma alimentação saudável é aquela que fornece todos os nutrientes necessários ao corpo, garantindo energia, crescimento e prevenção de doenças. Ela deve ser variada, equilibrada e consumida com moderação, incluindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando excessos de açúcar, sal e gorduras ruins.",
-
-      "Uma alimentação saudável oferece todos os nutrientes essenciais para o corpo, promovendo energia, crescimento e proteção contra doenças. Ela deve ser equilibrada e variada, consumindo frutas, verduras, legumes, cereais, proteínas e laticínios, e evitando o consumo excessivo de açúcar, sal e gorduras prejudiciais.",
-
-      "Alimentar-se de forma saudável significa fornecer ao corpo todos os nutrientes de que ele precisa, favorecendo a energia, o crescimento e a prevenção de doenças. Isso envolve uma dieta equilibrada e diversificada, com frutas, verduras, legumes, cereais, proteínas e laticínios, evitando exageros de açúcar, sal e gorduras nocivas."
+      "Uma alimentação saudável é aquela que garante todos os nutrientes essenciais ao organismo, como vitaminas, minerais, proteínas, carboidratos, gorduras boas e fibras. Ela fornece energia para as atividades diárias, favorece o crescimento, fortalece o sistema imunológico e ajuda a prevenir doenças crônicas. Para isso, é importante variar os alimentos, dando preferência a frutas, verduras, legumes, cereais integrais, proteínas magras e laticínios, além de limitar o consumo de açúcar, sal e gorduras saturadas.",
+      "Alimentar-se de forma saudável significa adotar uma dieta equilibrada que contenha variedade de grupos alimentares em proporções adequadas. Isso inclui frutas, verduras, legumes, cereais integrais, proteínas de origem animal ou vegetal e laticínios. Esse padrão alimentar promove energia, desenvolvimento, manutenção da saúde e reduz o risco de doenças relacionadas à má nutrição, como obesidade, diabetes e hipertensão.",
+      "Ter uma alimentação saudável é seguir hábitos que forneçam todos os nutrientes de que o corpo necessita, sem exageros. Isso significa combinar alimentos variados e naturais, equilibrando o consumo de carboidratos, proteínas e gorduras de boa qualidade, além de fibras, vitaminas e minerais. Evitar produtos ultraprocessados também é essencial para preservar a saúde a longo prazo."
     ],
     "engraçado": [
-      "Comer saudável é tipo dar superpoderes pro seu corpo 🦸‍♂️💪: ele ganha energia ⚡, cresce forte e se protege contra doenças. Capriche nas frutas 🍎, verduras 🥦, legumes 🥕, cereais 🌾, proteínas 🍗 e laticínios 🥛, e fuja do excesso de açúcar 🍩, sal 🧂 e gorduras ruins 🍟!",
-
-      "Alimentação saudável é como uma festa no seu corpo 🎉: todo nutriente necessário entra e deixa você cheio de energia ⚡, crescendo firme e resistente a doenças. Inclua frutas 🍉, verduras 🥬, legumes 🥔, cereais 🌾, proteínas 🥩 e laticínios 🧈, mas evite exageros de açúcar 🍫, sal 🧂 e gorduras ruins 🍔.",
-
-      "Pense que se você quer ser um herói do dia a dia, precisa de uma alimentação saudável! Ela dá energia, ajuda a crescer e mantém as doenças longe 🚫🤒. Abuse das frutas 🍇, verduras 🥗, legumes 🥕, cereais 🌾, proteínas 🍳 e laticínios 🥛, e não exagere em açúcar 🍩, sal 🧂 e gorduras ruins 🍟."
+      "Pensa no seu corpo como uma empresa 🏢: cada nutriente é um funcionário. As proteínas são os pedreiros que constroem músculos 💪, os carboidratos são o combustível que mantém a energia ⚡, as gorduras boas são como o time da manutenção que mantém tudo funcionando 🔧, e as vitaminas e minerais são os gestores que organizam o caos 📊. Se você só contratar 'funcionários ruins' como açúcar, fritura e refri, sua empresa quebra! Então contrate o time completo: frutas, verduras, legumes, cereais, proteínas e laticínios.",
+      "Seu corpo é como um carro 🚗. Se você abastece só com combustível ruim, o motor quebra rapidinho. Alimentação saudável é usar gasolina premium: frutas, verduras, legumes, cereais integrais, proteínas magras e laticínios. Eles te dão energia, resistência e evitam que seu 'motor' enferruje. Já excesso de açúcar, sal e gordura ruim... isso é combustível adulterado, mon amour, e faz você pifar antes da hora!",
+      "Imagine que seu corpo é um jardim 🌱. Se você rega com água limpa e dá sol, ele cresce bonito 🌻. Isso é alimentação saudável: frutas, verduras, cereais, proteínas e laticínios. Agora, se você joga lixo, gordura ruim e açúcar demais, o jardim apodrece. Quer florescer? Escolha bem o que colocar no prato!"
     ],
     "rude": [
-      "Alimentação saudável? Mon Dieu… é parar de entupir seu corpo com porcarias e comer o que realmente importa: frutas frescas, verduras, legumes, cereais, proteínas e um pouco de laticínios. Tudo em equilíbrio! Açúcar, gordura ruim e besteira? Fuja disso como se fosse doença!",
-
-      "Uma alimentação saudável, meu amigo, não é pizza toda noite nem batata frita até explodir. É comer de forma equilibrada: frutas, verduras, legumes, cereais, proteínas e laticínios. O resto? Lixo! Simples assim. Não significa que não possa comer besteira, só saiba se controlar para não exagerar.",
-
-      "Você quer saber o que é comer bem? Não é encher a barriga com açúcar e gordura. É dar ao seu corpo o que ele precisa: frutas, verduras, legumes, cereais, proteínas e laticínios. Se não consegue fazer isso, então, desculpe, está ferrando com sua própria vida."
+      "Alimentação saudável? É simples, mon ami: dê ao corpo o que ele precisa — frutas frescas, verduras, legumes, cereais integrais, proteínas magras e um pouco de laticínios. Isso mantém energia, crescimento e evita doenças. Açúcar, fritura e porcaria industrializada? Isso não é comida, é lixo. Voilà!",
+      "Você quer viver bem? Então pare de comer como se estivesse em um fast-food eterno. Alimentação saudável é equilibrar nutrientes: carboidratos bons, proteínas, gorduras de qualidade, vitaminas e minerais. Frutas, verduras, legumes, cereais, proteínas e laticínios. O resto — refrigerante, fritura, doce de pacote — jogue fora. Très simple.",
+      "Não complique: seu corpo precisa de nutrientes, não de porcarias. Comer bem é variar, equilibrar e não exagerar. Frutas, verduras, legumes, cereais, proteínas e laticínios. Açúcar, sal e gordura ruim? Reduza ao mínimo. Se não consegue, então, bon courage para sua saúde."
     ]
   },
 
   "quantos litros de água devo beber por dia": {
     "formal": [
-      "O recomendado é, em média, 2 litros de água por dia, variando conforme peso e atividade física.",
-      "Uma estimativa adequada é de aproximadamente 35 ml de água por quilo de peso corporal.",
-      "A ingestão de água deve ser distribuída ao longo do dia para manter o equilíbrio hídrico."
+      "A recomendação geral é consumir cerca de 2 litros de água por dia, o que equivale a aproximadamente 8 copos. No entanto, essa quantidade pode variar de acordo com fatores como peso, idade, clima e nível de atividade física. Uma boa forma de calcular é ingerir em média 35 ml de água por quilo de peso corporal.",
+      "Um adulto saudável deve beber em torno de 2 a 3 litros de água diariamente, distribuídos ao longo do dia. Essa prática mantém a hidratação, regula a temperatura do corpo, auxilia no funcionamento dos rins e melhora o transporte de nutrientes.",
+      "A ingestão adequada de água é fundamental para o equilíbrio hídrico do organismo. Uma média de 2 litros por dia atende a maioria das pessoas, mas quem pratica atividade física intensa ou vive em regiões quentes pode precisar de mais. O importante é beber com regularidade, mesmo sem sentir sede."
     ],
     "engraçado": [
-      "Beba água como se fosse fofoqueiro: o tempo todo 💧😂",
-      "Seu corpo é 70% água... não deixe esse estoque cair!",
-      "Pensa que é planta: regue-se várias vezes ao dia 🌱"
+      "Seu corpo é tipo uma piscina 🏊: se não repuser a água, ela seca! Então mantenha pelo menos uns 2 litros por dia. Beba como quem rega planta 🌱: um pouquinho várias vezes, não tudo de uma vez.",
+      "Lembre-se: você é 70% água 💧. Se não se hidratar, vira deserto 🏜️! Dois litros por dia é a média, mas se correr, suar ou viver no calor, beba ainda mais.",
+      "Beba água como fofoqueiro espalha notícia 📢: o tempo todo! A média é 2 litros por dia, mas o certo mesmo é ir tomando devagar, várias vezes, como se fosse maratona e não corrida de 100 metros."
     ],
     "rude": [
-      "Se você sente sede, já tá atrasado.",
-      "Menos refrigerante, mais água. É só isso.",
-      "Beba água direito ou se prepare pra sofrer com sede."
+      "Quantos litros? Dois por dia, no mínimo. Mais se estiver no calor ou suando. Se sente sede, já está atrasado. Voilà.",
+      "Mon ami, beba cerca de 2 litros diariamente. Não é complicado: distribua durante o dia. Menos refrigerante, mais água, c'est tout.",
+      "Seu corpo não é deserto. Dois litros de água por dia. Se não consegue nem isso, então bon courage com dor de cabeça e fadiga."
     ]
   },
 
   "quais alimentos devo evitar": {
     "formal": [
-      "Recomenda-se evitar alimentos ultraprocessados, ricos em sódio, gorduras saturadas e açúcares adicionados.",
-      "Alimentos como refrigerantes, frituras e doces industrializados devem ser consumidos com moderação.",
-      "O consumo frequente de fast food e produtos industrializados pode comprometer a saúde a longo prazo."
+      "Devem ser evitados alimentos ultraprocessados, que geralmente são ricos em sódio, açúcar, gorduras saturadas e aditivos químicos. Exemplos incluem refrigerantes, biscoitos recheados, salgadinhos de pacote e fast food.",
+      "O consumo frequente de alimentos industrializados aumenta o risco de obesidade, diabetes, hipertensão e doenças cardiovasculares. Por isso, seu uso deve ser ocasional e moderado, priorizando sempre alimentos frescos e naturais.",
+      "Refrigerantes, frituras, doces industrializados e comidas prontas contêm alto teor de calorias e baixo valor nutricional. Seu consumo deve ser limitado, pois prejudicam a saúde a longo prazo."
     ],
     "engraçado": [
-      "Evite comer só miojo e refrigerante... seu corpo não é uma lan house de 2005 😂",
-      "Se a embalagem dura mais que o alimento, desconfie!",
-      "Menos salgadinho de pacote, mais fruta. Seu corpo agradece."
+      "Se a embalagem dura mais que o alimento, desconfie 🤔! Biscoito recheado, refrigerante e salgadinho são tipo vilões de desenho animado: parecem divertidos, mas vivem querendo acabar com sua saúde.",
+      "Seu corpo não é lan house de 2005 pra viver de miojo e refri 😂. Evite os industrializados e prefira comida de verdade.",
+      "Pensa no fast food como aquele crush furada 😬: até parece legal na hora, mas te deixa mal depois. Prefira alimentos naturais que realmente cuidam de você!"
     ],
     "rude": [
-      "Pare de entupir o corpo com porcaria industrializada.",
-      "Quer saúde? Então corte refrigerante e fritura.",
-      "Evite comida de pacote. Isso não é combustível pra gente, é lixo."
+      "Evite porcarias de pacote: refrigerante, fritura, doces industrializados. Isso é lixo, não comida. Voilà.",
+      "Quer saúde? Corte fast food frequente, salgadinhos e refrigerantes. Não é difícil, mon ami.",
+      "Comida de verdade é fruta, verdura, legume e proteína. O resto — ultraprocessado — é veneno lento. C'est clair?"
+    ]
+  },
+
+  "quantas refeições por dia são recomendadas": {
+    "formal": [
+      "Em geral, recomenda-se realizar de 3 a 6 refeições ao longo do dia, incluindo café da manhã, almoço e jantar, além de lanches intermediários se necessário. Essa divisão ajuda a manter níveis estáveis de energia, evita exageros nas principais refeições e contribui para o bom funcionamento do metabolismo.",
+      "O ideal é fazer pelo menos três refeições principais (café da manhã, almoço e jantar) e, se houver necessidade, incluir lanches saudáveis entre elas. A quantidade de refeições pode variar de acordo com a rotina, idade e necessidades nutricionais de cada pessoa.",
+      "Manter um padrão alimentar com várias refeições ao dia ajuda no controle da fome e na manutenção da energia. Normalmente, são indicadas de 3 a 6 refeições, respeitando sempre as necessidades individuais."
+    ],
+    "engraçado": [
+      "Seu corpo é como celular 📱: se não carregar durante o dia, a bateria acaba! Por isso, faça pelo menos 3 refeições principais e, se precisar, alguns lanchinhos saudáveis entre elas.",
+      "Pense em você como um carro 🚗: não adianta abastecer só uma vez e esperar rodar o dia todo. É melhor ir colocando combustível (comida boa!) ao longo do dia, de 3 a 6 vezes.",
+      "Imagina tentar maratonar série sem pausa 🍿: você cansa e não aproveita nada. Seu corpo também precisa de intervalos! Refeições bem distribuídas ajudam a manter a energia ligada o dia inteiro."
+    ],
+    "rude": [
+      "Três refeições principais, mon ami: café da manhã, almoço e jantar. Se quiser, adicione lanches pequenos. O que importa é comer direito, não devorar porcaria o tempo todo.",
+      "De 3 a 6 refeições por dia. Voilà. Não complique, apenas organize-se para não exagerar em uma só.",
+      "Quer energia? Então coma em intervalos regulares. Café da manhã, almoço, jantar e talvez alguns lanches. O resto é desculpa."
+    ]
+  },
+
+  "o que é uma dieta equilibrada": {
+    "formal": [
+      "Uma dieta equilibrada é aquela que inclui todos os grupos alimentares em proporções adequadas, garantindo variedade de nutrientes como proteínas, carboidratos, gorduras boas, vitaminas e minerais. Ela promove energia, manutenção da saúde e prevenção de doenças.",
+      "Seguir uma dieta equilibrada significa consumir alimentos variados, respeitando a quantidade adequada de cada nutriente. O equilíbrio entre frutas, verduras, legumes, cereais, proteínas e laticínios é fundamental para o bom funcionamento do organismo.",
+      "Uma dieta equilibrada não exclui grupos alimentares importantes, mas combina-os de forma proporcional. Isso permite atender às necessidades do corpo sem excessos nem deficiências."
+    ],
+    "engraçado": [
+      "Uma dieta equilibrada é tipo montar um prato como se fosse time de futebol ⚽: você precisa de atacantes (carboidratos pra energia), zagueiros (proteínas pra dar estrutura), meio de campo (gorduras boas pra organizar o jogo) e técnicos (vitaminas e minerais). Se faltar um, o time perde!",
+      "Pense no seu prato como uma balança ⚖️: se colocar só doce, ela cai pro lado errado. Equilíbrio é misturar frutas, verduras, cereais, proteínas e gorduras boas, sem exagerar em nenhum.",
+      "Dieta equilibrada é como playlist bem feita 🎶: se tiver só uma música, fica chato. Você precisa de variedade — um pouco de cada gênero, ou melhor, de cada nutriente!"
+    ],
+    "rude": [
+      "Dieta equilibrada? É comer de tudo um pouco: proteínas, carboidratos, gorduras boas, vitaminas e minerais. Não é cortar tudo e viver de moda passageira.",
+      "Mon ami, equilíbrio é simples: não exagere em nada e não exclua grupos de alimentos importantes. Voilà.",
+      "Você quer saúde? Então pare de seguir dieta maluca. Equilíbrio é variedade e moderação, ponto final."
+    ]
+  },
+
+  "por que é importante variar os alimentos consumidos": {
+    "formal": [
+      "Variar os alimentos garante que o corpo receba diferentes tipos de nutrientes, já que nenhum alimento isolado contém tudo o que precisamos. Essa diversidade fortalece a imunidade, melhora o funcionamento do organismo e reduz o risco de deficiências nutricionais.",
+      "A variedade alimentar permite acesso a uma gama mais ampla de vitaminas, minerais, fibras e antioxidantes. Além disso, ajuda a tornar a dieta mais prazerosa e equilibrada.",
+      "Consumir diferentes alimentos é importante porque cada grupo oferece nutrientes específicos. Variar evita monotonia, amplia a oferta nutricional e contribui para a saúde a longo prazo."
+    ],
+    "engraçado": [
+      "Comer só arroz e feijão todo dia é tipo assistir sempre ao mesmo episódio da sua série favorita 📺: enjoa e você perde coisa boa. Variar o cardápio traz novos nutrientes e sabores!",
+      "Seu corpo precisa de um 'menu degustação' 🍽️. Frutas, verduras, cereais, proteínas... cada um traz uma vitamina diferente. Se você variar, seu organismo faz a festa!",
+      "Variedade na comida é como playlist de música 🎶: só uma faixa enjoa rápido. Misture os ritmos — ou melhor, os alimentos — e sua saúde agradece."
+    ],
+    "rude": [
+      "Nenhum alimento tem tudo. Se você não variar, vai faltar nutriente e sobrar problema. Voilà.",
+      "Mon ami, comer sempre a mesma coisa é burrice. Varie e dê ao corpo o que ele realmente precisa.",
+      "Quer saúde? Então coma de tudo: frutas, verduras, cereais, proteínas. Se só repetir prato, vai se arrepender."
+    ]
+  },
+
+  "comer muito rápido pode prejudicar a digestão": {
+    "formal": [
+      "Sim. Comer rápido pode dificultar a digestão porque o alimento não é mastigado adequadamente, o que sobrecarrega o estômago. Além disso, aumenta o risco de engolir ar, causando desconforto e gases, e pode levar a comer mais do que o necessário, favorecendo ganho de peso.",
+      "Quando se come depressa, o corpo não tem tempo de reconhecer os sinais de saciedade. Isso pode gerar má digestão, sensação de estufamento e aumento no risco de obesidade.",
+      "A mastigação lenta ajuda a triturar os alimentos, facilitar a absorção de nutrientes e controlar a quantidade ingerida. Por isso, comer rápido costuma prejudicar a digestão e a saúde geral."
+    ],
+    "engraçado": [
+      "Comer rápido é tipo jogar comida inteira na mala sem arrumar 🧳: depois fica uma bagunça lá dentro! O estômago sofre e você se sente mal.",
+      "Se você come feito aspirador de pó 🌀, o corpo não dá conta de organizar a bagunça. Resultado: má digestão, estufamento e fome mais rápido.",
+      "Comer devagar é como dar tempo pro Wi-Fi conectar 📶. Se você engole tudo correndo, o sinal da saciedade não chega a tempo e você acaba comendo demais!"
+    ],
+    "rude": [
+      "Sim. Mastigue direito, mon ami. Comer rápido é receita para má digestão e estômago pesado.",
+      "Você não é aspirador de pó. Coma devagar para não ferrar com a digestão. Voilà.",
+      "Quer passar mal? Então continue comendo rápido. Caso contrário, mastigue e dê tempo ao corpo."
+    ]
+  },
+
+  "quantas porções de frutas é recomendado consumir diariamente": {
+    "formal": [
+      "Recomenda-se consumir de 3 a 5 porções de frutas por dia. Essa quantidade ajuda a garantir fibras, vitaminas, minerais e antioxidantes importantes para o bom funcionamento do organismo.",
+      "O ideal é incluir frutas variadas ao longo do dia, como no café da manhã, em lanches ou como sobremesa. Assim, você garante diversidade de nutrientes e fortalece o sistema imunológico.",
+      "Consumir entre 3 e 5 porções diárias de frutas contribui para a saúde digestiva, melhora a saciedade e reduz o risco de doenças crônicas."
+    ],
+    "engraçado": [
+      "Frutas são como os emojis da alimentação 🍎🍌🍊: quanto mais você usa, mais colorida e divertida fica sua saúde! O recomendado é de 3 a 5 porções por dia.",
+      "Seu corpo precisa de frutas como seu celular precisa de atualizações 📲: sem elas, começa a falhar! Coloque pelo menos 3 a 5 frutas no seu dia.",
+      "Pensa no prato como arco-íris 🌈: quanto mais frutas diferentes, melhor. O ideal é de 3 a 5 porções todos os dias!"
+    ],
+    "rude": [
+      "De 3 a 5 porções por dia, mon ami. Não é complicado, apenas coma frutas de verdade.",
+      "Três a cinco porções. Voilà. Se não consegue isso, está tratando mal o seu corpo.",
+      "Quer saúde? Então não invente desculpa. Coma frutas, de 3 a 5 vezes por dia."
+    ]
+  },
+
+  "por que devo incluir verduras e legumes em todas as refeições": {
+    "formal": [
+      "Verduras e legumes são ricos em fibras, vitaminas, minerais e antioxidantes que regulam o funcionamento do organismo. Incluir esses alimentos em todas as refeições ajuda na digestão, fortalece a imunidade e previne doenças.",
+      "Esses alimentos aumentam a saciedade sem excesso de calorias, auxiliam no controle de peso e contribuem para a saúde cardiovascular.",
+      "Ao incluir verduras e legumes diariamente, você garante nutrientes essenciais que não são encontrados em outros grupos alimentares na mesma quantidade."
+    ],
+    "engraçado": [
+      "Verduras e legumes são tipo a faxina da casa 🧹: limpam, organizam e deixam tudo funcionando melhor no corpo!",
+      "Eles são os super-heróis da alimentação 🦸‍♂️🥦: cheios de fibras, vitaminas e minerais que te defendem contra doenças.",
+      "Se o prato fosse um show, as verduras seriam os backing vocals 🎤: talvez não chamem tanta atenção quanto a estrela principal, mas sem eles a música não funciona!"
+    ],
+    "rude": [
+      "Coma verduras e legumes, mon ami. Eles fornecem fibras, vitaminas e minerais. Sem isso, seu corpo não funciona direito.",
+      "Quer evitar doenças? Coloque verduras no prato. Voilà.",
+      "Não gosta de legumes? Azar o seu. Eles são essenciais para a saúde."
+    ]
+  },
+
+  "qual a diferença entre comer frutas inteiras e tomar sucos": {
+    "formal": [
+      "Ao comer frutas inteiras, você consome fibras que ajudam na digestão e aumentam a saciedade. Já os sucos, principalmente quando coados ou adoçados, perdem boa parte das fibras e concentram mais açúcar, o que pode elevar o índice glicêmico.",
+      "Frutas inteiras liberam energia de forma mais lenta, enquanto o suco fornece açúcar mais rapidamente, podendo causar picos de glicose no sangue.",
+      "Por isso, o consumo de frutas inteiras é geralmente mais recomendado do que o de sucos, mesmo que ambos ofereçam vitaminas e minerais."
+    ],
+    "engraçado": [
+      "Fruta inteira é como comer o pão com recheio 🥖: completo, com fibras e tudo. Suco é tipo só o recheio — gostoso, mas falta o resto!",
+      "Comer a fruta inteira é maratona 🏃: energia liberada aos poucos. O suco é corrida de 100 metros — rápido, mas logo acaba.",
+      "Fruta inteira = pacote completo 🎁. Suco = presente pela metade, ainda mais se coar e tirar as fibras!"
+    ],
+    "rude": [
+      "Fruta inteira tem fibras. Suco tem mais açúcar e menos fibras. Voilà.",
+      "Quer saúde? Coma a fruta. Quer só açúcar? Beba o suco. Simples assim, mon ami.",
+      "Não se engane: suco não substitui a fruta inteira. Ponto final."
+    ]
+  },
+
+  "quais frutas são ricas em vitamina C": {
+    "formal": [
+      "Frutas como laranja, acerola, kiwi, goiaba, morango, abacaxi e caju são ricas em vitamina C. Essa vitamina fortalece o sistema imunológico, ajuda na cicatrização e melhora a absorção de ferro dos alimentos.",
+      "A acerola é uma das campeãs em vitamina C, contendo concentrações muito mais altas do que a laranja. Outras opções importantes incluem manga e mamão.",
+      "Incluir regularmente essas frutas na dieta contribui para prevenir deficiências e proteger contra infecções."
+    ],
+    "engraçado": [
+      "Vitamina C é tipo guarda-chuva contra resfriado ☔. Acerola, laranja, kiwi, morango e abacaxi são os modelos mais resistentes!",
+      "Se vitamina C fosse festa, a acerola seria a DJ 🎧: tem a maior concentração! Mas laranja, goiaba e kiwi também animam o rolê.",
+      "Quer imunidade turbinada? Vai de frutas como acerola, laranja, morango, caju e abacaxi. É tipo montar um squad de heróis 🍓🍍🍊."
+    ],
+    "rude": [
+      "Acerola, laranja, kiwi, morango, abacaxi, goiaba. Todas ricas em vitamina C. Voilà.",
+      "Quer vitamina C? Acerola é a rainha, mon ami. O resto é coadjuvante.",
+      "Não complique: frutas cítricas e algumas tropicais têm vitamina C. Coma-as."
+    ]
+  },
+
+  "o que pode acontecer se eu não consumir vegetais regularmente": {
+    "formal": [
+      "A falta de vegetais na alimentação pode levar a deficiências de vitaminas, minerais e fibras, resultando em problemas como prisão de ventre, baixa imunidade e maior risco de doenças crônicas.",
+      "Sem vegetais, a dieta tende a ficar pobre em nutrientes essenciais, favorecendo ganho de peso, alterações no colesterol e maior suscetibilidade a infecções.",
+      "A ausência frequente desses alimentos compromete a digestão, o equilíbrio nutricional e a saúde a longo prazo."
+    ],
+    "engraçado": [
+      "Não comer vegetais é tipo morar sem Wi-Fi 🚫📶: até dá, mas a vida fica bem mais difícil! Você perde fibras, vitaminas e energia.",
+      "É como tentar dirigir carro sem óleo no motor 🚗💨: uma hora ele vai quebrar. Seu corpo precisa dos vegetais pra não pifar.",
+      "Sem vegetais, seu organismo vira casa sem faxina 🧹: tudo bagunçado, sem proteção e cheio de problemas."
+    ],
+    "rude": [
+      "Sem vegetais, você fica sem fibras, vitaminas e minerais. Resultado: intestino preso, imunidade baixa e mais doenças.",
+      "Não comer vegetais é receita para desastre, mon ami. Voilà.",
+      "Ignorar vegetais é ignorar sua saúde. O corpo cobra a conta depois."
+    ]
+  },
+
+  "quais são as principais fontes de proteína": {
+    "formal": [
+      "As principais fontes de proteína incluem carnes, aves, peixes, ovos, leite e derivados, além de leguminosas como feijão, lentilha, grão-de-bico e soja. As proteínas são fundamentais para a construção e reparação dos tecidos do corpo.",
+      "Proteínas podem ser obtidas tanto de origem animal quanto vegetal. Carnes magras, peixes, ovos e laticínios são exemplos de fontes animais; já feijão, ervilha, lentilha, grão-de-bico e quinoa são ótimas fontes vegetais.",
+      "Para manter o equilíbrio nutricional, é importante variar as fontes de proteína, combinando opções animais e vegetais de acordo com as preferências e necessidades de cada pessoa."
+    ],
+    "engraçado": [
+      "Proteína é tipo o tijolo da sua casa 🧱: constrói músculos, pele e até cabelo. Você encontra em carnes 🍗, ovos 🥚, leite 🥛 e também em feijão e lentilha 🌱.",
+      "Quer músculos firmes? Vá de proteína! Ela está em frango, peixe, ovo e até naquele feijãozinho do arroz 🍛.",
+      "Proteína é o pedreiro do seu corpo 👷: carnes, ovos, leite e leguminosas são os ajudantes da obra!"
+    ],
+    "rude": [
+      "Carnes, ovos, leite e feijão. Voilà, proteínas. Sem elas, seu corpo desmorona.",
+      "Mon ami, proteínas vêm de animais e plantas: frango, peixe, ovo, feijão. Não complique.",
+      "Você quer construir músculos sem proteína? Impossible."
+    ]
+  },
+
+  "o que são proteínas e qual a sua função no corpo": {
+    "formal": [
+      "Proteínas são macronutrientes formados por aminoácidos, essenciais para o crescimento, reparação e manutenção dos tecidos do corpo. Também participam da produção de hormônios e enzimas.",
+      "Elas são conhecidas como os 'blocos de construção' do organismo, atuando na formação de músculos, pele, cabelos, além de contribuírem para a defesa imunológica.",
+      "A ausência ou deficiência de proteínas pode prejudicar o desenvolvimento, a cicatrização e o funcionamento geral do organismo."
+    ],
+    "engraçado": [
+      "Proteínas são tipo LEGO 🧩: juntando pecinhas (aminoácidos), elas constroem músculos 💪, pele, cabelo e até hormônios.",
+      "Se seu corpo fosse uma obra, a proteína seria o cimento e os tijolos 🧱. Sem ela, nada fica de pé!",
+      "Proteína é como Wi-Fi pro corpo 📶: invisível, mas sem ela nada funciona direito!"
+    ],
+    "rude": [
+      "Proteína é tijolo, mon ami. Constrói músculo, pele, cabelo. Sem ela, seu corpo cai aos pedaços.",
+      "São aminoácidos que fazem tudo no corpo: tecidos, enzimas, hormônios. Voilà.",
+      "Quer viver sem proteína? Bonne chance, vai desmoronar."
+    ]
+  },
+
+  "qual a diferença entre proteína animal e vegetal": {
+    "formal": [
+      "A proteína animal, presente em carnes, ovos e laticínios, contém todos os aminoácidos essenciais em quantidades adequadas, sendo considerada de alto valor biológico. Já a proteína vegetal, encontrada em feijões, lentilhas e grãos, pode ter menor quantidade de alguns aminoácidos, mas continua sendo importante para a dieta.",
+      "Enquanto as proteínas animais são completas, as vegetais podem exigir combinações (como arroz e feijão) para suprir todos os aminoácidos essenciais.",
+      "Ambas são saudáveis e podem ser utilizadas de acordo com o estilo de vida e preferências alimentares de cada pessoa."
+    ],
+    "engraçado": [
+      "Proteína animal é como um kit completo de ferramentas 🧰: já vem tudo pronto. A vegetal é tipo montar móvel do IKEA 🪑: precisa combinar peças (arroz + feijão, por exemplo) pra ficar completo.",
+      "Animal já vem 100% carregado 🔋, vegetal é versão que precisa de extensão de tomada pra funcionar bem ⚡.",
+      "As duas funcionam: animal é pacote premium ⭐, vegetal é plano básico que você combina até virar premium."
+    ],
+    "rude": [
+      "Animal tem todos os aminoácidos. Vegetal não, precisa de combinações. Voilà.",
+      "Quer praticidade? Vai de proteína animal. Quer trabalho? Combine as vegetais, mon ami.",
+      "Proteína animal é completa. Vegetal, incompleta — a não ser que combine. Simples."
+    ]
+  },
+
+  "pessoas vegetarianas conseguem consumir proteína suficiente": {
+    "formal": [
+      "Sim, pessoas vegetarianas conseguem consumir proteína suficiente desde que façam boas combinações alimentares, como arroz e feijão, lentilha com cereais ou soja. Alimentos como quinoa, grão-de-bico e castanhas também são ótimas fontes.",
+      "Embora a proteína vegetal seja, em alguns casos, incompleta, é possível atingir todos os aminoácidos essenciais com variedade e planejamento alimentar.",
+      "Dietas vegetarianas equilibradas fornecem quantidades adequadas de proteínas e são consideradas saudáveis em todas as fases da vida."
+    ],
+    "engraçado": [
+      "Vegetariano não vive só de alface 🥬, viu? Arroz com feijão, lentilha, grão-de-bico e soja dão conta do recado!",
+      "É como jogar RPG 🎲: sozinho não dá, mas juntando feijão, arroz e grão-de-bico, o grupo fica completo.",
+      "Claro que dá! É só trocar o frango pelo feijãozinho e pela soja 🌱. Seu corpo nem sente falta!"
+    ],
+    "rude": [
+      "Sim, mas precisa planejar. Arroz com feijão, soja, grão-de-bico. Sem isso, vai faltar.",
+      "Vegetariano consegue proteína, mon ami. Só não adianta comer só salada.",
+      "Quer ser vegetariano? Então coma leguminosas e cereais. Ou ficará fraco. Voilà."
+    ]
+  },
+
+  "por que o cálcio é essencial para a saúde": {
+    "formal": [
+      "O cálcio é fundamental para a saúde dos ossos e dentes, ajudando a manter sua resistência e prevenir doenças como a osteoporose. Também participa da contração muscular e da coagulação sanguínea.",
+      "Além do fortalecimento ósseo, o cálcio auxilia no funcionamento do coração, na transmissão nervosa e em diversas reações metabólicas.",
+      "A ingestão adequada de cálcio é importante em todas as fases da vida, mas especialmente na infância, adolescência e envelhecimento."
+    ],
+    "engraçado": [
+      "Cálcio é o engenheiro dos seus ossos 👷: sem ele, a obra desmorona! Também ajuda os músculos a funcionarem e o coração a bater direitinho.",
+      "Se os ossos fossem uma parede, o cálcio seria o cimento 🧱. Sem ele, rachadura na certa!",
+      "É tipo a cola da estrutura do corpo 🧩: junta ossos, dentes e até ajuda o coração a não perder o ritmo 🎵."
+    ],
+    "rude": [
+      "Cálcio mantém ossos e dentes fortes. Sem ele, osteoporose. Voilà.",
+      "Mon ami, cálcio é essencial para ossos, músculos e coração. Não brinque com isso.",
+      "Sem cálcio, seu corpo quebra. Literalmente."
+    ]
+  },
+
+  "leite desnatado é mais saudável que o integral": {
+    "formal": [
+      "O leite desnatado possui menos gordura e calorias que o integral, sendo indicado em dietas de restrição calórica ou para quem precisa controlar a ingestão de gordura. Porém, o leite integral fornece mais saciedade e contém vitaminas lipossolúveis que dependem da gordura para serem absorvidas.",
+      "Ambos são saudáveis e a escolha depende das necessidades individuais. Quem busca reduzir calorias pode preferir o desnatado, enquanto quem não tem restrições pode consumir o integral.",
+      "O mais importante é manter o consumo equilibrado e inseri-lo dentro de um padrão alimentar saudável."
+    ],
+    "engraçado": [
+      "Leite integral é tipo versão completa do jogo 🎮, com todas as expansões. O desnatado é a versão leve, sem alguns extras, mas ainda funciona.",
+      "Integral tem mais gordura e dá mais saciedade. Desnatado é como café sem açúcar: mais leve, mas nem todo mundo gosta.",
+      "Os dois são bons! Integral é mais 'reforçado', desnatado é mais 'light'. Escolha o que combina com sua missão diária 🕹️."
+    ],
+    "rude": [
+      "Desnatado tem menos gordura. Integral tem mais sabor e saciedade. Voilà.",
+      "Mon ami, nenhum é vilão. Escolha conforme sua dieta. Simples.",
+      "Mais gordura no integral, menos no desnatado. Cabe a você decidir. Ponto."
+    ]
+  },
+
+  "quais são os principais tipos de carboidratos": {
+    "formal": [
+      "Os carboidratos podem ser divididos em simples e complexos. Os simples, como açúcar, mel e doces, são rapidamente absorvidos pelo organismo, fornecendo energia imediata. Já os complexos, como arroz integral, batata-doce, aveia e pão integral, são digeridos mais lentamente e liberam energia de forma gradual.",
+      "Carboidratos simples possuem digestão rápida e podem causar picos de glicose no sangue. Os complexos são mais saudáveis, pois contêm fibras e promovem saciedade por mais tempo.",
+      "O consumo equilibrado de ambos é importante, mas deve-se priorizar os carboidratos complexos para manter energia estável e boa saúde metabólica."
+    ],
+    "engraçado": [
+      "Carboidrato é tipo bateria 🔋: os simples são como pilha descartável (energia rápida e que acaba logo), enquanto os complexos são como bateria recarregável (dura mais tempo e é mais confiável).",
+      "Simples = açúcar, doce, mel 🍯. Complexos = arroz integral, batata-doce, pão integral 🍞. Basicamente, uns são foguete 🚀, outros são motor de navio 🚢.",
+      "Carboidrato simples é como fast food: rápido e passageiro 🍔. Complexo é comida de vó: demora mais, mas sustenta muito mais tempo 👵."
+    ],
+    "rude": [
+      "Dois tipos: simples (açúcar, doces) e complexos (arroz, batata, aveia). Voilà.",
+      "Simples dão energia rápida e somem logo. Complexos liberam energia devagar. Mon ami, prefira os complexos.",
+      "Carboidratos: açúcar ou grão. Um explode sua glicose, o outro mantém energia. Fácil."
+    ]
+  },
+
+  "por que os carboidratos são importantes para o corpo": {
+    "formal": [
+      "Os carboidratos são a principal fonte de energia do corpo. Eles fornecem combustível para o cérebro, músculos e outros órgãos, sendo essenciais para atividades diárias e práticas esportivas.",
+      "Além de energia, carboidratos complexos fornecem fibras que auxiliam na digestão e ajudam a controlar os níveis de glicose e colesterol no sangue.",
+      "A falta de carboidratos pode causar fadiga, dificuldade de concentração e perda de rendimento físico."
+    ],
+    "engraçado": [
+      "Carboidrato é o Wi-Fi do corpo 📶: sem ele, nada funciona direito. Ele dá energia pro cérebro, pros músculos e até pra você aguentar o dia!",
+      "Eles são a gasolina do corpo 🚗: sem carbo, o carro não sai da garagem. Quer correr, estudar ou pensar? Precisa de carbo!",
+      "Carboidrato é como o café da manhã do seu corpo ☕: sem ele, você fica lento, sem foco e sem energia."
+    ],
+    "rude": [
+      "Carboidrato é combustível. Sem ele, você desliga. Voilà.",
+      "Mon ami, carboidrato move cérebro e músculos. Sem isso, fica inútil.",
+      "Carboidratos são energia. Sem eles, vai viver cansado."
+    ]
+  },
+
+  "qual a diferença entre carboidratos simples e complexos": {
+    "formal": [
+      "Carboidratos simples são absorvidos rapidamente, elevando a glicose no sangue em pouco tempo. Estão presentes em doces, refrigerantes, açúcar e mel. Já os complexos possuem fibras e amido, sendo digeridos mais lentamente, como ocorre em arroz integral, batata-doce, feijão e aveia.",
+      "Os simples fornecem energia imediata, mas em excesso podem causar ganho de peso e desequilíbrio glicêmico. Os complexos oferecem energia de forma contínua, promovendo saciedade e maior controle do metabolismo.",
+      "Por isso, recomenda-se priorizar carboidratos complexos no dia a dia e consumir os simples apenas ocasionalmente."
+    ],
+    "engraçado": [
+      "Carbo simples = foguete 🚀: sobe rápido, mas cai logo. Complexo = fogão a lenha 🍲: demora, mas mantém o fogo aceso por horas.",
+      "Simples é açúcar e doce 🍭, te dá energia instantânea (e fome logo depois). Complexo é arroz integral, batata-doce 🥔, dura muito mais.",
+      "Se fosse transporte: simples é moto 🏍️ (rápida e curta), complexo é trem 🚆 (constante e duradouro)."
+    ],
+    "rude": [
+      "Simples: açúcar e doce, sobe rápido e cai rápido. Complexo: grãos e fibras, energia duradoura. Voilà.",
+      "Simples te deixa com pico de energia e depois acabado. Complexo mantém estável. Mon ami, escolha melhor.",
+      "A diferença? Um é fogo de palha, o outro sustenta. Ponto."
+    ]
+  },
+
+  "carboidrato engorda": {
+    "formal": [
+      "Os carboidratos, por si só, não engordam. O ganho de peso ocorre quando há excesso de calorias consumidas em relação ao gasto energético, independentemente da fonte. O problema está no consumo exagerado, principalmente de carboidratos simples.",
+      "Carboidratos são importantes para fornecer energia. Quando consumidos de forma equilibrada e associados a fibras, proteínas e boas gorduras, ajudam a manter um peso saudável.",
+      "O que leva ao ganho de peso é o desequilíbrio calórico, não o carboidrato em si. A qualidade e a quantidade ingerida fazem toda a diferença."
+    ],
+    "engraçado": [
+      "Carboidrato não é vilão, é super-herói ⚡. O problema é quando você chama todos os Vingadores do fast food ao mesmo tempo 🍕🍔🍟!",
+      "Engordar é mais sobre 'quanto você come' do que 'o que você come'. O carbo é só a gasolina, não o culpado.",
+      "Carbo sozinho não engorda. O problema é quando ele vem com a gangue: excesso de açúcar, fritura e sedentarismo 🛋️."
+    ],
+    "rude": [
+      "Carboidrato não engorda sozinho. Exagero engorda. Voilà.",
+      "Mon ami, o problema não é o carbo. É você comer demais e se mover pouco.",
+      "Quer culpar o pão? Non! Culpe o excesso. É simples."
+    ]
+  },
+
+  "quais alimentos são boas fontes de carboidrato saudável": {
+    "formal": [
+      "Boas fontes de carboidrato saudável incluem cereais integrais (arroz integral, aveia, quinoa), tubérculos (batata-doce, mandioca, inhame) e leguminosas (feijão, lentilha, grão-de-bico). Eles fornecem energia de longa duração e são ricos em fibras, vitaminas e minerais.",
+      "Esses alimentos ajudam no controle da saciedade, no funcionamento intestinal e no equilíbrio glicêmico.",
+      "O consumo regular de carboidratos complexos é fundamental para manter energia estável e saúde metabólica."
+    ],
+    "engraçado": [
+      "Quer energia duradoura? Vá de batata-doce 🥔, aveia 🌾, arroz integral 🍚 e feijãozinho brasileiro 🇧🇷.",
+      "Carbo bom é tipo amigo de verdade 🤝: não te deixa na mão. Aveia, quinoa, mandioca e feijão estão nessa lista!",
+      "Arroz integral, lentilha, batata-doce... esses são os carboidratos 'parceiros', não os traíras do fast food 🍔."
+    ],
+    "rude": [
+      "Carboidrato saudável? Arroz integral, aveia, batata-doce, feijão. Voilà.",
+      "Mon ami, escolha grãos integrais e tubérculos. O resto é porcaria.",
+      "Quer energia boa? Arroz integral, mandioca, lentilha. Simples."
+    ]
+  },
+
+  "quais são os tipos de gorduras": {
+    "formal": [
+      "Existem diferentes tipos de gorduras: as insaturadas, consideradas boas, estão presentes em alimentos como azeite, abacate, oleaginosas e peixes; as saturadas, encontradas em carnes gordas, laticínios integrais e manteiga, devem ser consumidas com moderação; e as trans, presentes em produtos ultraprocessados, devem ser evitadas.",
+      "As gorduras insaturadas ajudam na saúde do coração e no controle do colesterol. Já as saturadas, quando consumidas em excesso, podem aumentar o risco de doenças cardiovasculares. As trans são as mais prejudiciais e devem ser cortadas da alimentação.",
+      "Cada tipo de gordura tem impacto diferente no corpo, por isso é importante saber distinguir e dar preferência às opções mais saudáveis."
+    ],
+    "engraçado": [
+      "Gordura é tipo turma da escola 👩‍🏫: tem os bons alunos (insaturadas — azeite, castanhas, peixe 🐟), os bagunceiros que precisam de limite (saturadas — carne gorda, manteiga 🧈) e os repetentes que só atrapalham (trans — salgadinhos e biscoitos recheados 🍪).",
+      "Tem a gordura 'do bem' (insaturada) que ajuda o coração ❤️, a 'meio a meio' (saturada) que precisa ser controlada, e a 'do mal' (trans) que você devia expulsar do prato!",
+      "Se fosse novela 🎬: insaturada é o mocinho, saturada é o vilão com redenção possível, e a trans é o vilão cruel que não tem salvação!"
+    ],
+    "rude": [
+      "Três tipos: insaturada (boa), saturada (cuidado) e trans (lixo). Voilà.",
+      "Mon ami, insaturada protege o coração. Saturada em excesso faz mal. Trans? Jogue fora.",
+      "Não complique: insaturada sim, saturada pouco, trans jamais."
+    ]
+  },
+
+  "por que precisamos de gorduras boas": {
+    "formal": [
+      "As gorduras boas, como as insaturadas, são essenciais para o corpo. Elas fornecem energia, ajudam na absorção de vitaminas lipossolúveis (A, D, E e K), protegem o coração e participam da produção de hormônios.",
+      "Essas gorduras estão presentes em alimentos como azeite de oliva, abacate, castanhas, sementes e peixes ricos em ômega-3, e seu consumo regular contribui para a saúde cardiovascular e cerebral.",
+      "Embora sejam benéficas, as gorduras boas devem ser consumidas com moderação, já que ainda são calóricas."
+    ],
+    "engraçado": [
+      "Gordura boa é tipo amigo fiel 🤝: te dá energia, protege o coração e ainda ajuda o cérebro a funcionar. Azeite, castanhas e abacate são da turma do bem!",
+      "Elas são como capa de celular resistente 📱: absorvem impactos e protegem seu corpo, só que na versão saúde.",
+      "Pensa nelas como óleo de motor 🚗: sem elas, nada funciona direito. Mas também não dá pra encher o motor de óleo!"
+    ],
+    "rude": [
+      "Precisamos das boas porque elas dão energia, ajudam vitaminas e protegem o coração. Voilà.",
+      "Mon ami, sem gordura boa seu corpo trava. Mas não exagere.",
+      "Gordura boa mantém você vivo. É simples."
+    ]
+  },
+
+  "qual a diferença entre gorduras boas e ruins": {
+    "formal": [
+      "As gorduras boas (insaturadas) ajudam a reduzir o colesterol ruim e proteger o coração, enquanto as ruins (saturadas em excesso e trans) podem aumentar o risco de doenças cardiovasculares.",
+      "As boas estão presentes em azeite, oleaginosas, sementes e peixes; as ruins em frituras, salgadinhos, biscoitos recheados e fast food.",
+      "O segredo é escolher as gorduras de boa qualidade e evitar ao máximo as prejudiciais, mantendo equilíbrio."
+    ],
+    "engraçado": [
+      "As boas são tipo heróis da Marvel 🦸: azeite, castanhas, peixe... As ruins são os vilões disfarçados 😈: biscoito recheado, fritura e salgadinho de pacote.",
+      "Gordura boa = escudo 🛡️ pro coração. Gordura ruim = martelo na engrenagem ⚒️ que quebra tudo.",
+      "Se fosse playlist 🎶: gordura boa é música relaxante, gordura ruim é funk tocando no volume máximo às 5h da manhã!"
+    ],
+    "rude": [
+      "Boa: azeite, peixe, castanhas. Ruim: fritura, fast food, biscoito. Voilà.",
+      "Mon ami, gordura boa protege. Gordura ruim destrói. Simples.",
+      "Diferença? Uma salva, outra mata. Ponto."
+    ]
+  },
+
+  "quais alimentos são fontes de gorduras saudáveis": {
+    "formal": [
+      "Boas fontes de gorduras saudáveis incluem azeite de oliva, abacate, castanhas, nozes, amêndoas, sementes de chia e linhaça, além de peixes como salmão, sardinha e atum.",
+      "Esses alimentos fornecem ômega-3 e outros nutrientes que ajudam a reduzir inflamações, melhorar a saúde do coração e fortalecer o cérebro.",
+      "O consumo equilibrado dessas gorduras pode contribuir para a longevidade e prevenção de doenças."
+    ],
+    "engraçado": [
+      "Quer gordura boa? Procure no time 'fitness gourmet' 🥑: abacate, azeite, castanhas e salmão. Eles são os VIPs da saúde!",
+      "Sabe aquele mix de castanhas? 🌰 Parece só petisco, mas é ouro pro coração e pro cérebro.",
+      "Gordura boa mora em azeite, nozes, linhaça e até naquele sushi com salmão 🍣!"
+    ],
+    "rude": [
+      "Azeite, abacate, castanhas, sementes e peixes gordurosos. Voilà.",
+      "Mon ami, quer gordura boa? Vai de salmão, azeite e nozes.",
+      "Não invente moda: azeite, peixe, castanhas. É isso."
+    ]
+  },
+
+  "o que acontece se eu consumir muita gordura ruim": {
+    "formal": [
+      "O consumo excessivo de gorduras ruins, como as saturadas em excesso e principalmente as trans, aumenta o risco de doenças cardiovasculares, obesidade, diabetes tipo 2 e colesterol elevado.",
+      "Essas gorduras podem acumular placas de gordura nas artérias, prejudicar a circulação sanguínea e comprometer a saúde do coração.",
+      "Por isso, é recomendado limitar frituras, fast food, salgadinhos e produtos industrializados, priorizando gorduras saudáveis."
+    ],
+    "engraçado": [
+      "Comer muita gordura ruim é tipo entupir o cano da pia com óleo velho 🚰: uma hora dá problema sério no encanamento (seu coração!).",
+      "É como colocar óleo de fritura no motor do carro 🚗: no começo até anda, mas logo quebra tudo.",
+      "Exagerar em gordura ruim é chamar problema pra casa: colesterol alto, obesidade e até infarto batendo na porta 🚪."
+    ],
+    "rude": [
+      "Muita gordura ruim entope suas artérias. Depois vem infarto. Voilà.",
+      "Mon ami, coma fritura todo dia e prepare-se para colesterol e doenças.",
+      "Gordura ruim em excesso mata. Ponto."
+    ]
+  },
+
+  "o que é o IMC": {
+    "formal": [
+      "O IMC, ou Índice de Massa Corporal, é uma medida que relaciona o peso e a altura de uma pessoa para avaliar se está dentro de uma faixa considerada saudável. Ele é calculado dividindo o peso em quilos pela altura em metros ao quadrado.",
+      "Embora seja útil para indicar se alguém está abaixo, dentro ou acima do peso ideal, o IMC não leva em conta fatores como massa muscular, idade ou distribuição de gordura corporal.",
+      "Por isso, o IMC deve ser interpretado junto a outros exames e avaliações médicas, servindo apenas como um indicador inicial."
+    ],
+    "engraçado": [
+      "IMC é tipo aquela régua da escola 📏: mede se você está dentro da faixa considerada saudável. É só dividir o peso pela altura ao quadrado — uma matemática rápida que dá uma noção.",
+      "Pensa nele como balança da justiça ⚖️ do corpo: mostra se você tá leve demais, equilibrado ou pesando a barra!",
+      "IMC é como medidor de tanque de gasolina ⛽: dá uma ideia do nível, mas não mostra o que realmente tem dentro do carro (no caso, músculo, gordura e saúde de verdade)."
+    ],
+    "rude": [
+      "IMC é peso dividido pela altura ao quadrado. Serve pra ver se você está abaixo, dentro ou acima do peso. Voilà.",
+      "Mon ami, é só um cálculo simples. Mas não se iluda: não mostra tudo.",
+      "Peso ÷ altura². Isso é o IMC. Simples."
+    ]
+  },
+
+  "o que é metabolismo basal": {
+    "formal": [
+      "O metabolismo basal é a quantidade mínima de energia que o corpo gasta para manter funções vitais em repouso, como respiração, circulação sanguínea e funcionamento dos órgãos.",
+      "Ele varia de pessoa para pessoa, sendo influenciado por fatores como idade, sexo, peso, altura e composição corporal.",
+      "Conhecer o metabolismo basal ajuda a planejar dietas e rotinas de atividade física de forma mais eficiente."
+    ],
+    "engraçado": [
+      "Metabolismo basal é tipo a conta de luz mínima ⚡: mesmo que você desligue tudo, ainda paga pelo básico. No corpo, é a energia pra respirar, manter o coração batendo e os órgãos funcionando.",
+      "Pensa nele como motor de carro ligado em ponto morto 🚗: você não anda, mas o motor ainda gasta combustível.",
+      "É como bateria de celular 🔋: mesmo sem mexer, ela vai descarregando porque o sistema precisa rodar em segundo plano."
+    ],
+    "rude": [
+      "Metabolismo basal é a energia que seu corpo gasta só pra te manter vivo. Voilà.",
+      "Mon ami, mesmo dormindo você consome calorias. Isso é metabolismo basal.",
+      "É o mínimo gasto energético do corpo. Simples."
+    ]
+  },
+
+  "quais são os distúrbios alimentares": {
+    "formal": [
+      "Os principais distúrbios alimentares incluem anorexia nervosa, caracterizada pela restrição extrema da alimentação; bulimia nervosa, marcada por episódios de compulsão seguidos de métodos compensatórios como vômitos; e transtorno da compulsão alimentar, quando a pessoa come em excesso de forma recorrente e sem controle.",
+      "Essas condições podem causar sérios prejuízos à saúde física e mental, sendo essencial buscar acompanhamento médico e psicológico.",
+      "Outros distúrbios incluem ortorexia, quando há obsessão por alimentos considerados saudáveis, e vigorexia, relacionada à busca exagerada por um corpo musculoso."
+    ],
+    "engraçado": [
+      "Distúrbios alimentares são como vilões disfarçados 🕵️: parecem inofensivos no começo, mas fazem estrago grande. Exemplos: anorexia (quando a pessoa come quase nada), bulimia (come demais e depois tenta compensar) e compulsão alimentar (quando a comida vira maratona sem freio).",
+      "É como se a relação com a comida perdesse o equilíbrio: em vez de parceira, ela vira inimiga ou obsessão.",
+      "Dá pra pensar como novela dramática 🎭: anorexia é o personagem que some demais, bulimia o que exagera e depois se arrepende, e compulsão o que não consegue parar de comer."
+    ],
+    "rude": [
+      "Distúrbios alimentares: anorexia, bulimia e compulsão alimentar. Graves e perigosos. Voilà.",
+      "Mon ami, não brinque com isso. Esses distúrbios destroem corpo e mente.",
+      "Anorexia, bulimia, compulsão. Problemas sérios. Simples."
+    ]
+  },
+
+  "o que são micronutrientes": {
+    "formal": [
+      "Micronutrientes são vitaminas e minerais que o corpo necessita em pequenas quantidades, mas que são fundamentais para diversas funções vitais, como fortalecer a imunidade, regular o metabolismo e manter ossos, pele e órgãos saudáveis.",
+      "Apesar de serem necessários em quantidades reduzidas, a deficiência de micronutrientes pode causar sérios problemas de saúde, como anemia, enfraquecimento ósseo e baixa imunidade.",
+      "Eles estão presentes em frutas, verduras, legumes, grãos integrais e alimentos de origem animal."
+    ],
+    "engraçado": [
+      "Micronutrientes são tipo parafusos pequenininhos 🪛: parecem sem importância, mas se faltam, a máquina (seu corpo) não funciona direito.",
+      "Eles são como tempero na comida 🍲: usados em pouca quantidade, mas fazem toda a diferença no resultado.",
+      "Pensa neles como superpoderes escondidos ⚡: você precisa só de um pouquinho, mas sem eles, o corpo perde força!"
+    ],
+    "rude": [
+      "Micronutrientes são vitaminas e minerais em pequenas quantidades, mas essenciais. Voilà.",
+      "Mon ami, sem eles seu corpo quebra. Mesmo sendo poucos, são vitais.",
+      "São pequenos, mas sem eles você adoece. Simples."
+    ]
+  },
+
+  "qual a importância das vitaminas": {
+    "formal": [
+      "As vitaminas são essenciais para o funcionamento do organismo, atuando em processos como fortalecimento da imunidade, produção de energia, saúde da pele, visão e ossos.",
+      "Cada vitamina tem uma função específica: a vitamina C ajuda na imunidade, a D fortalece os ossos, as do complexo B participam do metabolismo, e assim por diante.",
+      "A ausência ou excesso de vitaminas pode prejudicar a saúde, por isso o equilíbrio é fundamental."
+    ],
+    "engraçado": [
+      "Vitaminas são como uma equipe de heróis 🦸: cada uma tem um poder especial — C protege contra resfriados, D fortalece os ossos, B dá energia...",
+      "Pensa nelas como aplicativos do celular 📱: cada um tem uma função, mas juntos deixam o sistema rodando bem.",
+      "Sem vitaminas, seu corpo é tipo computador sem atualização 💻: trava, dá erro e fica vulnerável."
+    ],
+    "rude": [
+      "Vitaminas mantêm você funcionando: imunidade, energia, ossos. Voilà.",
+      "Cada vitamina faz um trabalho. Sem elas, problemas aparecem. Simples.",
+      "Mon ami, sem vitaminas você trava como máquina velha."
+    ]
+  },
+
+  "qual a importância dos minerais": {
+    "formal": [
+      "Os minerais têm funções vitais no organismo: o cálcio fortalece ossos e dentes, o ferro transporta oxigênio no sangue, o potássio ajuda no equilíbrio muscular e o magnésio participa de reações metabólicas.",
+      "Eles não fornecem energia, mas são indispensáveis para que o corpo funcione corretamente.",
+      "Uma alimentação variada, com vegetais, frutas, grãos e alimentos de origem animal, garante o aporte adequado de minerais."
+    ],
+    "engraçado": [
+      "Minerais são tipo as ferramentas de uma oficina 🔧: cada um serve pra uma coisa, mas sem eles nada funciona. O cálcio é a chave de fenda dos ossos, o ferro é o caminhão do oxigênio 🚚, o potássio é o técnico dos músculos.",
+      "São como Wi-Fi no corpo 📡: você não vê, mas se faltar, tudo trava.",
+      "Minerais são como os personagens secundários de um filme 🎬: não aparecem tanto, mas sem eles a história não anda."
+    ],
+    "rude": [
+      "Minerais: cálcio pros ossos, ferro pro sangue, potássio pros músculos. Voilà.",
+      "Mon ami, eles não dão energia, mas sem eles nada funciona.",
+      "Sem minerais, seu corpo entra em pane. Simples."
+    ]
+  },
+
+  "quais alimentos são ricos em vitaminas e minerais": {
+    "formal": [
+      "Frutas, verduras, legumes, oleaginosas, cereais integrais, carnes, ovos e laticínios são ricos em vitaminas e minerais.",
+      "Cada grupo de alimentos contribui de forma diferente: frutas cítricas trazem vitamina C, leite e derivados fornecem cálcio, carnes vermelhas oferecem ferro, e peixes e oleaginosas são fontes de magnésio e zinco.",
+      "Uma alimentação variada é a melhor forma de garantir todos os micronutrientes necessários."
+    ],
+    "engraçado": [
+      "Quer vitaminas e minerais? Vá à feira 🛒: frutas, verduras e legumes são praticamente um shopping da saúde!",
+      "É como montar uma liga de super-heróis 🍎🥦🥩: cada alimento traz um poder especial pro corpo.",
+      "Frutas cítricas são tipo carregador rápido ⚡ (vitamina C), leite é cimento pros ossos 🧱 (cálcio), carne vermelha é o caminhão de oxigênio 🚚 (ferro)."
+    ],
+    "rude": [
+      "Frutas, verduras, legumes, carne, leite e ovos. Voilà.",
+      "Mon ami, feira e açougue resolvem isso. Não complique.",
+      "Quer vitaminas e minerais? Coma variado, não só fast food."
     ]
   }
 }

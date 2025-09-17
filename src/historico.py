@@ -44,7 +44,7 @@ class Historico:
         except FileNotFoundError:
             return []
         
-    def historico_vazio(self):
+    def registro_vazio(self):
         """
         Checa se há algo escrito no histórico.
         """
