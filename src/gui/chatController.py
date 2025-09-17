@@ -1,6 +1,6 @@
 import json
 import random
-from src.main import ChatBot
+from main import ChatBot
 
 class ChatController:
     """
