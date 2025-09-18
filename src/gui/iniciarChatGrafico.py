@@ -3,7 +3,9 @@ from tkinter import messagebox
 from .usuarioInput import CaixaMensagem
 from .chatController import ChatController
 from ..historico import Historico
+from src.personalidades import Personalidade
 from pathlib import Path
+
 
 class Root(tk.Tk):
     def __init__(self):
@@ -23,9 +25,15 @@ class Root(tk.Tk):
         activebackground="#0e8c6f",
         command = self.gerar_relatorio)
         self.btn_relatorio.pack(side=tk.BOTTOM, pady=5)
+        
+        # Botão para trocar a personalidade
+        self.btn_personalidade = tk.Button(
+            self, text="Trocar Personalidade", command=self.trocar_personalidade
+        )
+        self.btn_personalidade.pack(pady=10)
 
 
-        # Estilo inspirado pelo chat gepeto: fundo escuro
+        # Estilo inspirado pelo chat gepeto: cores mais escuras
         self.configure(background="#343541")
 
         # Área de mensagens (com scrollbar)
@@ -138,6 +146,7 @@ class Root(tk.Tk):
                 self.ocultar_aprendizado()
 
     def salvar_resposta_aprendida(self):
+        """salva em srchistorico.txt"""
         nova_resposta = self.entry_aprender.get().strip()
         if self.ultima_pergunta and nova_resposta:
             self.controller.aprender(self.ultima_pergunta, nova_resposta)
@@ -173,6 +182,39 @@ class Root(tk.Tk):
             pass
 
         return caminho_relatorio
+    
+    
+    def trocar_personalidade(self):
+        """
+        Abre uma janelinha com botões de escolha de personalidade.
+        """
+        popup = tk.Toplevel(self)
+        popup.title("Escolher Personalidade")
+        popup.geometry("300x200")
+
+        tk.Label(popup, text="Selecione a personalidade:", font=("Arial", 12)).pack(pady=10)
+
+        personalidades = ["formal", "engraçado", "rude"]
+
+        for p in personalidades:
+            btn = tk.Button(
+                popup, text=p.capitalize(), width=20,
+                command=lambda escolha=p: self.definir_personalidade(escolha, popup)
+            )
+            btn.pack(pady=5)
+    
+    def definir_personalidade(self, escolha, popup):
+        """
+        Define a personalidade escolhida e fecha o popup.
+        """
+        resultado = Personalidade.selecionar_personalidade(escolha)
+        if resultado:
+            self.controller.set_personalidade = resultado
+            messagebox.showinfo("Personalidade", f"Personalidade alterada para: {resultado}")
+        else:
+            messagebox.showwarning("Personalidade", f"'{escolha}' não é válida.")
+        popup.destroy()
+
 
 
 

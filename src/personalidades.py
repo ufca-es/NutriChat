@@ -8,6 +8,7 @@ class Personalidade:
         Se o texto passado correspnder a uma personalidade, retorna a personalidade(str).
         Senão, retorna Falso(bool).
         """
+        #provavelmente, colocar aqui uma opcao para deixar como True no gui, esse deve ser o problema
         opcoes_formal = ('1','formal', 'nutri bot')
         opcoes_engracado = ('2', 'engraçado', 'nutrilove')
         opcoes_rude = ('3', 'rude', 'chief')

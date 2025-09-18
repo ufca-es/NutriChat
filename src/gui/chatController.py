@@ -7,21 +7,31 @@ from utils.checagem_de_texto import Texto
 class ChatController:
 
     def __init__(self, data_dir: Optional[str] = None):
+        # Cria o diretório data se não existir
         if data_dir is None:
             base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
             data_dir = os.path.join(base_dir, "data")
         self.data_dir = data_dir
         os.makedirs(self.data_dir, exist_ok=True)
-
+        
+        # Caminhos dos arquivos
         self.json_path = os.path.join(self.data_dir, "perguntas_e_respostas.json")
         self.txt_path = os.path.join(self.data_dir, "aprendizado.txt")
 
         # decide se deve mostrar o widget, inicialmente oculto
         self.pergunta_desconhecida = None
 
+        #Inicialmente, formal como padrão. pode mudar depois
+        self.personalidade = "formal" 
+        self.data_dir = data_dir
+        self.base_respostas = {}
+        self.pergunta_desconhecida = None
+
+        self.carregar_respostas()
+
     @staticmethod
     def normalizar_pergunta(pergunta: str) -> str:
-        return pergunta.strip().lower()
+       return pergunta.strip().lower()
 
     def ler_resposta(self, pergunta: str, estilo: str = "formal") -> Optional[str]:
         # 1 - JSON
@@ -113,6 +123,27 @@ class ChatController:
                 pass
 
         return False
+    
+
+    def carregar_respostas(self):
+        """
+        Carrega as respostas do JSON da personalidade atual.
+        Exemplo: perguntas_formal.json, perguntas_engracado.json, etc
+        """
+        caminho = os.path.join(self.data_dir, f"perguntas_{self.personalidade}.json")
+        if os.path.exists(caminho):
+            with open(caminho, "r", encoding="utf-8") as f:
+                self.base_respostas = json.load(f)
+        else:
+            self.base_respostas = {}
+
+    def set_personalidade(self, personalidade: str):
+        """
+        Define a personalidade e recarrega as respostas.
+        """
+        self.personalidade = personalidade
+        self.carregar_respostas()
+
 
     def responder(self, pergunta: str) -> str:
         """devolve resposta se souber, caso contrário retorna mensagem padrão."""

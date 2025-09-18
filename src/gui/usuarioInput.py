@@ -17,7 +17,6 @@ class CaixaMensagem(tk.Frame):
         self.enviar_mensagem()
         return "break"
 
-
     def enviar_mensagem(self):
         mensagem = self.texto.get("1.0", tk.END).strip()
         if mensagem:
