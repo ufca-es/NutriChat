@@ -1,7 +1,11 @@
 from src.chatbot import ChatBot
 from src.historico import Historico
+from src.gui.iniciarChatGrafico import Root
 
 if __name__ == "__main__":
+
+    app = Root()
+    app.mainloop()
 
     historico = Historico()
     chatbot = ChatBot()
