@@ -1,43 +1,7 @@
-<<<=================>>>
 
-[16/09/2025 20:10:25] Usuário: quero melhorar minha alimentação
-[16/09/2025 20:10:25] Bot[formal]: Desculpe, ainda não sei a responder isso.
-Quer cadastrar uma resposta?
-
-[16/09/2025 20:11:51] Usuário: sim
-[16/09/2025 20:11:51] Bot[formal]: Como devo responder a pergunta?
-quero melhorar minha alimentação
-
-[16/09/2025 20:12:15] Usuário: Procure aloi
-[16/09/2025 20:12:15] Bot[formal]: Conhecimento aprendido!
-
-[16/09/2025 20:12:33] Usuário: qr melhorar minha alimentacao
-[16/09/2025 20:12:33] Bot[formal]: Procure aloi
-Gostaria de cadastrar um nova resposta?
-
-[16/09/2025 20:12:54] Usuário: trocar personalidade
-[16/09/2025 20:12:54] Bot[formal]: Qual personagem deseja conversar?: 1. N.U.T.R.I Bot(formal), 2. NutriLove(engraçada) ou Chief(rude)
-
-[16/09/2025 20:13:07] Usuário: 3
-[16/09/2025 20:13:07] Bot[rude]: Personalidade alterada para rude
-
-[16/09/2025 20:13:13] Usuário: Comod 
-[16/09/2025 20:13:13] Bot[rude]: Desculpe, ainda não sei a responder isso.
-Quer cadastrar uma resposta?
-
-[16/09/2025 20:13:17] Usuário: não
-[16/09/2025 20:13:17] Bot[rude]: Entendido, posso tentar aprender depois.
-
-[16/09/2025 20:13:38] Usuário: como ter uma alimentação saudável
-[16/09/2025 20:13:38] Bot[rude]: Você quer viver bem? Então pare de comer como se estivesse em um fast-food eterno. Alimentação saudável é equilibrar nutrientes: carboidratos bons, proteínas, gorduras de qualidade, vitaminas e minerais. Frutas, verduras, legumes, cereais, proteínas e laticínios. O resto — refrigerante, fritura, doce de pacote — jogue fora. Très simple.
-
-[16/09/2025 20:14:02] Usuário: obrigado, seu bruto
-[16/09/2025 20:14:02] Bot[rude]: Desculpe, ainda não sei a responder isso.
-Quer cadastrar uma resposta?
-
-[16/09/2025 20:14:07] Usuário: sair
-[16/09/2025 20:14:07] Bot[rude]: Encerrando o programa. Até mais!
+[18/09/2025 12:45:28] Usuário: 123
+[18/09/2025 12:45:28] Bot[N/A]: 1234
 ----Estatísticas----
-Pergunta Mais Frequente: ('quero melhorar minha alimentação', 1)
-Contagem de Interações: 11
-Personalidade Mais usada: ('rude', 6)
+Pergunta Mais Frequente: ('123', 1)
+Contagem de Interações: 1
+Personalidade Mais usada: ('N/A', 1)

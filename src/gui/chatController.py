@@ -16,7 +16,7 @@ class ChatController:
         self.json_path = os.path.join(self.data_dir, "perguntas_e_respostas.json")
         self.txt_path = os.path.join(self.data_dir, "aprendizado.txt")
 
-        # flag usada pela GUI para decidir se deve mostrar o widget
+        # decide se deve mostrar o widget, inicialmente oculto
         self.pergunta_desconhecida = None
 
     @staticmethod
@@ -52,7 +52,7 @@ class ChatController:
                     self.pergunta_desconhecida = None
                     return escolhido
 
-        # 2 - aprendizado.txt
+        # 2 - aprendizado
         if os.path.exists(self.txt_path):
             try:
                 with open(self.txt_path, "r", encoding="utf-8") as f:
@@ -135,3 +135,4 @@ class ChatController:
         except OSError:
             #improvavel que aconteça, mas se acontecer, não quero que o bot quebre
             print("Erro ao salvar aprendizado")
+            

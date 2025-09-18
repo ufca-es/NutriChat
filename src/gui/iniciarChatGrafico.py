@@ -3,6 +3,7 @@ from tkinter import messagebox
 from .usuarioInput import CaixaMensagem
 from .chatController import ChatController
 from ..historico import Historico
+from pathlib import Path
 
 
 class Root(tk.Tk):
@@ -12,6 +13,18 @@ class Root(tk.Tk):
         self.title("NutriChat")
         self.geometry("800x600")
         self.ultima_pergunta = None
+        self.historico = Historico()
+        
+        #botão para gerar um relatório
+        self.btn_relatorio = tk.Button(
+        self,
+        text="Gerar Relatório",
+        bg="#10a37f",
+        fg="white",
+        activebackground="#0e8c6f",
+        command = self.gerar_relatorio)
+        self.btn_relatorio.pack(side=tk.BOTTOM, pady=5)
+
 
         # Estilo ChatGPT: fundo escuro
         self.configure(background="#343541")
@@ -98,6 +111,15 @@ class Root(tk.Tk):
 
         resposta_bot = self.controller.responder(mensagem)
         self.adicionar_mensagem(f"Bot: {resposta_bot}", usuario=False)
+        
+         # Salva interação no histórico
+        self.historico.salvar(
+        mensagem,
+        resposta_bot,
+        self.controller.personalidade if hasattr(self.controller, "personalidade") 
+        #caso nenhuma personalidade tenha sido selecionada, evita erro
+        else "N/A"
+        )
 
         # Se o bot nnão souber responder, controller.pergunta_desconhecida fica com a pergunta
         if self.controller.pergunta_desconhecida:
@@ -132,6 +154,23 @@ class Root(tk.Tk):
     def ocultar_aprendizado(self):
         self.ultima_pergunta = None
         self.frame_aprendizado.pack_forget()
+    
+    def gerar_relatorio(self):
+        """Gera um relatório da última sessão (sobrescreve relatorio.txt a cada vez)."""
+
+        # Gera/atualiza estatísticas
+        # (o próprio gerar_relatorio do Historico chama gerar_estatisticas internamente)
+        caminho_relatorio = self.historico.gerar_relatorio()
+
+        # opcional: notificar o usuário onde o relatório foi salvo
+        try:
+            messagebox.showinfo("Relatório", f"Relatório gerado em:\n{caminho_relatorio}")
+        except Exception:
+            # headless / sem GUI possível: apenas ignore
+            pass
+
+        return caminho_relatorio
+
 
 
 if __name__ == "__main__":
