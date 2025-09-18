@@ -9,7 +9,7 @@ from utils.tokens import Tokens
 class ChatBot:
 
     def __init__(self):
-        self.personalidade = 'formal'
+        self.personalidade = p.personalidade
         self.pergunta_desconhecida = None
         self.aguardando_aprendizado = False
         self.solicitado_aprendizado = False
@@ -26,7 +26,7 @@ class ChatBot:
         self.conhecimentos_aprendidos = self.aprendizado.carregar()
         
     def _gerar_resposta(self, pergunta: str) -> str:
-        return random.choice(self.base_conhecimento[pergunta][self.personalidade])
+        return random.choice(self.base_conhecimento[pergunta][p.personalidade])
     
     def _gerar_resposta_aprendida(self, pergunta: str) -> str:
         self.conhecimentos_aprendidos = self.aprendizado.carregar()
@@ -73,7 +73,8 @@ class ChatBot:
             # Muda a personalidade (str)
             else:
                 self.solicitado_trocar_personalidade = False
-                self.personalidade = p.selecionar_personalidade(pergunta)
+                p.personalidade = p.selecionar_personalidade(pergunta)
+                self.personalidade = p.personalidade
                 return f'Personalidade alterada para {self.personalidade}'
                 
         # Fluxo padrão
@@ -131,7 +132,7 @@ if __name__ == "__main__":
         resposta = chatbot.responder(pergunta)
         print('\n— ',resposta)
 
-        historico.salvar(pergunta, resposta, chatbot.personalidade)
+        historico.salvar(pergunta, resposta, p.personalidade)
 
         if chatbot.solicitado_sair:
 

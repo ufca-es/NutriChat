@@ -2,6 +2,8 @@ from utils.checagem_de_texto import Texto as t
 
 class Personalidade:
 
+    personalidade = 'formal'
+
     @staticmethod
     def selecionar_personalidade(resposta_usuario: str) -> str|bool:
         """

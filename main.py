@@ -4,8 +4,8 @@ from src.gui.iniciarChatGrafico import Root
 
 if __name__ == "__main__":
 
-    app = Root()
-    app.mainloop()
+    #app = Root()
+    #app.mainloop()
 
     historico = Historico()
     chatbot = ChatBot()
