@@ -5,7 +5,6 @@ from .chatController import ChatController
 from ..historico import Historico
 from pathlib import Path
 
-
 class Root(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -26,7 +25,7 @@ class Root(tk.Tk):
         self.btn_relatorio.pack(side=tk.BOTTOM, pady=5)
 
 
-        # Estilo ChatGPT: fundo escuro
+        # Estilo inspirado pelo chat gepeto: fundo escuro
         self.configure(background="#343541")
 
         # Área de mensagens (com scrollbar)
@@ -61,6 +60,7 @@ class Root(tk.Tk):
             self.frame_aprendizado, text="Me ensine uma resposta:",
             bg="#444654", fg="white"
         )
+        
         self.entry_aprender = tk.Entry(self.frame_aprendizado, width=40, bg="#565869", fg="white", insertbackground="white")
         self.btn_aprender = tk.Button(
             self.frame_aprendizado,
@@ -79,7 +79,10 @@ class Root(tk.Tk):
         self.frame_aprendizado.pack_forget()
 
     def adicionar_mensagem(self, texto, usuario=True):
-        """Adiciona mensagem no estilo de balão"""
+        """Adiciona mensagem no estilo de balão \n 
+        :param: texto: texto da mensagem
+        :param: usuario: True se for mensagem do usuário, False se for do bot
+        """
         cor_fundo = "#565869" if usuario else "#444654"
         cor_texto = "white"
         alinhamento = "e" if usuario else "w"
@@ -166,7 +169,7 @@ class Root(tk.Tk):
         try:
             messagebox.showinfo("Relatório", f"Relatório gerado em:\n{caminho_relatorio}")
         except Exception:
-            # headless / sem GUI possível: apenas ignore
+            # sem GUI possível: apenas para debug, improvavel que aconteça durante a execução
             pass
 
         return caminho_relatorio
