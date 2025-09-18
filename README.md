@@ -35,10 +35,9 @@ Criação de classes, funções e vetores. Arquivos json e txt.
 
 # Como executar: 
 
-Para executar o NutriChat é muito simples. Com a interface aberta, basta clicar na barra de digitação na parte de baixo da interface e digitar uma mensagem de texto e em seguida clicar em enviar. A partir dessa mensagem o chat vai oferecer uma das respostas que estejam cadastradas na sua base de dados em formato .json com o padrão formal.
-Caso a mensagem fornecida pelo usuário seja desconhecida pelo chatbot, será exibida uma mensagem solicitando uma resposta do usuário para a pergunta, uma resposta será solicitada ao usuário e essa resposta ficará gravada na base de dados da plataforma, a partir desse momento.
+Para executar o NutriChat é muito simples. Com a interface aberta, basta clicar na barra de digitação localizada na parte inferior da interface e digitar uma mensagem de texto. Em seguida clica-se em enviar para que o chat leia a sua pergunta. A partir dessa pergunta, o chat vai oferecer uma das respostas que estejam cadastradas na sua base de dados em formato .json com o padrão formal. Caso o usuário queira trocar a personalidade ele deve digitar "selecionar personalidade", enviar e depois digitar o nome da personalidade com quem ele deseja interagir. Temos três opções: a formal, a engraçada e a rude que podem ser trocadas a qualquer momento, ficando a critério do usuário.
 
-No NutriChat o usuário tem o direito de escolher com qual personalidade deseja interagir. Temos três opções: a formal, a engraçado e a rude que podem ser trocadas a qualquer momento, ficando a critério do usuário.
+Caso a mensagem fornecida pelo usuário seja desconhecida pelo chatbot, será exibida uma mensagem solicitando uma resposta do usuário para a pergunta e essa resposta ficará gravada na base de dados da plataforma, a partir desse momento.
 
 Durante a execução o usuário pode fazer perguntas relacionadas a suas necessidades nutricionais, podendo ser relacionadas a desejos de mudanças nos hábitos alimentares, duvidas sobre alimentação saudável e conselhos para evitar o desperdicio dos alimentos.
 
