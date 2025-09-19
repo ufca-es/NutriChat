@@ -269,3 +269,26 @@ class Historico:
 
         except FileNotFoundError:
             return []
+
+    def perguntas_mais_frequentes(self, limite=3):
+        """
+        Retorna as perguntas mais frequentes feitas pelo usuário.
+        """
+        try:
+            with open(self.arquivo, "r", encoding="utf-8") as arq:
+                linhas = arq.readlines()
+
+            perguntas = []
+            for linha in linhas:
+                if "Usuário:" in linha:
+                    pergunta = linha.split("Usuário:")[1].strip()
+                    perguntas.append(pergunta)
+
+            if not perguntas:
+                return []
+
+            contagem = Counter(perguntas)
+            return contagem.most_common(limite)
+
+        except FileNotFoundError:
+            return []

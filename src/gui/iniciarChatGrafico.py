@@ -4,8 +4,6 @@ from .usuarioInput import CaixaMensagem
 from .chatController import ChatController
 from ..historico import Historico
 from src.personalidades import Personalidade
-from pathlib import Path
-
 
 class Root(tk.Tk):
     def __init__(self):
@@ -20,35 +18,56 @@ class Root(tk.Tk):
         self.controller = ChatController()
         self.controller.historico = self.historico
         
+        # Esses dois frames, servem para concatenar os botões da parte inferior
+        # No caso, não dava pra so botar BOTTOM
+        frame_botoes = tk.Frame(self, bg="#343541")
+        frame_botoes.pack(side=tk.BOTTOM, pady=5)
+        
+        # Botão para trocar a personalidade
+        self.btn_personalidade = tk.Button(
+            text="Trocar Personalidade",
+            bg="#6c757d", 
+            fg="white",
+            activebackground="#5a6268",
+            command=self.trocar_personalidade
+        )
+        self.btn_personalidade.pack(side=tk.TOP, padx=5)
+
+        
         #botão para gerar um relatório
         self.btn_relatorio = tk.Button(
-        self,
+        frame_botoes,
         text="Gerar Relatório",
         bg="#10a37f",
         fg="white",
         activebackground="#0e8c6f",
         command = self.gerar_relatorio)
-        self.btn_relatorio.pack(side=tk.BOTTOM, pady=5)
+        self.btn_relatorio.pack(side=tk.LEFT, pady=5)
         
-        # Botão para trocar a personalidade
-        self.btn_personalidade = tk.Button(
-            self, text="Trocar Personalidade", command=self.trocar_personalidade
-        )
-        self.btn_personalidade.pack(pady=10)
         
         # Botão para mostrar as últimas interações
         self.btn_ultimos = tk.Button(
-        self,
+        frame_botoes,
         text="Mostrar últimas interações",
         bg="#10a37f",
         fg="white",
         activebackground="#0e8c6f",
         command=self.mostrar_ultimos
         )
-        self.btn_ultimos.pack(side=tk.BOTTOM, pady=5)
+        self.btn_ultimos.pack(side=tk.LEFT, pady=5)
+        
+        # Botão para mostrar as perguntas mais frequentes
+        self.btn_frequentes = tk.Button(
+        frame_botoes,
+        text="Perguntas frequentes",
+        bg="#10a37f",
+        fg="white",
+        activebackground="#0e8c6f",
+        command=self.mostrar_perguntas_frequentes
+        )
+        self.btn_frequentes.pack(side=tk.LEFT, pady=5)
 
-
-        # Estilo inspirado pelo chat gepeto: cores mais escuras
+        # interface será com cores mais escuras
         self.configure(background="#343541")
 
         # Área de mensagens (com scrollbar)
@@ -242,6 +261,25 @@ class Root(tk.Tk):
         for usuario_msg, bot_msg in ultimas_interacoes:
             self.adicionar_mensagem(f"Você: {usuario_msg}", usuario=True, cor_fundo_custom="#6b5b95")
             self.adicionar_mensagem(f"Bot: {bot_msg}", usuario=False, cor_fundo_custom="#88b04b")
+            
+    def mostrar_perguntas_frequentes(self):
+        """
+        Mostra as 3 perguntas mais frequentes no chat.
+        """
+        mais_freq = self.historico.perguntas_mais_frequentes(3)
+        if not mais_freq:
+            self.adicionar_mensagem("Nenhuma pergunta frequente encontrada.", usuario=False, cor_fundo_custom="#8e8e93")
+            return
+
+        # Balões com outras cores para destacar
+        cores = ["#ff7f50", "#ffa500", "#ffd700"]  # não sei o nome dessas cores, mas do jeito que estou... ficou bonito e .
+        for i, (pergunta, vezes) in enumerate(mais_freq):
+            cor = cores[i % len(cores)]
+            self.adicionar_mensagem(
+                f"Pergunta {i+1}: '{pergunta}'\nFeita {vezes} vezes.",
+                usuario=False,
+                cor_fundo_custom=cor
+            )
 
 
 if __name__ == "__main__":
