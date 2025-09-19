@@ -14,6 +14,7 @@ O chatbot NutriChat desenvolvido no projeto da disciplina de Fundamentos de Prog
 8 - Modo de aprendizado
 9 - Histórico
 10 - Boas práticas
+11 - Perguntas com respostas cadastradas no Chat
 
 O chatbot NutriChat desenvolvido no projeto da disciplina de Fundamentos de Programação é uma chat para dicas nutricionais, oferecendo dicas de dietas saudáveis e bons hábitos de consumo para incentivar as pessoas a evitar o desperdício e cultivar a sustentabilidade.
 
@@ -123,3 +124,55 @@ O uso de comentários antes de cada função importante, variáveis autodescriti
 <img width="741" height="350" alt="image" src="https://github.com/user-attachments/assets/ecd9906c-a17c-4fcc-b544-fdab22bd5b08" />
 
 Utilizamos a orientação a objetos para que o código não ficasse confuso com muitas classes diferentes no mesmo arquivo podendo ser utilizadas para funções diversas. Tornando muito verboso e difícil de organizar. Dessa forma, apresentamos nossas classes da seguinte maneira. 
+
+# Perguntas com respostas cadastradas no Chat
+
+1. o que é uma alimentação saudável?
+2. quantos litros de água devo beber por dia?
+3. quais alimentos devo evitar?
+4. quantas refeições por dia são recomendadas?
+5. o que é uma dieta equilibrada?
+6. por que é importante variar os alimentos consumidos?
+7. comer muito rápido pode prejudicar a digestão?
+8. quantas porções de frutas é recomendado consumir diariamente?
+9. por que devo incluir verduras e legumes em todas as refeições?
+10. qual a diferença entre comer frutas inteiras e tomar sucos?
+11. quais frutas são ricas em vitamina C?
+12. o que pode acontecer se eu não consumir vegetais regularmente?
+13. quais são as principais fontes de proteína?
+14. o que são proteínas e qual a sua função no corpo?
+15. qual a diferença entre proteína animal e vegetal?
+16. pessoas vegetarianas conseguem consumir proteína suficiente?
+17. por que o cálcio é essencial para a saúde?
+18. leite desnatado é mais saudável que o integral?
+19. quais são os principais tipos de carboidratos?
+20. por que os carboidratos são importantes para o corpo?
+21. qual a diferença entre carboidratos simples e complexos?
+22. carboidrato engorda?
+23. quais alimentos são boas fontes de carboidrato saudável?
+24. quais são os tipos de gorduras?
+25. por que precisamos de gorduras boas?
+26. qual a diferença entre gorduras boas e ruins?
+27. quais alimentos são fontes de gorduras saudáveis?
+28. o que acontece se eu consumir muita gordura ruim?
+29. o que é metabolismo basal?
+30. quais são os distúrbios alimentares?
+31. o que são micronutrientes?
+32. qual a importância das vitaminas?
+33. qual a importância dos minerais?
+34. quais alimentos são ricos em vitaminas e minerais?
+35. por que a água é importante para o corpo?
+36. sucos podem substituir a água?
+37. como saber se estou desidratado?
+38. o que são alimentos ultraprocessados?
+39. por que devemos evitar alimentos ultraprocessados?
+40. posso comer fast food de vez em quando?
+41. quais os riscos de comer muito açúcar?
+42. quais os riscos de comer muito sal?
+43. o que é desperdício de alimentos?
+44. quais são as principais causas do desperdício de alimentos?
+45. qual a importância de reduzir o desperdício de alimentos?
+46. o que são macronutrientes?
+47. o que são proteínas?
+48. o que são carboidratos?
+49. o que são gorduras?
