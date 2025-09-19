@@ -627,5 +627,221 @@
       "Mon ami, feira e açougue resolvem isso. Não complique.",
       "Quer vitaminas e minerais? Coma variado, não só fast food."
     ]
+  },
+
+  "por que a água é importante para o corpo": {
+    "formal": [
+      "A água é essencial para o funcionamento do corpo humano, pois participa de processos como transporte de nutrientes, regulação da temperatura corporal, digestão e eliminação de toxinas.",
+      "Ela compõe a maior parte do organismo, estando presente no sangue, músculos, células e órgãos, garantindo que tudo funcione de forma equilibrada.",
+      "Sem hidratação adequada, o corpo pode sofrer com fadiga, tontura, dores de cabeça e queda no desempenho físico e mental."
+    ],
+    "engraçado": [
+      "A água é tipo o Wi-Fi do corpo 📶: sem ela, nada conecta direito!",
+      "Ela funciona como óleo de motor 🚗: mantém todas as peças rodando sem travar.",
+      "Sem água, seu corpo vira deserto 🌵: cansado, sem energia e pedindo socorro."
+    ],
+    "rude": [
+      "Sem água, você pifa. Corpo não funciona. Voilà.",
+      "Mon ami, água é combustível vital. Sem ela, você quebra.",
+      "Quer viver? Beba água. Simples."
+    ]
+  },
+
+  "sucos podem substituir a água": {
+    "formal": [
+      "Não, sucos não substituem a água. Embora contenham líquidos e alguns nutrientes, eles também possuem açúcares naturais ou adicionados que não hidratam tão bem quanto a água pura.",
+      "O ideal é que os sucos naturais sejam consumidos como complemento, e não como substitutos da água.",
+      "A água continua sendo a melhor opção para hidratação do corpo."
+    ],
+    "engraçado": [
+      "Suco é tipo prima da água 🍹: parece parecida, mas não faz o mesmo trabalho!",
+      "Tomar só suco pra hidratar é como tentar limpar vidro com refrigerante 🥤: até molha, mas não resolve.",
+      "Água é a rainha da hidratação 👑. O suco só faz figuração."
+    ],
+    "rude": [
+      "Suco não é água. Ponto. Voilà.",
+      "Mon ami, suco hidrata menos e ainda tem açúcar.",
+      "Quer hidratar? Beba água, não suco."
+    ]
+  },
+
+  "como saber se estou desidratado": {
+    "formal": [
+      "Alguns sinais de desidratação incluem boca seca, urina escura, dor de cabeça, fadiga, tontura e diminuição da concentração.",
+      "Em casos mais graves, pode haver queda de pressão arterial, confusão mental e risco à saúde geral.",
+      "Manter a hidratação regular é a forma mais eficaz de prevenir a desidratação."
+    ],
+    "engraçado": [
+      "Tá desidratado se sua boca parece o Saara 🌵 e sua urina tá mais escura que café ☕.",
+      "Se a dor de cabeça apareceu do nada e você tá mole igual macarrão cozido 🍝, pode ser sede!",
+      "Desidratação é tipo alerta do celular 📱: corpo começa a dar sinais que precisa recarregar."
+    ],
+    "rude": [
+      "Boca seca, urina escura, tontura. Voilà.",
+      "Mon ami, se você está mole e com dor de cabeça, provavelmente está desidratado.",
+      "Urina escura = você não bebeu água. Simples."
+    ]
+  },
+
+  "o que são alimentos ultraprocessados": {
+    "formal": [
+      "Alimentos ultraprocessados são produtos industriais feitos com muitos ingredientes, como corantes, aromatizantes, conservantes e aditivos químicos. Geralmente passam por várias etapas de processamento e têm pouco ou nenhum alimento natural em sua composição.",
+      "Eles costumam ser ricos em açúcar, sódio e gorduras ruins, além de apresentarem baixo valor nutricional.",
+      "Exemplos comuns incluem refrigerantes, salgadinhos de pacote, biscoitos recheados, embutidos e fast food."
+    ],
+    "engraçado": [
+      "Ultraprocessado é tipo comida de laboratório 🧪: mais química do que ingrediente de verdade!",
+      "São aqueles alimentos que têm nome estranho no rótulo, parece até senha de Wi-Fi 🔑.",
+      "Se o bisavô não reconheceria como comida, parabéns: provavelmente é ultraprocessado 🍟🥤."
+    ],
+    "rude": [
+      "Ultraprocessados são lixo industrial com sal, açúcar e gordura. Voilà.",
+      "Mon ami, isso não é comida, é produto químico.",
+      "Quer saúde? Então corte esses pacotes coloridos da sua vida."
+    ]
+  },
+
+  "por que devemos evitar alimentos ultraprocessados": {
+    "formal": [
+      "Devemos evitar os ultraprocessados porque eles são pobres em nutrientes e ricos em substâncias prejudiciais, como açúcares, sódio e gorduras trans, que aumentam o risco de obesidade, hipertensão, diabetes e doenças cardiovasculares.",
+      "Além disso, seu consumo frequente pode causar inflamações no organismo e comprometer a saúde a longo prazo.",
+      "Substituí-los por alimentos naturais ou minimamente processados garante mais energia, saúde e qualidade de vida."
+    ],
+    "engraçado": [
+      "Ultraprocessado é tipo aquele amigo tóxico 😬: parece legal, mas só te faz mal a longo prazo.",
+      "Eles são como maquiagem mal feita 🎭: por fora parecem bonitos, mas por dentro são cheios de problema.",
+      "É tipo encher o tanque do carro com refrigerante 🥤: até roda um pouquinho, mas logo quebra!"
+    ],
+    "rude": [
+      "Porque fazem mal. Engordam, entopem suas artérias e adoecem. Voilà.",
+      "Mon ami, ultraprocessados destroem seu corpo pouco a pouco.",
+      "Você quer viver bem? Então pare de comer porcaria industrializada."
+    ]
+  },
+
+  "posso comer fast food de vez em quando": {
+    "formal": [
+      "Sim, é possível consumir fast food de vez em quando, desde que seja de forma moderada e não frequente. O ideal é que a base da alimentação seja composta por alimentos naturais e nutritivos.",
+      "O problema está no consumo excessivo, pois esses alimentos geralmente têm muito sal, gorduras saturadas e calorias vazias.",
+      "O equilíbrio é fundamental: comer esporadicamente não traz grandes riscos, mas não deve se tornar um hábito."
+    ],
+    "engraçado": [
+      "Fast food de vez em quando pode, claro! 🍔 Mas pense nele como visita chata: só aparece de vez em quando, senão vira problema.",
+      "É tipo feriado prolongado 🎉: bom de vez em quando, mas não dá pra viver sempre assim.",
+      "Fast food é como vilão de filme: em doses pequenas é divertido, mas se dominar a história, acaba mal!"
+    ],
+    "rude": [
+      "De vez em quando, sim. Todo dia? Você se destrói. Voilà.",
+      "Mon ami, fast food não mata se for raro. O problema é exagerar.",
+      "Coma pouco. Transformar isso em rotina é burrice."
+    ]
+  },
+
+  "quais os riscos de comer muito açúcar": {
+    "formal": [
+      "O consumo excessivo de açúcar pode levar a ganho de peso, obesidade, diabetes tipo 2, aumento do colesterol e problemas dentários.",
+      "O açúcar em excesso também pode causar picos de energia seguidos de queda, prejudicando o bem-estar e a disposição.",
+      "Por isso, recomenda-se reduzir o consumo e preferir fontes naturais de açúcar, como frutas."
+    ],
+    "engraçado": [
+      "Muito açúcar é tipo festa sem hora pra acabar 🎉: no começo é animado, depois vem o caos e a ressaca.",
+      "É como andar de montanha-russa 🎢: te dá um pico de energia e logo despenca!",
+      "Exagerar no açúcar é como convidar cárie pro aniversário 🎂: ela sempre aparece."
+    ],
+    "rude": [
+      "Muito açúcar engorda, estraga os dentes e pode dar diabetes. Voilà.",
+      "Mon ami, açúcar em excesso destrói sua saúde. Não invente moda.",
+      "Quer problema? Continue enchendo o corpo de açúcar."
+    ]
+  },
+
+  "quais os riscos de comer muito sal": {
+    "formal": [
+      "O consumo excessivo de sal aumenta o risco de hipertensão arterial, doenças cardiovasculares, retenção de líquidos e problemas renais.",
+      "O sal em excesso pode sobrecarregar o coração e os rins, além de causar inchaço e desconforto.",
+      "A recomendação é reduzir o sal de cozinha e evitar alimentos ultraprocessados, que já possuem altos teores de sódio."
+    ],
+    "engraçado": [
+      "Muito sal é tipo drama de novela mexicana 🎭: exagerado e cheio de problema!",
+      "É como deixar a comida na praia 🌊: absorve tanta água que você fica inchado também.",
+      "Comer sal demais é como colocar sal no café ☕: só estraga tudo."
+    ],
+    "rude": [
+      "Muito sal dá pressão alta e ferra seus rins. Voilà.",
+      "Mon ami, sal em excesso incha e mata silenciosamente.",
+      "Quer saúde? Então largue o saleiro."
+    ]
+  },
+  
+  "o que é desperdício de alimentos": {
+    "formal": [
+      "O desperdício de alimentos acontece quando alimentos próprios para consumo são jogados fora em algum ponto da cadeia, seja na produção, transporte, comércio ou dentro de casa.",
+      "Esse problema afeta a economia, o meio ambiente e a segurança alimentar, já que muitos alimentos desperdiçados poderiam alimentar pessoas em situação de fome.",
+      "Reduzir o desperdício é uma forma de cuidar do planeta e de valorizar os recursos usados na produção de cada alimento."
+    ],
+    "engraçado": [
+      "Desperdício de alimentos é tipo comprar ingresso de show e não ir 🎟️➡️🚮.",
+      "É jogar fora comida boa que poderia matar sua fome ou até virar uma receita incrível 👩‍🍳.",
+      "Pensa assim: cada vez que você joga comida fora, um tomate chora no campo 🍅😭."
+    ],
+    "rude": [
+      "Desperdício é jogar comida boa no lixo. Simples.",
+      "Mon ami, se você joga comida fora, está jogando trabalho, água e energia no lixo.",
+      "Comida não é decoração. Se comprou, coma."
+    ]
+  },
+
+  "quais são as principais causas do desperdício de alimentos": {
+    "formal": [
+      "As principais causas são compras em excesso, má conservação dos alimentos, falta de planejamento das refeições e padrões estéticos que descartam produtos 'feios' no comércio.",
+      "Também ocorre durante o transporte e o armazenamento, quando os alimentos não são mantidos em condições adequadas.",
+      "O hábito de preparar porções maiores do que o necessário é outro fator importante para o desperdício doméstico."
+    ],
+    "engraçado": [
+      "As causas? Comprar como se fosse guerra e depois esquecer na geladeira 🥶.",
+      "Também tem o clássico: 'os olhos foram maiores que a barriga' 🍽️.",
+      "E claro, jogar fora banana só porque tá com umas manchinhas… preconceito com fruta não vale! 🍌"
+    ],
+    "rude": [
+      "Causa? Gente que compra sem pensar e deixa estragar.",
+      "Mon ami, jogar fora comida por estética é burrice.",
+      "Desperdício vem de desorganização e excesso. Voilà."
+    ]
+  },
+
+  "como evitar o desperdício de alimentos em casa": {
+    "formal": [
+      "Planeje as compras de acordo com a real necessidade, evitando comprar em excesso.",
+      "Armazene corretamente os alimentos e aproveite integralmente cascas, talos e sementes em receitas.",
+      "Utilize sobras de forma criativa em novas preparações e fique atento à validade dos produtos."
+    ],
+    "engraçado": [
+      "Evite desperdício fazendo a lista de compras e não indo ao mercado com fome 🍞😅.",
+      "Transforme as sobras em 'episódio 2' da refeição: lasanha de ontem pode ser café da manhã de hoje! 🍕➡️🍳",
+      "E lembre: talo de brócolis não é lixo, é ingrediente disfarçado 🥦🎭."
+    ],
+    "rude": [
+      "Quer evitar? Compre menos e coma o que tem.",
+      "Mon ami, aprenda a usar até as sobras. Cozinha não é brinquedo.",
+      "Planeje antes de comprar. Senão, vai continuar jogando dinheiro no lixo."
+    ]
+  },
+
+  "qual a importância de reduzir o desperdício de alimentos": {
+    "formal": [
+      "Reduzir o desperdício é essencial para combater a fome, preservar recursos naturais como água e solo, e diminuir a emissão de gases poluentes causados pelo lixo orgânico.",
+      "Cada alimento desperdiçado representa energia, trabalho e recursos jogados fora, o que agrava problemas ambientais e sociais.",
+      "Diminuir o desperdício contribui para uma alimentação mais sustentável e responsável."
+    ],
+    "engraçado": [
+      "Reduzir desperdício é tipo ser herói secreto 🌍🦸: você salva comida, o planeta e até o seu bolso.",
+      "É como apagar a luz ao sair do quarto 💡: pequeno gesto, grande impacto.",
+      "Menos desperdício = mais gente alimentada e menos lixo fedendo atrás de casa 🚮🤢."
+    ],
+    "rude": [
+      "Importância? Comida não some do nada. Se desperdiça, destrói planeta e ignora a fome.",
+      "Mon ami, reduzir desperdício é obrigação, não favor.",
+      "Você valoriza o alimento ou prefere alimentar o lixo?"
+    ]
   }
 }
