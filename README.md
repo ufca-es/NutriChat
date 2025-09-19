@@ -36,35 +36,34 @@ Criação de classes, funções e vetores. Arquivos json e txt.
 # Como executar: 
 
 Para executar o NutriChat é muito simples. Basta clonar este repositório no seu computador e executar o arquivo main.py que a interface já será aberta. Com a interface aberta, basta clicar na barra de digitação localizada na parte inferior da interface e digitar uma mensagem de texto. Em seguida clica-se em enviar para que o chat leia a sua pergunta. A partir dessa pergunta, o chat vai oferecer uma das respostas que estejam cadastradas na sua base de dados em formato .json com o padrão formal.
-
-![WhatsApp Image 2025-09-19 at 10 20 54](https://github.com/user-attachments/assets/431cb7ba-9e0c-4412-8967-bf01315e4d68)
-
-
-Se o usuário quiser trocar a personalidade do chat, ele pode clicar no botão "Trocar Personalidade" e será aberta uma aba com as opções para que ele escolha, como na imagem abaixo:
-
-![WhatsApp Image 2025-09-19 at 10 32 57](https://github.com/user-attachments/assets/a96103b8-ce25-4c97-918a-f9fc1f4279ef)
-
-
-Também é possível ver as últimas interações, clicando no botão histórico, gerar um relatório das interações e até mesmo cadastrar uma nova resposta caso a pergunta digitada seja desconhecida pelo chat. O usuário pode digitar essa resposta na outra barra de digitação acima da de perguntas e quando a pergunta for feita novamente, já será respondida com o texto cadastrado.
-
-![WhatsApp Image 2025-09-19 at 10 33 09](https://github.com/user-attachments/assets/58e99805-b4ce-496c-8b97-e20fd3adb229)
-
-
-Caso a mensagem fornecida pelo usuário seja desconhecida pelo chatbot, será exibida uma mensagem solicitando uma resposta do usuário para a pergunta e essa resposta ficará gravada na base de dados da plataforma, a partir desse momento.
+Se o usuário quiser trocar a personalidade do chat, ele pode clicar no botão "Trocar Personalidade" e será aberta uma aba com as opções para que ele escolha, entre formal, engraçado ou rude. Também é possível ver as últimas interações, clicando no botão histórico. Gerar um relatório das interações no botão "Gerar Relatório" e até mesmo cadastrar uma nova resposta caso a pergunta digitada seja desconhecida pelo chat. O usuário pode digitar essa resposta na outra barra de digitação acima da de perguntas e clicar em salvar resposta para que fique salva na base de dados. Dessa forma, quando a pergunta for feita novamente, já será respondida com o texto cadastrado.
 
 Durante a execução o usuário pode fazer perguntas relacionadas a suas necessidades nutricionais, podendo ser relacionadas a desejos de mudanças nos hábitos alimentares, duvidas sobre alimentação saudável e conselhos para evitar o desperdicio dos alimentos.
 
+Algumas perguntas que já temos cadastradas são:
+1. o que é uma alimentação saudável?
+2. quantos litros de água devo beber por dia?
+3. quais alimentos devo evitar?
+4. quantas refeições por dia são recomendadas?
+5. o que é uma dieta equilibrada?
+6. por que é importante variar os alimentos consumidos?
+7. comer muito rápido pode prejudicar a digestão?
+8. quantas porções de frutas é recomendado consumir diariamente?
+9. por que devo incluir verduras e legumes em todas as refeições?
+10. qual a diferença entre comer frutas inteiras e tomar sucos?
+
+Outro detalhe é que a pergunta digitada pelo usuário não precisa ser 100% igual a que está na base de dados. Se tiver pelo menos 85% de similaridade ela já é reconhecida e respondida.
+
 # Demonstrações
 
-Para executar pelo terminal, dentro do vs code, com todas as pastas baixadas e abertas, digite o comando:  python -m src.main
-<img width="617" height="50" alt="image" src="https://github.com/user-attachments/assets/9d4825b3-1661-4cca-8c3c-947bc89b8461" />
+Algumas imagens de interações no NutriChat:
 
-Ao executar são exibidas as seguintes informações:
-<img width="1310" height="770" alt="image" src="https://github.com/user-attachments/assets/34c50de1-ee2f-4bd6-bb00-985cd6422cbf" />
+![WhatsApp Image 2025-09-19 at 10 20 54](https://github.com/user-attachments/assets/431cb7ba-9e0c-4412-8967-bf01315e4d68)
 
-O histórico de conversas, as perguntas disponíveis, as ações possíveis e o espaço para ser digitada uma pergunta.
+![WhatsApp Image 2025-09-19 at 10 32 57](https://github.com/user-attachments/assets/a96103b8-ce25-4c97-918a-f9fc1f4279ef)
 
-Pela interface gráfica: 
+![WhatsApp Image 2025-09-19 at 10 33 09](https://github.com/user-attachments/assets/58e99805-b4ce-496c-8b97-e20fd3adb229)
+
 
 
 Para mais informações, acesse a nossa documentação do projeto.
