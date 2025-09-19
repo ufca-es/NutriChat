@@ -66,4 +66,4 @@ Algumas imagens de interações no NutriChat:
 
 
 
-Para mais informações, acesse a nossa documentação do projeto.
+Para mais informações, acesse a nossa documentação do projeto em: https://github.com/ufca-es/NutriChat/blob/77aaca7e0af03cb99066603261871a094e06f6cc/documentacao.md
