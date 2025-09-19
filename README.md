@@ -64,6 +64,12 @@ Algumas imagens de interações no NutriChat:
 
 ![WhatsApp Image 2025-09-19 at 10 33 09](https://github.com/user-attachments/assets/58e99805-b4ce-496c-8b97-e20fd3adb229)
 
+![WhatsApp Image 2025-09-19 at 11 21 42](https://github.com/user-attachments/assets/a06d1572-b1e0-4e6d-9916-18e12c185a3e)
 
+![WhatsApp Image 2025-09-19 at 11 21 43](https://github.com/user-attachments/assets/6758e8ed-0c2f-4107-83c8-b97161ed6193)
+
+![WhatsApp Image 2025-09-19 at 11 23 41 (1)](https://github.com/user-attachments/assets/9077a214-e567-469e-aa2b-85686a1ee757)
+
+![WhatsApp Image 2025-09-19 at 11 23 42](https://github.com/user-attachments/assets/e4534298-8cc6-4dcc-a02e-7215e6c94f62)
 
 Para mais informações, acesse a nossa documentação do projeto em: https://github.com/ufca-es/NutriChat/blob/77aaca7e0af03cb99066603261871a094e06f6cc/documentacao.md
