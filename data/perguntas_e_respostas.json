@@ -843,5 +843,77 @@
       "Mon ami, reduzir desperdício é obrigação, não favor.",
       "Você valoriza o alimento ou prefere alimentar o lixo?"
     ]
+  },
+
+  "o que são macronutrientes": {
+    "formal": [
+      "Macronutrientes são os nutrientes que o corpo precisa em grandes quantidades para fornecer energia e manter as funções vitais. Eles incluem carboidratos, proteínas e gorduras.",
+      "Cada um tem um papel essencial: os carboidratos são a principal fonte de energia, as proteínas ajudam na construção e reparo dos tecidos, e as gorduras fornecem energia de reserva e participam de processos hormonais.",
+      "Uma alimentação equilibrada deve conter todos os macronutrientes em quantidades adequadas."
+    ],
+    "engraçado": [
+      "Macronutrientes são tipo os 'Vingadores' da comida 🍽️💥: carboidratos dão energia, proteínas constroem músculos e gorduras ajudam a manter tudo funcionando.",
+      "Eles são os 'três mosqueteiros' da nutrição ⚔️: um dá força, outro constrói e o outro protege.",
+      "Pensa neles como peças de Lego 🧱: carboidrato é a energia pra brincar, proteína são as peças pra montar e gordura é a cola que mantém tudo junto."
+    ],
+    "rude": [
+      "Macronutrientes? São três: carboidratos, proteínas e gorduras. Precisamos deles em grandes quantidades. Voilà.",
+      "Mon ami, sem esses três, seu corpo não funciona.",
+      "Não complique: carboidratos dão energia, proteínas constroem, gorduras equilibram."
+    ]
+  },
+
+  "o que são proteínas": {
+    "formal": [
+      "As proteínas são macronutrientes essenciais que participam da construção e reparo de tecidos, produção de enzimas e hormônios, além de fortalecer o sistema imunológico.",
+      "São encontradas em alimentos como carnes, ovos, leite, queijos, leguminosas (feijão, lentilha, grão-de-bico) e oleaginosas.",
+      "Elas são fundamentais para crescimento, manutenção da massa muscular e recuperação do organismo."
+    ],
+    "engraçado": [
+      "Proteína é tipo o pedreiro do corpo 👷: constrói músculos, conserta o que quebra e mantém tudo de pé.",
+      "Pensa nela como a cola do corpo 🩹: junta, fortalece e dá firmeza.",
+      "Ela é como tijolo numa casa 🏠: sem proteína, a estrutura cai."
+    ],
+    "rude": [
+      "Proteína constrói e repara tecidos. Está na carne, ovo, leite e feijão.",
+      "Mon ami, sem proteína você não cresce nem recupera músculos.",
+      "Quer força? Coma proteína. Simples."
+    ]
+  },
+
+  "o que são carboidratos": {
+    "formal": [
+      "Os carboidratos são a principal fonte de energia do organismo, fornecendo combustível para o cérebro, músculos e órgãos.",
+      "São encontrados em pães, massas, arroz, batata, frutas e cereais. Há carboidratos simples, de rápida absorção, e complexos, que liberam energia de forma gradual.",
+      "O consumo equilibrado de carboidratos é essencial para manter disposição e bom funcionamento corporal."
+    ],
+    "engraçado": [
+      "Carboidrato é o Wi-Fi do corpo 📶: sem ele, nada funciona direito.",
+      "É como gasolina pro carro 🚗⛽: dá a energia que faz você se mexer.",
+      "São as pilhas alcalinas do corpo 🔋: alguns duram pouco (simples) e outros são de longa duração (complexos)."
+    ],
+    "rude": [
+      "Carboidratos são energia. Ponto. Estão no arroz, pão, batata e frutas.",
+      "Mon ami, sem carboidrato você não levanta nem da cama.",
+      "Quer treinar? Precisa de carboidrato. Voilà."
+    ]
+  },
+
+  "o que são gorduras": {
+    "formal": [
+      "As gorduras são macronutrientes que fornecem energia de reserva, ajudam na absorção de vitaminas (A, D, E e K) e participam da produção de hormônios.",
+      "Existem gorduras boas, como as insaturadas encontradas em azeite, peixes e oleaginosas, e gorduras ruins, como as trans e saturadas em excesso.",
+      "O consumo moderado e equilibrado de gorduras boas é essencial para a saúde."
+    ],
+    "engraçado": [
+      "Gordura boa é tipo aquele amigo confiável 🤝: ajuda, protege e dá suporte quando precisa.",
+      "Pensa nela como o cofre de energia 💰: guarda reserva pro corpo usar quando falta combustível.",
+      "As boas são como capa protetora 🛡️, mas as ruins… são vilãs disfarçadas 😈."
+    ],
+    "rude": [
+      "Gorduras dão energia e ajudam na absorção de vitaminas. Boas no azeite e peixe, ruins no fast food.",
+      "Mon ami, não confunda: nem toda gordura é inimiga.",
+      "Exagere nas ruins e seu corpo paga o preço."
+    ]
   }
 }

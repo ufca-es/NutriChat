@@ -1,0 +1,18 @@
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[19/09/2025 11:07:05] Usuário: o que são gorduras?
+[19/09/2025 11:07:05] Bot[formal]: Desculpe, ainda não sei responder isso. voçê pode me ensinar usando o campo 'me ensine uma nova resposta'.
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[19/09/2025 11:08:03] Usuário: o que são calorias
+[19/09/2025 11:08:03] Bot[formal]: Caloria é uma unidade de energia. Em termos nutricionais, as calorias referem-se à quantidade de energia que você pode obter de macronutrientes (carboidratos, gorduras, proteínas) e álcool nos alimentos e bebidas – essa energia, por sua vez, é obtida à medida que o organismo digere e absorve os alimentos.
+
+[19/09/2025 11:08:34] Usuário: porque devo evitar alimentos utraprocessados
+[19/09/2025 11:08:34] Bot[formal]: Desculpe, ainda não sei responder isso. voçê pode me ensinar usando o campo 'me ensine uma nova resposta'.
+
+<<< inicio da seção >>>
+<<<=================>>>

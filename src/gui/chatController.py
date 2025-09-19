@@ -162,7 +162,7 @@ class ChatController:
         
         # mensagem padrão se não souber
         if resposta is None:
-            resposta = "Desculpe, ainda não sei responder isso. voçê pode me ensinar usando o campo 'me ensine uma nova resposta'."
+            resposta = "Desculpe, ainda não sei responder isso. você pode me ensinar usando o campo 'me ensine uma nova resposta'."
         
         # salva no histórico se o objeto histórico estiver definido
         if hasattr(self, "historico") and self.historico is not None:
