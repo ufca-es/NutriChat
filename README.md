@@ -35,9 +35,16 @@ Criação de classes, funções e vetores. Arquivos json e txt.
 
 # Como executar: 
 
-Para executar o NutriChat é muito simples. Basta clonar este repositório no seu computador e executar o arquivo main.py que a interface já será aberta. Com a interface aberta, basta clicar na barra de digitação localizada na parte inferior da interface e digitar uma mensagem de texto. Em seguida clica-se em enviar para que o chat leia a sua pergunta. A partir dessa pergunta, o chat vai oferecer uma das respostas que estejam cadastradas na sua base de dados em formato .json com o padrão formal. Caso o usuário queira trocar a personalidade ele deve digitar "selecionar personalidade", enviar e depois digitar o nome da personalidade com quem ele deseja interagir. Temos três opções: a formal, a engraçada e a rude que podem ser trocadas a qualquer momento, ficando a critério do usuário.
+Para executar o NutriChat é muito simples. Basta clonar este repositório no seu computador e executar o arquivo main.py que a interface já será aberta. Com a interface aberta, basta clicar na barra de digitação localizada na parte inferior da interface e digitar uma mensagem de texto. Em seguida clica-se em enviar para que o chat leia a sua pergunta. A partir dessa pergunta, o chat vai oferecer uma das respostas que estejam cadastradas na sua base de dados em formato .json com o padrão formal.
+![WhatsApp Image 2025-09-19 at 10 20 54](https://github.com/user-attachments/assets/431cb7ba-9e0c-4412-8967-bf01315e4d68)
 
+Se o usuário quiser trocar a personalidade do chat, ele pode clicar no botão "Trocar Personalidade" e será aberta uma aba com as opções para que ele escolha, como na imagem abaixo:
 
+![WhatsApp Image 2025-09-19 at 10 32 57](https://github.com/user-attachments/assets/a96103b8-ce25-4c97-918a-f9fc1f4279ef)
+
+Também é possível ver as últimas interações, clicando no botão histórico, gerar um relatório das interações e até mesmo cadastrar uma nova resposta caso a pergunta digitada seja desconhecida pelo chat. O usuário pode digitar essa resposta na outra barra de digitação acima da de perguntas e quando a pergunta for feita novamente, já será respondida com o texto cadastrado.
+
+![WhatsApp Image 2025-09-19 at 10 33 09](https://github.com/user-attachments/assets/58e99805-b4ce-496c-8b97-e20fd3adb229)
 
 Caso a mensagem fornecida pelo usuário seja desconhecida pelo chatbot, será exibida uma mensagem solicitando uma resposta do usuário para a pergunta e essa resposta ficará gravada na base de dados da plataforma, a partir desse momento.
 
