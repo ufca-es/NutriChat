@@ -6,4 +6,3 @@ if __name__ == "__main__":
     # que está localizada em src/gui/iniciarChatGrafico.py
     app = Root()
     app.mainloop()
-    
