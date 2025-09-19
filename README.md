@@ -58,7 +58,10 @@ Outro detalhe é que a pergunta digitada pelo usuário não precisa ser 100% igu
 
 Algumas imagens de interações no NutriChat:
 
+Nas seguintes imagens, temos: exemplo da similaridade maior ou igual a 85%, opções para selecionar a personalidade, perguntas frequentes sendo exibidas(elas aparecem de cores diferentes para se destacar), há também o exemplo do cadastro de nova resposta para pergunta desconhecida pelo chat e por fim, a geração de relatório.
+
 ![WhatsApp Image 2025-09-19 at 10 20 54](https://github.com/user-attachments/assets/431cb7ba-9e0c-4412-8967-bf01315e4d68)
+
 
 ![WhatsApp Image 2025-09-19 at 10 32 57](https://github.com/user-attachments/assets/a96103b8-ce25-4c97-918a-f9fc1f4279ef)
 
