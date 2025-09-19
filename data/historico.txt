@@ -97,3 +97,21 @@ Quer cadastrar uma resposta?
 [19/09/2025 07:47:38] Usuário: & C:/Users/raimu/AppData/Local/Programs/Python/Python313/python.exe c:/Users/raimu/OneDrive/Tentative/NutriChat/main_via_terminal.py
 [19/09/2025 07:47:38] Bot[formal]: Desculpe, ainda não sei a responder isso.
 Quer cadastrar uma resposta?
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[19/09/2025 10:18:09] Usuário: olá
+[19/09/2025 10:18:09] Bot[formal]: Olá, em que posso te ajudar?
+
+[19/09/2025 10:18:28] Usuário: quais alimentos eu devo evitr?
+[19/09/2025 10:18:28] Bot[formal]: Devem ser evitados alimentos ultraprocessados, que geralmente são ricos em sódio, açúcar, gorduras saturadas e aditivos químicos. Exemplos incluem refrigerantes, biscoitos recheados, salgadinhos de pacote e fast food.
+
+[19/09/2025 10:18:56] Usuário: qnts litros d agua devo berber em um dia?
+[19/09/2025 10:18:56] Bot[rude]: Seu corpo não é deserto. Dois litros de água por dia. Se não consegue nem isso, então bon courage com dor de cabeça e fadiga.
+
+<<< inicio da seção >>>
+<<<=================>>>
+
+[19/09/2025 10:22:34] Usuário: olá denovo
+[19/09/2025 10:22:34] Bot[formal]: Desculpe, ainda não sei responder isso. voçê pode me ensinar usando o campo 'me ensine uma nova resposta'.
