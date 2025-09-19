@@ -2,11 +2,23 @@ import json
 from datetime import datetime
 from collections import Counter
 from utils.checagem_de_texto import Texto as t
+from tkinter import messagebox
 import os
+
+# IMPORTANTE:
+# estou a modificar essa classe, para que o relatório da sessão
+# seja salvo de forma mais organizada, e que os antigos,
+# serão salvos em outra pasta, ae vamos garantir
+# a persistência deles.
 
 class Historico:
     def __init__(self, arquivo="data/historico.txt"):
         self.arquivo = arquivo
+        
+        base_dir = os.path.dirname(os.path.dirname(__file__))
+        data_dir = os.path.join(base_dir, "data")
+        self.data_dir = data_dir
+        os.makedirs(self.data_dir, exist_ok=True)
 
         # carrega base de conhecimento com segurança
         try:
@@ -164,15 +176,19 @@ class Historico:
         }
 
     def gerar_relatorio(self):
-         # sobe de /src para a raiz
+        # sobe de /src para a raiz
          
         self.gerar_estatisticas() 
          
         base_dir = os.path.dirname(os.path.dirname(__file__))
         caminho_relatorio = os.path.join(base_dir, "data", "relatorio.txt")
+        
+        # isso vai remover o relatorio antigo, pois, vamos salvar eles na
+        # pasta relatorios_anteriores agora
+        if os.path.exists(caminho_relatorio):
+            os.remove(caminho_relatorio)
 
-        #troquei "a"(append) para "w" (write) para reiniciar
-        #o relatório a cada vez que o user precisa gerar relatório
+        #troquei "a"(append) para "w" (write)
         with open(caminho_relatorio, "w", encoding="utf-8") as arq:
             for linha in self.ultima_sessao():
                 arq.write(linha)
@@ -188,3 +204,68 @@ class Historico:
         with open("data/relatorio.txt", "w", encoding="utf-8") as arq:
             arq.write('')
     
+    # ----------------------------------------------------------------------
+    # |               oque eu adicionei na classe esta abaixo              |
+    # ----------------------------------------------------------------------
+    
+    #não queria mecher na funcao de gerar_relatorio original
+    #pois ela é usada em outros lugares, então criei essa nova
+    def gerar_relatorio_gui(self):
+        """
+        Gera um relatório da sessão atual com timestamp e exibe uma mensagem na GUI.
+        Salva em 'data/relatorios/'
+        """
+        # garante que o diretório de relatórios existe
+        relatorios_dir = os.path.join(self.data_dir, "relatorios")
+        os.makedirs(relatorios_dir, exist_ok=True)
+
+        # cria nome de arquivo único usando timestamp
+        agora = datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
+        nome_arquivo = f"relatorio_{agora}.txt"
+        caminho_relatorio = os.path.join(relatorios_dir, nome_arquivo)
+
+        # gera conteúdo do relatório usando gerar_estatisticas()
+        self.gerar_estatisticas()
+        
+        conteudo = "".join(self.ultima_sessao())
+        conteudo += "----Estatísticas----\n"
+        conteudo += f"Pergunta Mais Frequente: {self.estatisticas['pergunta_mais_frequente']}\n"
+        conteudo += f"Contagem de Interações: {self.estatisticas['contagem_interacoes']}\n"
+        conteudo += f"Personalidade Mais usada: {self.estatisticas['personalidade_mais_usada']}\n"
+
+        # salva no arquivo
+        try:
+            with open(caminho_relatorio, "w", encoding="utf-8") as f:
+                f.write(conteudo)
+            # exibe mensagem na GUI
+            messagebox.showinfo("Relatório", f"Relatório gerado em:\n{caminho_relatorio}")
+        except Exception as e:
+            messagebox.showerror("Erro", f"Não foi possível gerar o relatório:\n{e}")
+
+        return caminho_relatorio
+    
+    def ler_ultimos_gui(self, limite=5):
+        """
+        Retorna as últimas interações como lista de tuplas: (usuario, bot)
+        Ignora linhas de início de sessão.
+        """
+        try:
+            with open(self.arquivo, "r", encoding="utf-8") as arq:
+                linhas = [l.strip() for l in arq.readlines()
+                        if "<<< inicio da seção >>>" not in l and "<<<=================>>>" not in l]
+
+            interacoes = []
+            i = 0
+            while i < len(linhas) - 1:
+                if "Usuário:" in linhas[i] and "Bot[" in linhas[i + 1]:
+                    usuario_msg = linhas[i].split("Usuário:")[1].strip()
+                    bot_msg = linhas[i + 1].split("]:")[1].strip()
+                    interacoes.append((usuario_msg, bot_msg))
+                    i += 2
+                else:
+                    i += 1
+
+            return interacoes[-limite:]  # pega apenas as últimas 'limite' interações
+
+        except FileNotFoundError:
+            return []

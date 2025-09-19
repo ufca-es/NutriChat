@@ -2,9 +2,16 @@ import json
 import random
 import os
 from typing import Optional
+from src.historico import Historico
 from utils.checagem_de_texto import Texto
+from src.personalidades import Personalidade as p
 
 class ChatController:
+    """
+    Serve para carregar as paths dos arquuvisos\n
+    inicializar metodos de leitura, escrita e aprendizado\n
+    e também gerenciar as personalidades
+    """
 
     def __init__(self, data_dir: Optional[str] = None):
         # Cria o diretório data se não existir
@@ -12,6 +19,8 @@ class ChatController:
             base_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
             data_dir = os.path.join(base_dir, "data")
         self.data_dir = data_dir
+        self.historico = Historico()
+        
         os.makedirs(self.data_dir, exist_ok=True)
         
         # Caminhos dos arquivos
@@ -22,7 +31,7 @@ class ChatController:
         self.pergunta_desconhecida = None
 
         #Inicialmente, formal como padrão. pode mudar depois
-        self.personalidade = "formal" 
+        self.personalidade = "formal"
         self.data_dir = data_dir
         self.base_respostas = {}
         self.pergunta_desconhecida = None
@@ -33,7 +42,8 @@ class ChatController:
     def normalizar_pergunta(pergunta: str) -> str:
        return pergunta.strip().lower()
 
-    def ler_resposta(self, pergunta: str, estilo: str = "formal") -> Optional[str]:
+    def ler_resposta(self, pergunta: str, estilo: str) -> Optional[str]:
+        
         # 1 - JSON
         try:
             with open(self.json_path, "r", encoding="utf-8") as f:
@@ -130,7 +140,7 @@ class ChatController:
         Carrega as respostas do JSON da personalidade atual.
         Exemplo: perguntas_formal.json, perguntas_engracado.json, etc
         """
-        caminho = os.path.join(self.data_dir, f"perguntas_{self.personalidade}.json")
+        caminho = os.path.join(self.data_dir, f"perguntas_e_respostas.json")
         if os.path.exists(caminho):
             with open(caminho, "r", encoding="utf-8") as f:
                 self.base_respostas = json.load(f)
@@ -141,16 +151,24 @@ class ChatController:
         """
         Define a personalidade e recarrega as respostas.
         """
-        self.personalidade = personalidade
+        p.personalidade = personalidade
+        self.personalidade = p.personalidade
         self.carregar_respostas()
-
 
     def responder(self, pergunta: str) -> str:
         """devolve resposta se souber, caso contrário retorna mensagem padrão."""
-        resposta = self.ler_resposta(pergunta)
-        if resposta is not None:
-            return resposta
-        return "Desculpe, ainda não sei responder isso. voçê pode me ensinar usando o campo 'me ensine uma nova resposta'."
+        
+        resposta = self.ler_resposta(pergunta, estilo=self.personalidade)
+        
+        # mensagem padrão se não souber
+        if resposta is None:
+            resposta = "Desculpe, ainda não sei responder isso. voçê pode me ensinar usando o campo 'me ensine uma nova resposta'."
+        
+        # salva no histórico se o objeto histórico estiver definido
+        if hasattr(self, "historico") and self.historico is not None:
+            self.historico.salvar(pergunta, resposta, self.personalidade)
+        
+        return resposta
 
     def aprender(self, pergunta: str, resposta: str) -> None:
         """Apende escrevendo no aprendizado.txt (formato: pergunta|resposta)."""

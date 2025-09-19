@@ -10,11 +10,15 @@ from pathlib import Path
 class Root(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.controller = ChatController()
         self.title("NutriChat")
         self.geometry("800x600")
+        
         self.ultima_pergunta = None
         self.historico = Historico()
+        self.historico.iniciar()
+        
+        self.controller = ChatController()
+        self.controller.historico = self.historico
         
         #botão para gerar um relatório
         self.btn_relatorio = tk.Button(
@@ -31,6 +35,17 @@ class Root(tk.Tk):
             self, text="Trocar Personalidade", command=self.trocar_personalidade
         )
         self.btn_personalidade.pack(pady=10)
+        
+        # Botão para mostrar as últimas interações
+        self.btn_ultimos = tk.Button(
+        self,
+        text="Mostrar últimas interações",
+        bg="#10a37f",
+        fg="white",
+        activebackground="#0e8c6f",
+        command=self.mostrar_ultimos
+        )
+        self.btn_ultimos.pack(side=tk.BOTTOM, pady=5)
 
 
         # Estilo inspirado pelo chat gepeto: cores mais escuras
@@ -86,12 +101,19 @@ class Root(tk.Tk):
         # oculta no inicio
         self.frame_aprendizado.pack_forget()
 
-    def adicionar_mensagem(self, texto, usuario=True):
+    def adicionar_mensagem(self, texto, usuario=True, cor_fundo_custom=None):
         """Adiciona mensagem no estilo de balão \n 
         :param: texto: texto da mensagem
         :param: usuario: True se for mensagem do usuário, False se for do bot
         """
-        cor_fundo = "#565869" if usuario else "#444654"
+        
+        # serve para dar cores customizadas para
+        # funcoes que usem adicionar_mensagem
+        if cor_fundo_custom:
+            cor_fundo = cor_fundo_custom
+        else:
+            cor_fundo = "#565869" if usuario else "#444654"
+
         cor_texto = "white"
         alinhamento = "e" if usuario else "w"
         padx = (100, 10) if usuario else (10, 100)
@@ -118,20 +140,12 @@ class Root(tk.Tk):
 
     def receber_mensagem(self, mensagem: str):
         """Exibe a mensagem do usuário e a resposta do bot"""
+        
         self.adicionar_mensagem(f"Você: {mensagem}", usuario=True)
 
         resposta_bot = self.controller.responder(mensagem)
         self.adicionar_mensagem(f"Bot: {resposta_bot}", usuario=False)
         
-         # Salva interação no histórico
-        self.historico.salvar(
-        mensagem,
-        resposta_bot,
-        self.controller.personalidade if hasattr(self.controller, "personalidade") 
-        #caso nenhuma personalidade tenha sido selecionada, evita erro
-        else "N/A"
-        )
-
         # Se o bot nnão souber responder, controller.pergunta_desconhecida fica com a pergunta
         if self.controller.pergunta_desconhecida:
             self.ultima_pergunta = self.controller.pergunta_desconhecida
@@ -209,13 +223,25 @@ class Root(tk.Tk):
         """
         resultado = Personalidade.selecionar_personalidade(escolha)
         if resultado:
-            self.controller.set_personalidade = resultado
+            self.controller.set_personalidade(resultado)
             messagebox.showinfo("Personalidade", f"Personalidade alterada para: {resultado}")
         else:
             messagebox.showwarning("Personalidade", f"'{escolha}' não é válida.")
         popup.destroy()
+    
+    def gerar_relatorio(self):
+        """Chama o método gerar_relatorio_gui do Historico para criar um relatório com timestamp"""
+        caminho_relatorio = self.historico.gerar_relatorio_gui()
+        return caminho_relatorio
 
-
+    def mostrar_ultimos(self):
+        """
+        Mostra as últimas 5 interações do usuário e do bot no chat.
+        """
+        ultimas_interacoes = self.historico.ler_ultimos_gui(5)  # supondo que você tenha ler_ultimos_gui
+        for usuario_msg, bot_msg in ultimas_interacoes:
+            self.adicionar_mensagem(f"Você: {usuario_msg}", usuario=True, cor_fundo_custom="#6b5b95")
+            self.adicionar_mensagem(f"Bot: {bot_msg}", usuario=False, cor_fundo_custom="#88b04b")
 
 
 if __name__ == "__main__":

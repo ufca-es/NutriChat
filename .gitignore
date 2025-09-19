@@ -1,5 +1,9 @@
 *.pyc
 *__pycache__/
+*.pyc
 .vscode/
 .idea/
 *.log
+./data/relatorios_antigos/
+./data/historico.txt
+./data/relatorio.txt

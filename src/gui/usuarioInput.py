@@ -12,7 +12,6 @@ class CaixaMensagem(tk.Frame):
         self.botao_enviar.pack(side=tk.RIGHT)
         self.texto.bind("<Return>", self.enviar_mensagem_event)
 
-
     def enviar_mensagem_event(self, event):
         self.enviar_mensagem()
         return "break"
