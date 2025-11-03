@@ -1,12 +1,12 @@
 
 # falta associar com a pergunta da quantidade de agua e do imc
 class imc:
-    def calcular_imc(massa, altura, imc):
+    def calcular_imc(self):
         massa = float(input("Qual é o seu peso? "))
         altura = float(input("Digite sua altura: "))
         imc = massa / (altura*altura)
 
-        meu_imc = print("Seu indice de massa corporal é: ")
+        meu_imc = return "Seu indice de massa corporal é: "
 
         if imc < 18.5:
             # para o formal
@@ -50,18 +50,20 @@ class imc:
                 "Você está com obesidade, mude sua alimentação e tira a bunda da cama, movimente-se!")
 
 
-def litros_de_agua(idade, peso, litros):
+def litros_de_agua(self):
     idade = int(input("Digite sua idade: "))
     peso = float(input("Digite seu peso em quilos: "))
 
     if idade <= 17:
         litros = 0.04 * peso
+        return litros 
     elif idade > 17 and idade <= 55:
-        litros = 0.035 * peso
+        return 0.035 * peso
+        
     elif idade > 55 and idade <= 65:
-        litros = 0.03 * peso
+        return 0.03 * peso
     elif idade > 65:
-        litros = 0.025 * peso
+        return 0.025 * peso
 
     print("A quantidade media de litros de agua que vc deve beber por dia é: ", litros)
 
@@ -134,4 +136,5 @@ def pergunta_mais_feita(pergunta: str) -> str:
     elif pe_mais_usada == contar_rude:
         return "rude"
     
+
 
